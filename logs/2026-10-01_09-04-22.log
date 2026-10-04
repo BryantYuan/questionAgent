@@ -1,0 +1,715 @@
+2026-10-01 09:04:22,973 [INFO] Provider: deepseek
+2026-10-01 09:04:22,973 [INFO] Mode: research
+2026-10-01 09:04:22,973 [INFO] Question: Compare renewable and non-renewable energy sources. Your answer should include: cost to set up and run, environmental impact, and reliability (can it provide power all the time).
+2026-10-01 09:04:47,073 [INFO] PLAN clauses=['Compare renewable and non-renewable energy sources', 'cost to set up', 'cost to run', 'environmental impact', 'reliability (can it provide power all the time)'] restatement='The question asks for a comparison of renewable and non-renewable energy sources covering their setup and running costs, environmental impact, and reliability in providing power continuously.' goals=['comparison of renewable and non-renewable energy sources', 'setup costs of renewable and non-renewable energy sources', 'running costs of renewable and non-renewable energy sources', 'environmental impact of renewable and non-renewable energy sources', 'reliability of renewable and non-renewable energy sources for providing power all the time']
+2026-10-01 09:04:47,073 [INFO] CALL web_access(query='comparison of renewable and non-renewable energy sources')
+2026-10-01 09:04:49,085 [INFO] RESULT web_access -> 4 result(s)
+2026-10-01 09:04:49,086 [INFO] CALL scrape(url='https://vishakharenewables.com/blog/difference-between-renewable-and-nonrenewable-energy')
+2026-10-01 09:05:31,885 [INFO] SHRINK goal='comparison of renewable and non-renewable energy sources' url='https://vishakharenewables.com/blog/difference-between-renewable-and-nonrenewable-energy' kept=4105 chars
+2026-10-01 09:05:31,885 [INFO] CALL scrape(url='https://www.worldwide-rs.com/blog/renewable-vs-non-renewable-resources-key-differences')
+2026-10-01 09:06:11,334 [INFO] SHRINK goal='comparison of renewable and non-renewable energy sources' url='https://www.worldwide-rs.com/blog/renewable-vs-non-renewable-resources-key-differences' kept=8822 chars
+2026-10-01 09:06:11,334 [INFO] CALL scrape(url='https://www.nesfircroft.com/resources/blog/the-difference-between-renewable-and-non-renewable-resources')
+2026-10-01 09:06:50,585 [INFO] SHRINK goal='comparison of renewable and non-renewable energy sources' url='https://www.nesfircroft.com/resources/blog/the-difference-between-renewable-and-non-renewable-resources' kept=6151 chars
+2026-10-01 09:06:50,585 [INFO] CALL scrape(url='https://energy.sais.jhu.edu/articles/renewable-energy-vs-sustainable-energy')
+2026-10-01 09:07:31,794 [INFO] SHRINK goal='comparison of renewable and non-renewable energy sources' url='https://energy.sais.jhu.edu/articles/renewable-energy-vs-sustainable-energy' kept=4443 chars
+2026-10-01 09:07:31,794 [INFO] CALL web_access(query='setup costs of renewable and non-renewable energy sources')
+2026-10-01 09:07:33,130 [INFO] RESULT web_access -> 4 result(s)
+2026-10-01 09:07:33,130 [INFO] CALL scrape(url='https://www.uakron.edu/economics/academics/senior-projects/2021/NelsonJSeniorProjectSpring2021.pdf')
+2026-10-01 09:07:53,365 [INFO] SHRINK goal='setup costs of renewable and non-renewable energy sources' url='https://www.uakron.edu/economics/academics/senior-projects/2021/NelsonJSeniorProjectSpring2021.pdf' kept=1236 chars
+2026-10-01 09:07:53,365 [INFO] CALL scrape(url='https://www.americanactionforum.org/research/what-it-costs-go-100-percent-renewable')
+2026-10-01 09:08:22,733 [INFO] SHRINK goal='setup costs of renewable and non-renewable energy sources' url='https://www.americanactionforum.org/research/what-it-costs-go-100-percent-renewable' kept=4195 chars
+2026-10-01 09:08:22,733 [INFO] CALL scrape(url='https://lordslibrary.parliament.uk/renewable-energy-costs')
+2026-10-01 09:08:37,883 [INFO] SHRINK goal='setup costs of renewable and non-renewable energy sources' url='https://lordslibrary.parliament.uk/renewable-energy-costs' kept=552 chars
+2026-10-01 09:08:37,883 [INFO] CALL scrape(url='https://en.wikipedia.org/wiki/Cost_of_electricity_by_source')
+2026-10-01 09:09:20,363 [INFO] SHRINK goal='setup costs of renewable and non-renewable energy sources' url='https://en.wikipedia.org/wiki/Cost_of_electricity_by_source' kept=3971 chars
+2026-10-01 09:09:20,363 [INFO] CALL web_access(query='running costs of renewable and non-renewable energy sources')
+2026-10-01 09:09:21,768 [INFO] RESULT web_access -> 4 result(s)
+2026-10-01 09:09:21,768 [INFO] CALL scrape(url='https://naturespath.com/blogs/posts/cost-renewable-energy-versus-fossil-fuels')
+2026-10-01 09:09:35,862 [INFO] SHRINK goal='running costs of renewable and non-renewable energy sources' url='https://naturespath.com/blogs/posts/cost-renewable-energy-versus-fossil-fuels' kept=1706 chars
+2026-10-01 09:09:35,868 [INFO] CALL scrape(url='https://www.irena.org/Publications/2025/Jun/Renewable-Power-Generation-Costs-in-2024')
+2026-10-01 09:09:48,274 [INFO] SHRINK goal='running costs of renewable and non-renewable energy sources' url='https://www.irena.org/Publications/2025/Jun/Renewable-Power-Generation-Costs-in-2024' kept=990 chars
+2026-10-01 09:09:48,275 [INFO] CALL scrape(url='https://www.imperial.ac.uk/grantham/publications/background-briefings/how-cost-effective-is-a-renewables-dominated-electricity-system-in-comparison-to-one-based-on-fossil-fuels')
+2026-10-01 09:10:12,074 [INFO] SHRINK goal='running costs of renewable and non-renewable energy sources' url='https://www.imperial.ac.uk/grantham/publications/background-briefings/how-cost-effective-is-a-renewables-dominated-electricity-system-in-comparison-to-one-based-on-fossil-fuels' kept=4562 chars
+2026-10-01 09:10:12,074 [INFO] CALL web_access(query='environmental impact of renewable and non-renewable energy sources')
+2026-10-01 09:10:13,429 [INFO] RESULT web_access -> 4 result(s)
+2026-10-01 09:10:13,429 [INFO] CALL scrape(url='https://econjournals.com/index.php/ijeep/article/view/18233')
+2026-10-01 09:10:27,771 [INFO] SHRINK goal='environmental impact of renewable and non-renewable energy sources' url='https://econjournals.com/index.php/ijeep/article/view/18233' kept=1183 chars
+2026-10-01 09:10:27,771 [INFO] CALL scrape(url='https://www.ucs.org/resources/environmental-impacts-renewable-energy-technologies')
+2026-10-01 09:10:47,983 [INFO] SHRINK goal='environmental impact of renewable and non-renewable energy sources' url='https://www.ucs.org/resources/environmental-impacts-renewable-energy-technologies' kept=3303 chars
+2026-10-01 09:10:47,983 [INFO] CALL scrape(url='https://www.adecesg.com/resources/blog/environmental-impacts-of-renewable-energy-sources')
+2026-10-01 09:11:15,512 [INFO] SHRINK goal='environmental impact of renewable and non-renewable energy sources' url='https://www.adecesg.com/resources/blog/environmental-impacts-of-renewable-energy-sources' kept=2893 chars
+2026-10-01 09:11:15,513 [INFO] CALL scrape(url='https://www.un.org/en/climatechange/raising-ambition/renewable-energy')
+2026-10-01 09:11:36,799 [INFO] SHRINK goal='environmental impact of renewable and non-renewable energy sources' url='https://www.un.org/en/climatechange/raising-ambition/renewable-energy' kept=2801 chars
+2026-10-01 09:11:36,800 [INFO] CALL web_access(query='reliability of renewable and non-renewable energy sources for providing power all the time')
+2026-10-01 09:11:38,623 [INFO] RESULT web_access -> 4 result(s)
+2026-10-01 09:11:38,623 [INFO] CALL scrape(url='https://www.herofutureenergies.com/blog/renewable-energy-vs-non-renewable-energy-key-differences-explained')
+2026-10-01 09:11:59,848 [INFO] SHRINK goal='reliability of renewable and non-renewable energy sources for providing power all the time' url='https://www.herofutureenergies.com/blog/renewable-energy-vs-non-renewable-energy-key-differences-explained' kept=2078 chars
+2026-10-01 09:11:59,849 [INFO] CALL scrape(url='https://cleanpower.org/resources/gridreliability')
+2026-10-01 09:12:08,526 [INFO] SHRINK goal='reliability of renewable and non-renewable energy sources for providing power all the time' url='https://cleanpower.org/resources/gridreliability' kept=455 chars
+2026-10-01 09:12:08,527 [INFO] CALL scrape(url='https://www.irena.org/newsroom/articles/2015/Dec/The-Reliability-of-Renewable-Energy-Systems-Why-the-Conventional-Wisdom-Is-Wrong')
+2026-10-01 09:12:18,997 [INFO] SHRINK goal='reliability of renewable and non-renewable energy sources for providing power all the time' url='https://www.irena.org/newsroom/articles/2015/Dec/The-Reliability-of-Renewable-Energy-Systems-Why-the-Conventional-Wisdom-Is-Wrong' kept=1280 chars
+2026-10-01 09:12:18,998 [INFO] WRITER INPUT:
+The student's question:
+
+Compare renewable and non-renewable energy sources. Your answer should include: cost to set up and run, environmental impact, and reliability (can it provide power all the time).
+
+My understanding of the question:
+
+The question asks for a comparison of renewable and non-renewable energy sources covering their setup and running costs, environmental impact, and reliability in providing power continuously.
+
+RESEARCH NOTES, grouped by what needed to be found out. Each note shows where it came from:
+
+Goal: comparison of renewable and non-renewable energy sources
+- [1] - Climate change and global warming make the difference between renewable and non-renewable energy important.
+- Renewable energy sources include wind and sunshine, which can restock themselves over time.
+- Non-renewable energy comes from sources like coal and oil that, once used up, cannot be replenished.
+- Knowing this difference helps us choose more wisely how we use energy and preserve the world for future generations.
+- People are using renewable resources such as wind, light, and the heat of the Earth; solar energy can heat water, power houses, and charge phones.
+- Renewable energy is power from sustainable, never-ending supplies of natural resources; many believe it is better for the environment because it does not release harmful pollutants or greenhouse gases.
+- Renewable energy sources include sun, wind, tidal, waves, geothermal, hydropower, and soil.
+- Non-renewable energy sources rely on limited resources that will inevitably run dry; they are less sustainable and create pollution like greenhouse gases.
+- Non-renewable energy sources include coal, oil, natural gas, uranium, and petroleum.
+- Renewable energy sources never run out and are a more environmentally friendly way to power homes and workplaces than fossil fuels like coal and oil, which deplete natural resources over time; as long as Earth exists, it is like an endless supply of energy.
+- Solar and wind power provide electricity without releasing toxins or emissions, unlike fossil fuels; solar panels and wind turbines collect energy from the sun’s rays and the wind without contributing to global warming or harmful atmospheric pollutants.
+- Renewable energy systems leave much less ecological impact throughout their useful lives than conventional power plants.
+- Renewable energy is gaining popularity rapidly throughout the globe due to rising public awareness of climate change, governmental incentives, and technical developments.
+- Fossil fuels and other non-renewable energy sources are struggling with problems including outmoded infrastructure and powerful special interests.
+- In quantity, renewable energy supplies are endless, scattered, and abundant, with a wide variety of sources including the sun, wind, hydro, and geothermal heat.
+- Non-renewable energy supplies are decreasing and limited, causing worry about energy security and future resource availability; this is like a boundless buffet versus a finite snack supply.
+- A stated similarity is that both affect the environment in different degrees: in comparison to nonrenewable sources, renewable sources like solar, wind, hydropower, and biomass tend to have less of an effect on the environment.
+- Hydroelectric power uses the movement of water to produce energy, but large-scale dams can influence river flow, impact aquatic habitats, and disturb ecosystems.
+- Non-renewable energy sources such as nuclear power, coal, oil, and natural gas are more harmful to the environment; production of greenhouse gases like carbon dioxide and methane during extraction, processing, and burning of fossil fuels is a major factor in global warming and climate change.
+- Three main differences between renewable and non-renewable energy are availability and renewal times, environmental impact, and installation costs.
+- Solar energy is renewable and endless as long as there is sunshine, and it does not contribute to global warming.
+- Ways to save non-renewable resources include turning off air conditioners, lights, and fans when they are not in use, preventing resource wastage, and carpooling or taking public transport to save gas.
+- Non-renewable energy comes from animal and plant fossils and requires a considerable amount of time to form, so it will not be renewed in the far future.
+- Renewable energy sources are found in nature and can be accessed at any time, practically anywhere; in theory, there is a daily method to acquire and restock renewable resources, and any time there’s a breeze, we can turn the wind, sun, and water into energy.
+- A stated similarity is that both renewable and non-renewable energy need modern tech powers.
+- [2] - Renewable resources naturally replenish themselves over relatively short time periods, whereas non-renewable resources exist in finite amounts and take millions of years to form.
+- Renewable energy sources include sunlight, wind, flowing water, geothermal heat, and biomass, all naturally occurring processes that continually renew.
+- Non-renewable energy is derived from fossil fuels such as coal, oil, and natural gas, formed from prehistoric plant and animal matter, as well as nuclear materials like uranium, which are finite and non-replenishable on human timescales.
+- This difference influences electricity prices, air quality, climate change, and economic development worldwide.
+- Renewable resources replenish naturally and quickly compared to non-renewable resources.
+- Renewable energy sources emit far fewer pollutants and greenhouse gases than fossil fuels.
+- The cost of renewable energy has dropped significantly and is expected to continue falling.
+- Understanding these differences is vital for energy policy, investment and sustainability planning.
+- Renewable resources are materials or energy sources that regenerate naturally through ecological or geological processes faster than we use them; examples include sunlight hitting Earth daily, wind blowing continuously, and trees growing back in decades, making them sustainable under proper management.
+- Non-renewable resources are available in limited quantities and do not replenish at a meaningful pace relative to human consumption; fossil fuels and minerals took millions to billions of years to form and cannot replace what we consume within generations.
+- The crucial factor differentiating these categories is the rate of renewal versus consumption.
+- Renewable resources continually form or remain available through natural cycles: sunlight, wind from solar warming, water cycling via evaporation and precipitation, geothermal energy from internal Earth heat, and biomass from recent plant growth.
+- Non-renewable resources formed over extensive geological periods: coal over 50–300 million years from compressed plant deposits; oil and natural gas from ancient marine organisms buried and transformed under pressure; minerals and metals crystallised deep underground.
+- Slow formation means non-renewable resources will eventually be exhausted if consumption continues unabated.
+- Solar energy is harnessed using photovoltaic panels that convert sunlight directly into electricity; solar farms and rooftop solar installations supply power to homes and businesses; solar energy produces no emissions during operation and has seen dramatic cost reductions.
+- Wind turbines capture kinetic energy from moving air to generate electricity; onshore and offshore wind farms power thousands of homes without pollution; the main limitation is wind variability, which requires complementary energy storage solutions.
+- Hydropower uses flowing or falling water to spin turbines; it is one of the oldest renewable sources and provides a significant electricity share in many countries; dams store water to generate power continuously, but large reservoirs impact ecosystems.
+- Geothermal energy extracts heat from Earth’s interior, turning water into steam to drive turbines.
+- Biomass uses organic matter like wood, crops, and waste to produce fuel or electricity; it offers consistent power, but emits some pollution when combusted.
+- Fossil fuels—coal, oil, and natural gas—formed over millions of years and remain the dominant energy source globally, but release significant greenhouse gases contributing to climate change; coal and oil extraction severely affect land and ecosystems.
+- Nuclear power plants use uranium in fission to generate vast amounts of electricity with minimal greenhouse gas emissions during operation; however, mining uranium and radioactive waste management pose environmental challenges.
+- Metals like copper and iron are essential for electrical infrastructure and manufacturing; they are finite, require energy-intensive mining, and cannot be replaced on human timescales, though recycling helps conserve these resources.
+- Non-renewable energy sources are the primary contributors to global carbon emissions, driving climate change.
+- Coal plants emit approximately 820 kg CO2/MWh, natural gas 350 kg, whereas solar and wind emit 10–50 kg CO2/MWh, including manufacturing emissions; nuclear power has very low operational emissions, but mining impacts exist.
+- Coal combustion releases sulfur dioxide, nitrogen oxides, mercury, and particulate matter, causing acid rain, smog, and health issues; fracking for natural gas contaminates groundwater; renewables produce minimal air and water pollution during their operation.
+- Fossil fuel extraction damages landscapes and water bodies, while mining for uranium and metals leaves toxic residues; renewable infrastructure requires land but often allows dual land use, e.g., farming around wind turbines.
+- Renewables require higher upfront investment but have low operating costs; fossil fuel plants need continuous fuel purchases with volatile prices.
+- The cost of solar and wind energy has plummeted by 40–70% in the last decade, improving their competitiveness.
+- Renewables reduce reliance on imported fuels, enhancing national energy security; countries investing in hydropower, solar, and wind face fewer risks from global market disruptions.
+- Governments incentivise renewables with tax credits and subsidies, while carbon pricing disincentivises fossil fuels; the energy market increasingly favours clean energy, with major companies investing billions in renewables.
+- Renewable advantage: produces low greenhouse gas emissions.
+- Renewable advantage: uses naturally replenishing resources such as sunlight, wind, and water.
+- Renewable advantage: reduces dependence on imported fuels.
+- Renewable advantage: offers lower operating and maintenance costs after installation.
+- Renewable advantage: improves energy security and price stability.
+- Renewable advantage: supports clean energy jobs and economic growth.
+- Non-renewable advantage: provides consistent, weather-independent power generation.
+- Non-renewable advantage: delivers high energy density for industrial and transportation needs.
+- Non-renewable advantage: benefits from mature technology and extensive supply chains.
+- Non-renewable advantage: can efficiently meet large-scale energy demand.
+- Non-renewable advantage: requires less land area for energy production compared to some renewable technologies.
+- Non-renewable advantage: supports existing industries and economies worldwide.
+- Operational difference: renewable resources like solar, wind, and hydro require managing variable supply due to natural cycles, but offer sustainability and lower environmental compliance risks.
+- Operational difference: non-renewable resources such as coal, oil, and natural gas provide consistent output but involve finite reserves and increasing regulatory pressures on emissions and extraction impacts.
+- Key non-renewable materials: coal, primarily used for power generation and steel production.
+- Key non-renewable materials: oil (petroleum), crucial for fuel supply chains and petrochemical manufacturing.
+- Key non-renewable materials: natural gas, significant for heating, electricity, and as an industrial feedstock.
+- Key non-renewable materials: nuclear fuel (uranium), powering nuclear reactors, requires specialised handling.
+- Key non-renewable materials: tar sands and oil shale, alternative fossil resource extraction methods, present unique environmental challenges.
+- Key non-renewable materials: peat, relevant regionally for low-grade energy applications.
+- Operational advantage of non-renewables: energy density and reliability, ensuring base load generation is unaffected by weather variability.
+- Operational advantage of non-renewables: established infrastructure and supply chains, enabling streamlined logistics and maintenance.
+- Operational advantage of non-renewables: volume scalability, supporting large industrial demand and transportation sectors.
+- Operational advantage of non-renewables: economic viability in the short term, important for budgeting and investment decisions.
+- Operational advantage of non-renewables: job creation across extraction, processing, and distribution, anchoring many regional economies.
+- Critical facts about non-renewable energy: finite resources demand prudent management and long-term planning to mitigate supply risks.
+- Critical facts about non-renewable energy: emissions compliance drives innovation, requiring ongoing upgrades to emissions controls and carbon reduction strategies.
+- Critical facts about non-renewable energy: extraction impacts necessitate enhanced environmental monitoring to adhere to evolving regulations.
+- [3] - Renewable resources (solar, wind, hydro, geothermal, biomass) naturally replenish, while non-renewable resources (coal, oil, natural gas, nuclear) are finite, carbon-intensive, and major contributors to climate change.
+- Renewable energy offers reduced emissions, inexhaustible supply, and significant job creation; the global shift toward renewables is accelerating and creating demand for skilled talent.
+- Renewable and non-renewable energy each have advantages and disadvantages, and both play their part in powering the planet and daily lives.
+- Renewable resources can be replenished over time; non-renewable resources cannot.
+- Understanding the difference helps make more informed decisions about energy use and protecting the environment for future generations.
+- Renewable and non-renewable sources have different origins, environmental impacts, and sustainability.
+- Renewable energy is produced from natural sources that can be replenished over time and is often considered more sustainable because it does not produce pollutants and greenhouse gases harmful to the planet.
+- Main renewable sources: solar, wind, biomass, hydroelectric, geothermal.
+- Non-renewable energy comes from finite resources that will eventually be depleted; it is considered less sustainable and damaging to the planet, and is responsible for producing pollutants such as greenhouse gases.
+- Types of non-renewable energy: coal, oil, natural gas, nuclear energy.
+- Renewable energy does not emit greenhouse gases, the primary cause of climate change; wind and solar power help reduce CO2 and other harmful pollutants.
+- Renewable energy is helping slow disruption to plant and animal life, rising sea levels, extreme weather conditions, and other associated effects of climate change.
+- Global leaders have stated that by 2030 renewables must make up 50% of energy sources to help the planet become net-zero by 2050.
+- Renewable energy sources are inexhaustible because they originate from natural resources and processes that are constantly renewed—sun, wind, water cycle, and biomass waste—and can be used over and over without being depleted.
+- Unlike finite fossil fuels, renewable energy sources can meet energy needs for the foreseeable future and are an essential part of the solution to the global climate crisis.
+- The renewable energy industry is growing; renewable energy jobs reached 12.7 million worldwide in 2022, and IRENA has forecast this could rise to 43 million renewable energy jobs by 2050.
+- Renewable energy provides economic benefits, including opportunities to earn a healthy income and potential to save businesses and consumers money.
+- As the cost of solar and wind declines, renewable energy is becoming competitive with non-renewables and sometimes cheaper; in the long run it has the potential to stabilise energy prices.
+- Renewable energy is not always available 24/7 because it relies on natural resources: solar PV cannot work if the sun doesn't shine, wind farms cannot work optimally if wind isn't strong enough, and hydropower is affected if water levels are not strong enough or there is a drought.
+- Experts factor in geography and select areas where the opportunity to generate renewable energy is greater, but nature can be unpredictable.
+- Significant space is needed for renewable energy projects, and this is not always viable or available in every nation; for example, a country with regular sunshine may miss solar power if terrain is unsuitable or other infrastructure occupies the space.
+- Renewable energy sources are not always available when needed due to limited space to store energy; batteries are expensive and have a limited lifespan, while pumped-storage hydroelectricity is more efficient but requires suitable terrain not available worldwide.
+- Initial costs for renewable energy installations are high because technologies are still in early stages of development, so equipment and installation cost more than mature fossil fuel technologies.
+- It costs roughly $1 million to produce one megawatt of electricity via a wind turbine, enough to power around 1,000 homes annually.
+- Installation costs of renewable energy technologies like solar PVs have declined by as much as 80% over the last decade and will likely drop further over the next 10 years.
+- 80% of the world's energy comes from non-renewable sources, so it is still heavily relied on.
+- Non-renewable energy has benefits including cost-effectiveness, ability to produce more power, and supply almost anywhere in the world.
+- Non-renewable energy is currently cheaper and more cost-efficient than renewable energy because oil, coal and gas are more abundant and easier to find and extract, lowering production cost.
+- Non-renewable energy sources have been around longer, so more infrastructure—such as pipelines and power plants—is in place, lowering delivery cost to consumers.
+- The IMF found that the fossil fuel industry, including oil, coal and gas production, resulted in global subsidies of $5.9 trillion, or $11 million a minute, in 2020; this can be seen as positive for the world economy but could prevent leaders from investing more in renewables.
+- Non-renewable energy sources can generate more energy than renewable sources because they are more concentrated and contain more energy per unit of space.
+- Coal and natural gas power have greater efficiency of 40% and 60%, respectively, compared with solar energy produced by solar panels, which can only reach between 15% and 20%.
+- Non-renewable energy is easier to source: coal can be mined and burned directly to generate electricity, while solar and wind power require complex systems to collect and store energy.
+- Non-renewable energy sources are abundant and more widely available globally than renewable energy, which is beneficial to countries where renewable energy production has not reached or is out of the question; for example, a country with inconsistent water supplies will unlikely produce hydroelectric energy.
+- Non-renewable energy is supplied to almost anywhere at any time; sources of non-renewable energy can generate energy 24 hours a... [truncated]
+- [4] - Renewable energy is produced from existing resources that naturally replenish; it can be a much more abiding solution than our current top energy sources.
+- Unlike fossil fuels, renewables are increasingly cost-efficient and their environmental impacts are far less severe.
+- By taking advantage of the earth’s ability to grow and recycle organisms, renewable power sources will theoretically be able to supply our energy needs indefinitely.
+- Renewable energy is defined by the time it takes to replenish the primary energy resource, compared to the rate at which energy is used.
+- Traditional resources like coal and oil, which take millions of years to form, are not considered renewable.
+- Solar power can always be replenished, even though conditions are not always optimal for maximizing production.
+- Renewable energy sources include biomass, geothermal, hydropower, solar, and wind.
+- Biomass: organic material burned or converted to liquid or gaseous form; biomass from trees was the leading source of energy in the United States before mass adoption of fossil fuels; modern examples include ethanol and biodiesel (biofuels); their sustainability depends on production lifecycle factors like land use, water consumption, and emissions; second-generation biofuels use non-food crops and agricultural waste to reduce competition for land and improve carbon efficiency.
+- Geothermal energy: heat produced by decaying radioactive particles deep within the earth; next-generation geothermal technologies such as superhot rock geothermal are being developed to significantly increase capacity and efficiency and potentially meet a larger share of global electricity demand by 2050.
+- Hydropower: used to be the largest source of renewable electricity due to reliability; solar has now surpassed it in installed capacity; hydropower remains a major contributor to global renewable generation but faces growth challenges due to environmental concerns and site limitations.
+- Solar: photovoltaic technology converts sunlight directly into electricity; fastest-growing renewable energy source in recent years; rapid expansion driven by improved affordability, viability, and demand; deployment can require significant land area and effective storage solutions to address intermittency.
+- Wind: turbines harness wind’s natural kinetic energy to generate electricity; wind power continues to grow globally, though development faces challenges in some regions due to permit issues and grid connection challenges; wind is often integrated with other renewables for a more stable energy supply.
+- Sustainable energy sources can maintain current operations without jeopardizing the energy needs or climate of future generations; the most popular sources of sustainable energy, including wind, solar, and hydropower, are also renewable.
+- Biofuel is a unique form of renewable energy, as its consumption emits climate-affecting greenhouse gasses, and growing the original plant product uses up other environmental resources; the key challenge is maximizing energy output while minimizing the impact of sourcing biomass and burning the fuel.
+- Even with resources that are both renewable and sustainable, the need for storage, transmission infrastructure, and equitable grid access can present hurdles.
+- Not all sustainable solutions can be used in every situation; efficiency and/or effectiveness can depend on climate, geography, and local infrastructure; for instance, wind is produced by temperature changes in the air, so in the U.S. the best place for wind farms is the Midwest, Texas region, or offshore, raising how to ensure this energy fairly provides for other regions like the Northeast.
+- Disparities in regulations and target goals can create a problem where the best place to produce energy may not have the public interest or infrastructure necessary to support it; for example, a windy state may struggle to pass legislation for financing the construction of turbines, while its neighbor may be eager for a nearby source of clean energy.
+- New technologies such as grid-scale battery storage and smart distribution networks are helping bridge these gaps and making renewable energy more accessible across regions.
+- Policymakers who draft a green bill only using the term “renewable energy” may subvert the effect of their own legislation by failing to account for the potential environmental impact of energy sources like biofuels.
+
+Goal: setup costs of renewable and non-renewable energy sources
+- [5] - Both renewable and nonrenewable energy production requires set-up, transportation, storage, and direct production costs.
+- Further costs are incurred with production of energy through traditional non-renewable methods such as coal, oil, and natural gas; gases emitted from these sources such as CO2 cause health and environmental problems that increase the costs of energy production on society.
+- ARIMA model results point toward lower per-kWh social and production costs for renewable energy sources going into the future.
+- Figures 3 and 4 demonstrate these differences with mean estimates alongside highs and lows with 95% confidence intervals; the production cost and social cost graphs look similar because the estimates for the emissions cost of nonrenewable energy is between one and two cents per kilowatt-hour (EPA).
+- External costs other than the cost of emissions were assumed to be negligible due to examples in the literature, but there may be some external costs unaccounted for that could influence the results.
+- The results of the difference-in-differences point toward there being no significant difference between retail energy prices in states that had renewable energy portfolio policies and those that did not.
+- [6] - The analysis is a simplistic ballpark estimate, not an in-depth and precise projection.
+- A 100% renewable U.S. electricity target would require at least $5.7 trillion of investment in renewable energy and storage.
+- Installing the required renewable capacity above projected renewable growth would cost $5.7 trillion.
+- A business-as-usual approach would build 36.7 gigawatts of new non-renewable electricity generating capacity by 2030, with a capital requirement of approximately $48 billion; the net difference in capital investment between the 100% renewable target and business as usual is approximately $5.66 trillion.
+- The cost estimate uses the Energy Information Administration’s latest overnight capital costs and operation and maintenance costs from the 2018 Annual Energy Outlook.
+- The U.S. would need to install enough renewable electricity capacity and storage capacity to meet peak electricity demand every day plus a reserve margin.
+- The U.S.’s current electricity generating capacity is 1,085 gigawatts; the analysis assumes needing 1,085 gigawatts of both solar and wind, plus 1,085 gigawatts of hydroelectricity and storage for periods when neither solar nor wind is available.
+- Solar power produces its stated capacity roughly 25.7 percent of the day; wind power on average provides power 34.6 percent of the day; approximately 40 percent of the time neither would be available.
+- Assumptions include: the U.S. builds the entirety of all potential hydroelectricity resources; storage costs are batteries’ average operation and maintenance cost rather than higher costs for batteries that discharge quickly and repeatedly; electricity demand is roughly flat; there is no increase in the price of wind, solar, hydro, or storage despite artificially inflated demand; and there are no increased transmission costs.
+- Assuming a 20-year recovery, the Green New Deal would require about $285 billion of clean energy investment as an annualized capital cost, meaning the U.S. would have to invest nearly as much money in clean energy as the rest of the world combined.
+- Combining the $285 billion of capital costs with operation and maintenance costs results in an average annual expenditure of about $423.9 billion.
+- The estimate likely seriously underestimates the costs of electricity storage; storage becomes more expensive if it must discharge quickly and multiple times throughout the day.
+- Lazard estimates the wholesale, levelized cost of lithium-ion storage at $204–298 per megawatt hour, while a natural gas power plant is $48 per megawatt hour, meaning battery storage rather than a dispatchable natural gas power plant could cost consumers 4–6 times as much.
+- A Risky Business study estimated an average annual investment of $320 billion through 2050, and its model assumed more resources than just renewables available.
+- A National Bureau of Economic Research study estimated the net cost of reducing total greenhouse gas emissions by 80 percent would be $1.3–4.0 trillion, with $3.3–6.0 trillion of required investment.
+- Restricting low-carbon electricity objectives to renewable electricity creates much higher policy costs—10 to 62 percent higher—due to the “duck curve,” where more non-dispatchable resources increase demands on dispatchable fossil resources.
+- A 2015 Jacobson et al. analysis claims switching to 100 percent renewable electricity is net beneficial, but it has been widely debunked for assuming far more hydroelectric usage than is technically achievable in the United States.
+- A Lappeenranta University of Technology and Energy Watch Group assessment says transitioning to 100 percent renewable electricity is low-cost, but it assumes a nearly 90 percent decrease in lithium-ion battery cost by 2050, contrary to market analysts’ expectation that a global cobalt shortage will make lithium-ion batteries more expensive; cobalt prices increased by 117 percent from 2016 to 2017.
+- A Jesse Jenkins analysis for MIT estimated that a decarbonized 100 percent renewable electricity system would result in an average electricity cost of $150–300 per megawatt hour, compared with 2017’s average electricity cost of $104.8 per megawatt hour.
+- [7] - System costs include production, transport and storage, including for non-electricity related uses.
+- A Royal Society study estimated the system cost of electricity in 2050 using only wind and solar power and ‘green’ hydrogen to reliably meet demand across a wide variety of conditions to be £56–£100/MWh.
+- The OBR added BEIS’ additional system costs to the levelised costs of gas and renewable energy sources to provide an illustrative view of the costs of different energy sources.
+- Figure 2 shows illustrative enhanced levelised costs of energy.
+- [8] - Wholesale costs include initial capital, operations and maintenance (O&M), transmission, and costs of decommissioning.
+- LCOE is roughly the net present value of all costs over the lifetime of the asset divided by an appropriately discounted total of the energy output over that lifetime; average utility-scale solar and onshore wind LCOE is less than coal and gas-fired power stations, but varies greatly by location.
+- LACE addresses dispatchability; fluctuating power sources might not avoid capital and maintenance costs of backup dispatchable sources.
+- For storage, LCOS is analogous to LCOE; true cost accounting demands that the costs of both primary and secondary sources be included when comparing storage to generating electricity in real time to meet demand.
+- To evaluate total cost of production, streams of costs are converted to net present value using the time value of money, brought together using discounted cash flow.
+- Capital costs tend to be low for gas and oil power stations; moderate for onshore wind turbines and solar PV; higher for coal plants; higher still for waste-to-energy, wave and tidal, solar thermal, offshore wind and nuclear.
+- For power generation capacity, capital costs are often expressed as overnight cost per kilowatt.
+- Real life costs can diverge significantly from those estimates.
+- Olkiluoto block 3 had an overnight cost to the construction consortium of €8.5 billion and a net electricity capacity of 1.6 GW, or €5,310 per kW of capacity; the utility paid a fixed price of only €3.2 billion.
+- Darlington Nuclear Generating Station in Canada had an overnight cost of CA$5.117 billion for a net electric capacity of 3512 MW, or CA$1,457 per kW of capacity.
+- The oft-cited CA$14.319 billion figure for Darlington works out to CA$4,077 per kW of capacity; it includes interest and is not an “overnight cost”.
+- Comparability of different power sources is affected by capacity factors: as low as 10–20% for some wind and solar applications, into the 50% range for offshore wind, and above 90% for the most reliable nuclear power plants.
+- The average capacity factor of all commercial nuclear power plants in the world in 2020 was 80.3% (83.1% the prior year), including outdated Generation II nuclear power plants and countries like France running load following.
+- Alpha Ventus Offshore Wind Farm had a nameplate capacity of 60 MW; if overnight cost is calculated for nameplate capacity, it works out to €4,167 per kW, whereas taking capacity factor into account roughly doubles the figure.
+- Þeistareykir Geothermal Power Station: US$200 million for the 45 MW first phase and a total of US$330 million for the 90 MW combined two first phases; cost per kW of capacity is US$4,444 for the first phase only and US$3,667 if the cost estimates for both phases hold.
+- Block 5 of Irsching Power Station uses natural gas in a combined cycle, converting 1,750 MW of thermal energy to 847 net MW of usable electricity; it cost €450 million to build, or some €531 per kW of capacity.
+- The LCOE of floating wind power increases with the distance from shore.
+- Lieberose Photovoltaic Park had a nameplate capacity at opening of 52.79 MW and cost €160 million to build, or €3,031 per kW; yearly output was about 52 GWh, a capacity factor just over 11%.
+- Bhadla Solar Park had a total nameplate capacity of 2255 MW and cost 98.5 billion Indian rupees to build, roughly 43681 rupees (€480) per kW.
+- Costs vary wildly even for the same source of electricity from place to place or time to time and depending on whether interest is included; capacity factors and intermittency further complicate calculations.
+- Lifespan is another issue often omitted: some of the oldest hydropower plants have existed for over a century, nuclear power plants going on five or six decades of continuous operation are no rarity, and first-generation wind farms have had operating lifespans between 13 and 26 years with most targeting 20–30 years.
+
+Goal: running costs of renewable and non-renewable energy sources
+- [9] - The bulk of renewable energy costs come from building the technology in the first place.
+- A new natural gas plant might have costs around $1,000/kW.
+- The average cost to install a solar system ranges from $2,000/kW to almost $3,700 for residential systems; wind costs around $1,200 to $1,700/kW.
+- Cost is also an issue when it comes to transmission of electricity—the power lines and infrastructure needed to move electricity from where it’s generated to where it’s consumed; wind and solar farms aren’t all sited near old non-renewable power plants, so new systems need to be set up.
+- In the long run, renewable energy is more cost effective than non-renewable energy; Lazard considered costs over the lifespan of energy projects and found wind and utility-scale solar can be the least expensive energy generating sources.
+- As of 2017, before tax credits, wind power cost $30–60 per megawatt-hour; large-scale solar costs $43–53/MWh.
+- Energy from the most efficient type of natural gas plants costs $42–78/MWh.
+- Coal power costs at least $60/MWh.
+- IRENA reports renewable energy costs are down: solar photovoltaic panels are more than 80% cheaper than in 2009; electricity costs from solar photovoltaic panels fell by almost three-quarters from 2010–2017; costs continue to decline.
+- Depending on the market, wind turbine prices have fallen by about half over a similar period, leading to cheaper wind power globally.
+- By 2020, the renewable power generation technologies now in use will be at the lower end of the fossil-fuel cost range, or even cheaper than fossil fuels.
+- Although renewable energy is growing, it still needs extra investment up front in comparison to non-renewable energy.
+- [10] - Renewables continue to prove themselves as the most cost-competitive source of new electricity generation; on an LCOE basis, 91% of newly commissioned utility-scale renewable capacity delivered power at a lower cost than the cheapest new fossil fuel-based alternative.
+- In 2024, renewables helped avoid USD 467 billion in fossil fuel costs, reinforcing their role in enhancing energy security, economic resilience, and long-term affordability.
+- Total installed costs for renewable power decreased by more than 10% for all technologies between 2023 and 2024, except for offshore wind, where they remained relatively stable, and bioenergy, where they increased by 16%.
+- The combination of capacity factors, market share, and financing costs led to a slight increase in the levelised cost of electricity (LCOE) for some technologies: solar PV by 0.6%, onshore wind by 3%, offshore wind by 4%, and bioenergy by 13%.
+- Costs declined for CSP (-46%), geothermal (-16%), and hydropower (-2%).
+- [11] - LCOE provides a simple means of comparing different technologies for producing electricity, taking account of capital costs and costs of operation, including maintenance and the purchase of any fuel needed.
+- Electrical energy from renewables is cheaper than from gas; by limiting dependency on gas, a power system dominated by renewables is expected to reduce costs overall compared with the average electricity wholesale market price over the last year.
+- UK government assessments of the LCOE of generation technologies since 2012 show striking reductions in the LCOE of wind turbines and solar PV panels, which fell to between £41/MWh and £48/MWh respectively for new developments in 2023.
+- The cost of new conventional gas-fired generation without carbon capture rose from £103/MWh (including a carbon price of £25/MWh) in 2012 to £124/MWh (including a carbon price of £65/MWh) in 2023.
+- Inflationary pressures led to a recent increase in the maximum reserve price for offshore wind in the next Contract for Difference auction to £94/MWh; this is significantly lower than the £147–£155/MWh awarded in the first round of auctions in 2015, a cost reduction driven by innovation and economies of scale; the LCOE of renewables is now much lower than that of electricity produced from gas.
+- To assess the cost of reliably meeting demand for electricity, it is not enough to look only at the LCOE of a particular technology; the overall mix needed in the system and total system cost must be considered.
+- Studies of total system cost, including the cost of backups to handle the variability of renewables, found that the future decarbonised power system will have a lower cost per unit of electricity than the average price in Britain’s wholesale electricity market in 2023 of £127/MWh.
+- The Climate Change Committee’s assessment of a fully decarbonised British electricity system in 2035 considered a system based on a large share of renewable technologies reliably meeting demand, including in a four-week wind drought; it found the average system cost in 2035 to lie between £55/MWh and £73/MWh, with the range reflecting inclusion or exclusion of costs associated with hydrogen production, transport and storage, including for non-electricity related uses.
+- A Royal Society study on energy storage estimated the system cost of electricity in 2050 using only wind and solar power and green hydrogen to reliably meet demand across a wide variety of conditions to be £56–£100/MWh.
+- The lower cost of a renewables-dominated system relative to one based on fossil fuels stems primarily from a reduced dependency on gas; flexible use of electricity reduces the infrastructure needed and limits reliance on more expensive sources, particularly gas, during periods of high energy demand; large-scale energy storage allows stocking up on renewable energy at times of surplus relative to demand.
+- Delivering a fully decarbonised electricity system will require significant investment in the network to connect electricity users to the most cost-effective sources of low-carbon power; the network needs investment whatever the dominant sources of power, as components are reaching end-of-life and need replacement, but the opportunity will need to be taken to expand capacity; how much that would all cost in comparison with a system based on a similar generation mix to today’s is uncertain.
+- One estimate for the transmission network from the Royal Society’s report is £4/MWh in 2050, in addition to the system cost outlined above.
+- The claim that the cost of providing backup for variable renewables will result in a more expensive energy system than one based on fossil fuels is incorrect; the LCOE of wind and solar energy are lower than for gas whose emissions have not been captured and much lower than for gas that deploys CCS; the estimated system cost of a renewables-dominated system is much lower than the average price paid on the electricity wholesale market over the last year.
+- £127/MWh was, according to Ofgem data, the average price paid in advance, or forward price, for electricity in Britain’s wholesale market across 2023; prices paid by traders vary according to demand; prices offered by producers include costs recovered by the System Operator to operate the system and by transmission network owners; the average wholesale price provides a good basis for comparison with a future system cost.
+- All costs are quoted in 2023 prices using GDP deflators in accordance with the Treasury’s Green Book approach to assessing social value.
+
+Goal: environmental impact of renewable and non-renewable energy sources
+- [12] - Environmental Effects of Renewable and Non-Renewable Energy: Data from a Few Selected Group States
+- Keywords: CO2, Energy Consumption, Pooled Mean Group, Energy Development, Auto Regressive Distributed Lag, Income Level
+- Study empirically investigates and compares the impact of renewable and nonrenewable energy on the environment for twenty countries according to their energy usage.
+- Annual panel data duration: 1990 to 2022.
+- Empirical outcomes for comparative analysis based on panel non-linear ARDL approach to examine the long-run and short-run relationship.
+- Findings: the impact of renewable countries is much positive and far better for the environment compared to countries using fossil fuel.
+- Justification: positive impact of renewable energy on the environment because these counties use good energy sources and modern environmental techniques.
+- These countries have higher income and better governance than nonrenewable countries.
+- Shock of income level is positive in renewable countries; countries having nonrenewable energy sources have negative effects.
+- It is mandatory to improve income and energy usage level of these countries to minimize pollution.
+- [13] - All energy sources have some impact on the environment. Fossil fuels—coal, oil, and fossil gas—do substantially more harm than renewable energy sources by most measures, including air and water pollution, damage to public health, wildlife and habitat loss, water use, land use, and heat-trapping emissions.
+- Renewable sources such as wind, solar, geothermal, biomass, and hydropower also have environmental impacts, some of which are significant.
+- The exact type and intensity of environmental impacts varies depending on the specific technology used, geographic location, and other factors; understanding current and potential issues can help avoid or minimize these impacts.
+- Wind power produces no toxic pollution or global warming emissions and is clean, sustainable, abundant, inexhaustible, affordable, and a viable large-scale alternative to fossil fuels.
+- Wind power generation has environmental impacts including land use issues and challenges to wildlife and habitats.
+- Solar power provides a tremendous resource for clean and sustainable electricity; its environmental impacts can include land use and habitat loss, and use of hazardous materials in manufacturing, though impacts vary by scale, location, and technology (photovoltaic solar panels or concentrating solar thermal plants).
+- Hydrothermal geothermal plants are located near geologic “hot spots” where hot molten rock is close to the earth’s crust and produces hot water.
+- Enhanced geothermal systems (hot dry rock geothermal) involve drilling into the earth’s surface to reach deeper geothermal resources, allowing broader access to geothermal energy.
+- Geothermal environmental impacts differ depending on the technology used to convert the resource to electricity (direct steam, flash, or binary) and the cooling technology used (water-cooled and air-cooled).
+- Biomass power plants involve combustion of organic material to generate electricity, similar to fossil fuel plants, and raise similar but not identical concerns about air emissions and water use.
+- Biomass feedstock is considered renewable and can be sustainably produced and regrown over a relatively short period, while fossil fuels are non-renewable.
+- Biomass sources are diverse, including energy crops (like switchgrass), agricultural residues, manure, residues from paper mills, logging, and other forest industry activity, and urban waste; both the type of feedstock and the manner in which it is developed and harvested significantly affect land use and life-cycle global warming emissions.
+- Hydropower includes massive hydroelectric dams, small run-of-the-river plants, and everything in between; additional large-scale hydroelectric dams are unlikely to be built in the United States because of environmental concerns.
+- The future of hydropower in the United States likely involves increased capacity at current dams and new run-of-the-river projects; environmental impacts exist at both types of plants, but impacts can be reduced or avoided by modifications to comply with low-impact certification programs.
+- Hydrokinetic energy includes wave and tidal power, with many technologies still experimental or in early deployment; actual impacts of large-scale operations have not been observed, but a range of potential impacts can be projected.
+- [14] - Renewable energy produces far less greenhouse gases (GHGs) than fossil fuel resources like coal, oil, and natural gas; in some cases, renewable sources produce no GHGs at all once they are up and running.
+- Any form of energy generation will come with environmental impacts; to achieve a low-carbon future, it’s important to understand the effects of these energy resources and assess which solution best fits a given location, community, and stakeholder goals.
+- Initial impacts of renewable energy sites: producing parts and constructing renewable energy systems often involve energy-intensive processes, such as manufacture of iron, steel, glass, and composite materials for turbines; solutions to reduce these impacts include longer lifetimes, larger power capacities, and higher recycling rates.
+- Clearing land for energy projects can have both initial and long-term effects on native habitats; the wider environmental impact of any potential site should be assessed prior to installation, and using land already in use—such as solar energy systems on farms—may help mitigate impacts and provide economic value to local communities.
+- Long-term environmental impacts vary based on location and technology.
+- Wind energy sites produce no GHG emissions once established, but can impact bird and bat populations: direct collisions with turbine rotors, disruption of migration routes, and impact on habitat quality; mitigation includes screening sites for animal activity, monitoring activity/mortality, slowing or stopping operation during high activity, and deterrent technologies.
+- Offshore wind sites can impact marine environments: noise and vibration during operation can be disruptive or damaging to fish, mammals, and other marine species; the presence of offshore energy projects may alter local hydrodynamics, disrupt species distribution and life cycle stages, and increase vessel traffic.
+- Poorly planned hydropower projects can create problems for local ecosystems: dams can disrupt fish migrations, and reservoirs can emit large amounts of greenhouse gases; mitigation includes fish ladders for native species to migrate upstream and exploration of new technologies such as methane-capture.
+- End-of-life impacts: solar panels can contain materials harmful at high levels, like lead and cadmium; batteries used in energy storage may contain hazardous chemicals such as lithium and lead; safe recycling, disposal, and transportation of retired equipment is a crucial part of responsibly managing energy systems, renewable or not.
+- Renewable energy projects are critical to climate-related goals and resilience, but like any human action they come with their own costs; continued research and assessments are vital to understand potential ecological impacts, anticipate risks and uncertainties, and adopt mitigation measures, ensuring the energy sector operates sustainably.
+- [15] - Renewable energy sources — such as sunlight, wind, water, organic waste, and heat from the Earth — are abundant, replenished by nature, and emit little to no greenhouse gases or air pollutants.
+- Most of the greenhouse gases that trap heat in the Earth's atmosphere come from burning fossil fuels to produce energy, mainly for electricity and heat.
+- In 2023, the power sector was the largest source of global greenhouse gas emissions.
+- The science is clear: to avoid the worst impacts of climate change, emissions must be reduced by almost half by 2030, and reach net-zero by 2050.
+- To achieve this, we need to end our reliance on fossil fuels and invest in alternative sources of energy that are clean, accessible, affordable, sustainable, and reliable.
+- Fossil fuels still account for nearly 60 per cent of electricity generation, but cleaner sources of energy are gaining ground.
+- Between 2015 and 2024, annual electricity capacity of renewables increased by around 2,600 GW — a 140 per cent increase; fossil fuels electricity capacity only increased by around 640 GW (16 per cent).
+- IRENA estimates that 90 percent of the world’s electricity can and should come from renewable energy by 2050.
+- Cheap electricity from renewable sources could provide 65 per cent of the world’s total electricity supply by 2030. It could decarbonize 90 per cent of the power sector by 2050, massively cutting carbon emissions and helping to mitigate climate change.
+- According to WHO, about 99 percent of people in the world breathe air that exceeds air quality limits and threatens their health. Air pollution is associated with 7 million premature deaths every year.
+- The unhealthy levels of fine particulate matter and nitrogen dioxide originate mainly from the burning of fossil fuels.
+- The economic health damage caused by air pollution amounts to $8.1 trillion a year, equivalent to 6.1 per cent of global GDP.
+- Switching to clean sources of energy, such as wind and solar, helps address not only climate change but also air pollution and health.
+- Energy-related carbon dioxide emissions are growing more slowly than the global economy. Emissions growth slowed to 0.8 per cent in 2024, while the global economy expanded by more than 3 per cent.
+- The fossil fuel industry continues to be heavily subsidized. About $7 trillion was spent on fossil fuels in 2022, including through explicit subsidies, tax breaks, and health and environmental damages that were not priced into the cost of fossil fuels.
+- About $4.5 trillion a year needs to be invested in renewable energy until 2030 — including investments in technology and infrastructure — to allow us to reach net-zero emissions by 2050.
+- The reduction of pollution and climate impacts could save the world up to $4.2 trillion per year by 2030.
+
+Goal: reliability of renewable and non-renewable energy sources for providing power all the time
+- [16] - Reliability: Conventional energy sources can provide continuous power output, while some renewable sources depend on weather conditions.
+- Non-renewable resources remain widely used because they provide reliable energy.
+- Non-renewable advantage: Reliable Supply — provides energy regardless of weather conditions.
+- Non-renewable advantage: High Energy Output — generates large amounts of power.
+- Non-renewable advantage: Easy Storage — fuels can be stored and transported efficiently.
+- Non-renewable advantage: Established Infrastructure — backed by extensive global energy networks.
+- Non-renewable limitation: Resource Depletion — supplies are finite and will eventually decline.
+- Fossil fuels form over millions of years from organic matter, making their replenishment much slower than current consumption rates.
+- Non-renewable resources like coal, oil, and natural gas are finite and take millions of years to form.
+- Availability: Renewable resources replenish naturally, while non-renewable resources are limited.
+- Renewable resources such as sunlight, wind, and flowing water are naturally replenished and can be used repeatedly.
+- Renewable advantage: Sustainable Supply — replenishes naturally over time.
+- Renewable energy supports long-term energy needs and long-term sustainability.
+- Sustainability Perspective: Renewable resources naturally replenish, making them more suitable for long-term energy needs.
+- Energy Security Perspective: A diverse energy mix that includes both renewable and non-renewable sources can improve energy resilience.
+- Conclusion: Renewable resources support long-term energy security, while non-renewable resources continue to provide reliable power.
+- Renewable energy helps improve energy security and support long-term sustainability by relying on naturally replenishing resources.
+- Major renewable resources include solar, wind, hydropower, biomass, and geothermal.
+- Primary non-renewable resources include coal, petroleum, natural gas, and nuclear.
+- Nuclear energy produces electricity using uranium, a finite resource.
+- [17] - Renewable energy sources make important contributions to the country’s electricity mix and help keep the lights on in a cost-effective manner for millions of American families and businesses.
+- No energy source is capable of generating electricity 100 percent of the time.
+- Continuing to invest in wind and solar, as well as battery storage, will result in more market flexibility and predictability, both of which contribute to a reliable energy grid.
+- [18] - Renewable systems are reliable, even at night and on windless days.
+- A common fallacy is that renewable energy cannot be relied upon to satisfy electricity demand because the sun does not always shine and the wind does not always blow.
+- Cost-effective energy storage technologies, such as new generation batteries, are often mistakenly portrayed as the Holy Grail: sought by many, found by none.
+- This argument is incorrect and misses the point: reliability is not a function of individual generation technologies, but a function of the electricity system as a whole.
+- “Renewable energy” is not a single energy source, but roughly six: solar, wind, biomass, geothermal, hydro, and ocean; only wind and solar are “variable,” while the rest are “dispatchable” and can be dialed up or down when needed.
+- “Baseload” is not essential.
+- A second fallacy assumes that utility models favouring a steady “baseload” of electricity from nuclear and fossil fuels are the only way to ensure that when we flip the switch the lights come on.
+- Nuclear and coal-fired power plants by definition provide baseload electricity because that is what they are designed to do; given heavy upfront investment costs, these types of plants are designed to supply a lot of electricity, all the time.
+2026-10-01 09:12:52,923 [INFO] FINAL ANSWER:
+**My understanding of your question:** The question asks for a comparison of renewable and non-renewable energy sources covering their setup and running costs, environmental impact, and reliability in providing power continuously.
+
+---
+
+## comparison of renewable and non-renewable energy sources
+
+- Climate change and global warming make the difference between renewable and non-renewable energy important. [1]
+- Renewable energy sources include wind and sunshine, which can restock themselves over time. [1]
+- Non-renewable energy comes from sources like coal and oil that, once used up, cannot be replenished. [1]
+- Knowing this difference helps us choose more wisely how we use energy and preserve the world for future generations. [1]
+- People are using renewable resources such as wind, light, and the heat of the Earth; solar energy can heat water, power houses, and charge phones. [1]
+- Renewable energy is power from sustainable, never-ending supplies of natural resources; many believe it is better for the environment because it does not release harmful pollutants or greenhouse gases. [1]
+- Renewable energy sources include sun, wind, tidal, waves, geothermal, hydropower, and soil. [1]
+- Non-renewable energy sources rely on limited resources that will inevitably run dry; they are less sustainable and create pollution like greenhouse gases. [1]
+- Non-renewable energy sources include coal, oil, natural gas, uranium, and petroleum. [1]
+- Renewable energy sources never run out and are a more environmentally friendly way to power homes and workplaces than fossil fuels like coal and oil, which deplete natural resources over time; as long as Earth exists, it is like an endless supply of energy. [1]
+- Solar and wind power provide electricity without releasing toxins or emissions, unlike fossil fuels; solar panels and wind turbines collect energy from the sun's rays and the wind without contributing to global warming or harmful atmospheric pollutants. [1]
+- Renewable energy systems leave much less ecological impact throughout their useful lives than conventional power plants. [1]
+- Renewable energy is gaining popularity rapidly throughout the globe due to rising public awareness of climate change, governmental incentives, and technical developments. [1]
+- Fossil fuels and other non-renewable energy sources are struggling with problems including outmoded infrastructure and powerful special interests. [1]
+- In quantity, renewable energy supplies are endless, scattered, and abundant, with a wide variety of sources including the sun, wind, hydro, and geothermal heat. [1]
+- Non-renewable energy supplies are decreasing and limited, causing worry about energy security and future resource availability; this is like a boundless buffet versus a finite snack supply. [1]
+- A stated similarity is that both affect the environment in different degrees: in comparison to nonrenewable sources, renewable sources like solar, wind, hydropower, and biomass tend to have less of an effect on the environment. [1]
+- Hydroelectric power uses the movement of water to produce energy, but large-scale dams can influence river flow, impact aquatic habitats, and disturb ecosystems. [1]
+- Non-renewable energy sources such as nuclear power, coal, oil, and natural gas are more harmful to the environment; production of greenhouse gases like carbon dioxide and methane during extraction, processing, and burning of fossil fuels is a major factor in global warming and climate change. [1]
+- Three main differences between renewable and non-renewable energy are availability and renewal times, environmental impact, and installation costs. [1]
+- Solar energy is renewable and endless as long as there is sunshine, and it does not contribute to global warming. [1]
+- Ways to save non-renewable resources include turning off air conditioners, lights, and fans when they are not in use, preventing resource wastage, and carpooling or taking public transport to save gas. [1]
+- Non-renewable energy comes from animal and plant fossils and requires a considerable amount of time to form, so it will not be renewed in the far future. [1]
+- Renewable energy sources are found in nature and can be accessed at any time, practically anywhere; in theory, there is a daily method to acquire and restock renewable resources, and any time there's a breeze, we can turn the wind, sun, and water into energy. [1]
+- A stated similarity is that both renewable and non-renewable energy need modern tech powers. [1]
+- Renewable resources naturally replenish themselves over relatively short time periods, whereas non-renewable resources exist in finite amounts and take millions of years to form. [2]
+- Renewable energy sources include sunlight, wind, flowing water, geothermal heat, and biomass, all naturally occurring processes that continually renew. [2]
+- Non-renewable energy is derived from fossil fuels such as coal, oil, and natural gas, formed from prehistoric plant and animal matter, as well as nuclear materials like uranium, which are finite and non-replenishable on human timescales. [2]
+- This difference influences electricity prices, air quality, climate change, and economic development worldwide. [2]
+- Renewable resources replenish naturally and quickly compared to non-renewable resources. [2]
+- Renewable energy sources emit far fewer pollutants and greenhouse gases than fossil fuels. [2]
+- The cost of renewable energy has dropped significantly and is expected to continue falling. [2]
+- Understanding these differences is vital for energy policy, investment and sustainability planning. [2]
+- Renewable resources are materials or energy sources that regenerate naturally through ecological or geological processes faster than we use them; examples include sunlight hitting Earth daily, wind blowing continuously, and trees growing back in decades, making them sustainable under proper management. [2]
+- Non-renewable resources are available in limited quantities and do not replenish at a meaningful pace relative to human consumption; fossil fuels and minerals took millions to billions of years to form and cannot replace what we consume within generations. [2]
+- The crucial factor differentiating these categories is the rate of renewal versus consumption. [2]
+- Renewable resources continually form or remain available through natural cycles: sunlight, wind from solar warming, water cycling via evaporation and precipitation, geothermal energy from internal Earth heat, and biomass from recent plant growth. [2]
+- Non-renewable resources formed over extensive geological periods: coal over 50–300 million years from compressed plant deposits; oil and natural gas from ancient marine organisms buried and transformed under pressure; minerals and metals crystallised deep underground. [2]
+- Slow formation means non-renewable resources will eventually be exhausted if consumption continues unabated. [2]
+- Solar energy is harnessed using photovoltaic panels that convert sunlight directly into electricity; solar farms and rooftop solar installations supply power to homes and businesses; solar energy produces no emissions during operation and has seen dramatic cost reductions. [2]
+- Wind turbines capture kinetic energy from moving air to generate electricity; onshore and offshore wind farms power thousands of homes without pollution; the main limitation is wind variability, which requires complementary energy storage solutions. [2]
+- Hydropower uses flowing or falling water to spin turbines; it is one of the oldest renewable sources and provides a significant electricity share in many countries; dams store water to generate power continuously, but large reservoirs impact ecosystems. [2]
+- Geothermal energy extracts heat from Earth's interior, turning water into steam to drive turbines. [2]
+- Biomass uses organic matter like wood, crops, and waste to produce fuel or electricity; it offers consistent power, but emits some pollution when combusted. [2]
+- Fossil fuels—coal, oil, and natural gas—formed over millions of years and remain the dominant energy source globally, but release significant greenhouse gases contributing to climate change; coal and oil extraction severely affect land and ecosystems. [2]
+- Nuclear power plants use uranium in fission to generate vast amounts of electricity with minimal greenhouse gas emissions during operation; however, mining uranium and radioactive waste management pose environmental challenges. [2]
+- Metals like copper and iron are essential for electrical infrastructure and manufacturing; they are finite, require energy-intensive mining, and cannot be replaced on human timescales, though recycling helps conserve these resources. [2]
+- Non-renewable energy sources are the primary contributors to global carbon emissions, driving climate change. [2]
+- Coal plants emit approximately 820 kg CO2/MWh, natural gas 350 kg, whereas solar and wind emit 10–50 kg CO2/MWh, including manufacturing emissions; nuclear power has very low operational emissions, but mining impacts exist. [2]
+- Coal combustion releases sulfur dioxide, nitrogen oxides, mercury, and particulate matter, causing acid rain, smog, and health issues; fracking for natural gas contaminates groundwater; renewables produce minimal air and water pollution during their operation. [2]
+- Fossil fuel extraction damages landscapes and water bodies, while mining for uranium and metals leaves toxic residues; renewable infrastructure requires land but often allows dual land use, e.g., farming around wind turbines. [2]
+- Renewables require higher upfront investment but have low operating costs; fossil fuel plants need continuous fuel purchases with volatile prices. [2]
+- The cost of solar and wind energy has plummeted by 40–70% in the last decade, improving their competitiveness. [2]
+- Renewables reduce reliance on imported fuels, enhancing national energy security; countries investing in hydropower, solar, and wind face fewer risks from global market disruptions. [2]
+- Governments incentivise renewables with tax credits and subsidies, while carbon pricing disincentivises fossil fuels; the energy market increasingly favours clean energy, with major companies investing billions in renewables. [2]
+- Renewable advantage: produces low greenhouse gas emissions. [2]
+- Renewable advantage: uses naturally replenishing resources such as sunlight, wind, and water. [2]
+- Renewable advantage: reduces dependence on imported fuels. [2]
+- Renewable advantage: offers lower operating and maintenance costs after installation. [2]
+- Renewable advantage: improves energy security and price stability. [2]
+- Renewable advantage: supports clean energy jobs and economic growth. [2]
+- Non-renewable advantage: provides consistent, weather-independent power generation. [2]
+- Non-renewable advantage: delivers high energy density for industrial and transportation needs. [2]
+- Non-renewable advantage: benefits from mature technology and extensive supply chains. [2]
+- Non-renewable advantage: can efficiently meet large-scale energy demand. [2]
+- Non-renewable advantage: requires less land area for energy production compared to some renewable technologies. [2]
+- Non-renewable advantage: supports existing industries and economies worldwide. [2]
+- Operational difference: renewable resources like solar, wind, and hydro require managing variable supply due to natural cycles, but offer sustainability and lower environmental compliance risks. [2]
+- Operational difference: non-renewable resources such as coal, oil, and natural gas provide consistent output but involve finite reserves and increasing regulatory pressures on emissions and extraction impacts. [2]
+- Key non-renewable materials: coal, primarily used for power generation and steel production. [2]
+- Key non-renewable materials: oil (petroleum), crucial for fuel supply chains and petrochemical manufacturing. [2]
+- Key non-renewable materials: natural gas, significant for heating, electricity, and as an industrial feedstock. [2]
+- Key non-renewable materials: nuclear fuel (uranium), powering nuclear reactors, requires specialised handling. [2]
+- Key non-renewable materials: tar sands and oil shale, alternative fossil resource extraction methods, present unique environmental challenges. [2]
+- Key non-renewable materials: peat, relevant regionally for low-grade energy applications. [2]
+- Operational advantage of non-renewables: energy density and reliability, ensuring base load generation is unaffected by weather variability. [2]
+- Operational advantage of non-renewables: established infrastructure and supply chains, enabling streamlined logistics and maintenance. [2]
+- Operational advantage of non-renewables: volume scalability, supporting large industrial demand and transportation sectors. [2]
+- Operational advantage of non-renewables: economic viability in the short term, important for budgeting and investment decisions. [2]
+- Operational advantage of non-renewables: job creation across extraction, processing, and distribution, anchoring many regional economies. [2]
+- Critical facts about non-renewable energy: finite resources demand prudent management and long-term planning to mitigate supply risks. [2]
+- Critical facts about non-renewable energy: emissions compliance drives innovation, requiring ongoing upgrades to emissions controls and carbon reduction strategies. [2]
+- Critical facts about non-renewable energy: extraction impacts necessitate enhanced environmental monitoring to adhere to evolving regulations. [2]
+- Renewable resources (solar, wind, hydro, geothermal, biomass) naturally replenish, while non-renewable resources (coal, oil, natural gas, nuclear) are finite, carbon-intensive, and major contributors to climate change. [3]
+- Renewable energy offers reduced emissions, inexhaustible supply, and significant job creation; the global shift toward renewables is accelerating and creating demand for skilled talent. [3]
+- Renewable and non-renewable energy each have advantages and disadvantages, and both play their part in powering the planet and daily lives. [3]
+- Renewable resources can be replenished over time; non-renewable resources cannot. [3]
+- Understanding the difference helps make more informed decisions about energy use and protecting the environment for future generations. [3]
+- Renewable and non-renewable sources have different origins, environmental impacts, and sustainability. [3]
+- Renewable energy is produced from natural sources that can be replenished over time and is often considered more sustainable because it does not produce pollutants and greenhouse gases harmful to the planet. [3]
+- Main renewable sources: solar, wind, biomass, hydroelectric, geothermal. [3]
+- Non-renewable energy comes from finite resources that will eventually be depleted; it is considered less sustainable and damaging to the planet, and is responsible for producing pollutants such as greenhouse gases. [3]
+- Types of non-renewable energy: coal, oil, natural gas, nuclear energy. [3]
+- Renewable energy does not emit greenhouse gases, the primary cause of climate change; wind and solar power help reduce CO2 and other harmful pollutants. [3]
+- Renewable energy is helping slow disruption to plant and animal life, rising sea levels, extreme weather conditions, and other associated effects of climate change. [3]
+- Global leaders have stated that by 2030 renewables must make up 50% of energy sources to help the planet become net-zero by 2050. [3]
+- Renewable energy sources are inexhaustible because they originate from natural resources and processes that are constantly renewed—sun, wind, water cycle, and biomass waste—and can be used over and over without being depleted. [3]
+- Unlike finite fossil fuels, renewable energy sources can meet energy needs for the foreseeable future and are an essential part of the solution to the global climate crisis. [3]
+- The renewable energy industry is growing; renewable energy jobs reached 12.7 million worldwide in 2022, and IRENA has forecast this could rise to 43 million renewable energy jobs by 2050. [3]
+- Renewable energy provides economic benefits, including opportunities to earn a healthy income and potential to save businesses and consumers money. [3]
+- As the cost of solar and wind declines, renewable energy is becoming competitive with non-renewables and sometimes cheaper; in the long run it has the potential to stabilise energy prices. [3]
+- Renewable energy is not always available 24/7 because it relies on natural resources: solar PV cannot work if the sun doesn't shine, wind farms cannot work optimally if wind isn't strong enough, and hydropower is affected if water levels are not strong enough or there is a drought. [3]
+- Experts factor in geography and select areas where the opportunity to generate renewable energy is greater, but nature can be unpredictable. [3]
+- Significant space is needed for renewable energy projects, and this is not always viable or available in every nation; for example, a country with regular sunshine may miss solar power if terrain is unsuitable or other infrastructure occupies the space. [3]
+- Renewable energy sources are not always available when needed due to limited space to store energy; batteries are expensive and have a limited lifespan, while pumped-storage hydroelectricity is more efficient but requires suitable terrain not available worldwide. [3]
+- Initial costs for renewable energy installations are high because technologies are still in early stages of development, so equipment and installation cost more than mature fossil fuel technologies. [3]
+- It costs roughly $1 million to produce one megawatt of electricity via a wind turbine, enough to power around 1,000 homes annually. [3]
+- Installation costs of renewable energy technologies like solar PVs have declined by as much as 80% over the last decade and will likely drop further over the next 10 years. [3]
+- 80% of the world's energy comes from non-renewable sources, so it is still heavily relied on. [3]
+- Non-renewable energy has benefits including cost-effectiveness, ability to produce more power, and supply almost anywhere in the world. [3]
+- Non-renewable energy is currently cheaper and more cost-efficient than renewable energy because oil, coal and gas are more abundant and easier to find and extract, lowering production cost. [3]
+- Non-renewable energy sources have been around longer, so more infrastructure—such as pipelines and power plants—is in place, lowering delivery cost to consumers. [3]
+- The IMF found that the fossil fuel industry, including oil, coal and gas production, resulted in global subsidies of $5.9 trillion, or $11 million a minute, in 2020; this can be seen as positive for the world economy but could prevent leaders from investing more in renewables. [3]
+- Non-renewable energy sources can generate more energy than renewable sources because they are more concentrated and contain more energy per unit of space. [3]
+- Coal and natural gas power have greater efficiency of 40% and 60%, respectively, compared with solar energy produced by solar panels, which can only reach between 15% and 20%. [3]
+- Non-renewable energy is easier to source: coal can be mined and burned directly to generate electricity, while solar and wind power require complex systems to collect and store energy. [3]
+- Non-renewable energy sources are abundant and more widely available globally than renewable energy, which is beneficial to countries where renewable energy production has not reached or is out of the question; for example, a country with inconsistent water supplies will unlikely produce hydroelectric energy. [3]
+- Non-renewable energy is supplied to almost anywhere at any time; sources of non-renewable energy can generate energy 24 hours a... [3]
+- Renewable energy is produced from existing resources that naturally replenish; it can be a much more abiding solution than our current top energy sources. [4]
+- Unlike fossil fuels, renewables are increasingly cost-efficient and their environmental impacts are far less severe. [4]
+- By taking advantage of the earth's ability to grow and recycle organisms, renewable power sources will theoretically be able to supply our energy needs indefinitely. [4]
+- Renewable energy is defined by the time it takes to replenish the primary energy resource, compared to the rate at which energy is used. [4]
+- Traditional resources like coal and oil, which take millions of years to form, are not considered renewable. [4]
+- Solar power can always be replenished, even though conditions are not always optimal for maximizing production. [4]
+- Renewable energy sources include biomass, geothermal, hydropower, solar, and wind. [4]
+- Biomass: organic material burned or converted to liquid or gaseous form; biomass from trees was the leading source of energy in the United States before mass adoption of fossil fuels; modern examples include ethanol and biodiesel (biofuels); their sustainability depends on production lifecycle factors like land use, water consumption, and emissions; second-generation biofuels use non-food crops and agricultural waste to reduce competition for land and improve carbon efficiency. [4]
+- Geothermal energy: heat produced by decaying radioactive particles deep within the earth; next-generation geothermal technologies such as superhot rock geothermal are being developed to significantly increase capacity and efficiency and potentially meet a larger share of global electricity demand by 2050. [4]
+- Hydropower: used to be the largest source of renewable electricity due to reliability; solar has now surpassed it in installed capacity; hydropower remains a major contributor to global renewable generation but faces growth challenges due to environmental concerns and site limitations. [4]
+- Solar: photovoltaic technology converts sunlight directly into electricity; fastest-growing renewable energy source in recent years; rapid expansion driven by improved affordability, viability, and demand; deployment can require significant land area and effective storage solutions to address intermittency. [4]
+- Wind: turbines harness wind's natural kinetic energy to generate electricity; wind power continues to grow globally, though development faces challenges in some regions due to permit issues and grid connection challenges; wind is often integrated with other renewables for a more stable energy supply. [4]
+- Sustainable energy sources can maintain current operations without jeopardizing the energy needs or climate of future generations; the most popular sources of sustainable energy, including wind, solar, and hydropower, are also renewable. [4]
+- Biofuel is a unique form of renewable energy, as its consumption emits climate-affecting greenhouse gasses, and growing the original plant product uses up other environmental resources; the key challenge is maximizing energy output while minimizing the impact of sourcing biomass and burning the fuel. [4]
+- Even with resources that are both renewable and sustainable, the need for storage, transmission infrastructure, and equitable grid access can present hurdles. [4]
+- Not all sustainable solutions can be used in every situation; efficiency and/or effectiveness can depend on climate, geography, and local infrastructure; for instance, wind is produced by temperature changes in the air, so in the U.S. the best place for wind farms is the Midwest, Texas region, or offshore, raising how to ensure this energy fairly provides for other regions like the Northeast. [4]
+- Disparities in regulations and target goals can create a problem where the best place to produce energy may not have the public interest or infrastructure necessary to support it; for example, a windy state may struggle to pass legislation for financing the construction of turbines, while its neighbor may be eager for a nearby source of clean energy. [4]
+- New technologies such as grid-scale battery storage and smart distribution networks are helping bridge these gaps and making renewable energy more accessible across regions. [4]
+- Policymakers who draft a green bill only using the term "renewable energy" may subvert the effect of their own legislation by failing to account for the potential environmental impact of energy sources like biofuels. [4]
+
+## setup costs of renewable and non-renewable energy sources
+
+- Both renewable and nonrenewable energy production requires set-up, transportation, storage, and direct production costs. [5]
+- Further costs are incurred with production of energy through traditional non-renewable methods such as coal, oil, and natural gas; gases emitted from these sources such as CO2 cause health and environmental problems that increase the costs of energy production on society. [5]
+- ARIMA model results point toward lower per-kWh social and production costs for renewable energy sources going into the future. [5]
+- Figures 3 and 4 demonstrate these differences with mean estimates alongside highs and lows with 95% confidence intervals; the production cost and social cost graphs look similar because the estimates for the emissions cost of nonrenewable energy is between one and two cents per kilowatt-hour (EPA). [5]
+- External costs other than the cost of emissions were assumed to be negligible due to examples in the literature, but there may be some external costs unaccounted for that could influence the results. [5]
+- The results of the difference-in-differences point toward there being no significant difference between retail energy prices in states that had renewable energy portfolio policies and those that did not. [5]
+- The analysis is a simplistic ballpark estimate, not an in-depth and precise projection. [6]
+- A 100% renewable U.S. electricity target would require at least $5.7 trillion of investment in renewable energy and storage. [6]
+- Installing the required renewable capacity above projected renewable growth would cost $5.7 trillion. [6]
+- A business-as-usual approach would build 36.7 gigawatts of new non-renewable electricity generating capacity by 2030, with a capital requirement of approximately $48 billion; the net difference in capital investment between the 100% renewable target and business as usual is approximately $5.66 trillion. [6]
+- The cost estimate uses the Energy Information Administration's latest overnight capital costs and operation and maintenance costs from the 2018 Annual Energy Outlook. [6]
+- The U.S. would need to install enough renewable electricity capacity and storage capacity to meet peak electricity demand every day plus a reserve margin. [6]
+- The U.S.'s current electricity generating capacity is 1,085 gigawatts; the analysis assumes needing 1,085 gigawatts of both solar and wind, plus 1,085 gigawatts of hydroelectricity and storage for periods when neither solar nor wind is available. [6]
+- Solar power produces its stated capacity roughly 25.7 percent of the day; wind power on average provides power 34.6 percent of the day; approximately 40 percent of the time neither would be available. [6]
+- Assumptions include: the U.S. builds the entirety of all potential hydroelectricity resources; storage costs are batteries' average operation and maintenance cost rather than higher costs for batteries that discharge quickly and repeatedly; electricity demand is roughly flat; there is no increase in the price of wind, solar, hydro, or storage despite artificially inflated demand; and there are no increased transmission costs. [6]
+- Assuming a 20-year recovery, the Green New Deal would require about $285 billion of clean energy investment as an annualized capital cost, meaning the U.S. would have to invest nearly as much money in clean energy as the rest of the world combined. [6]
+- Combining the $285 billion of capital costs with operation and maintenance costs results in an average annual expenditure of about $423.9 billion. [6]
+- The estimate likely seriously underestimates the costs of electricity storage; storage becomes more expensive if it must discharge quickly and multiple times throughout the day. [6]
+- Lazard estimates the wholesale, levelized cost of lithium-ion storage at $204–298 per megawatt hour, while a natural gas power plant is $48 per megawatt hour, meaning battery storage rather than a dispatchable natural gas power plant could cost consumers 4–6 times as much. [6]
+- A Risky Business study estimated an average annual investment of $320 billion through 2050, and its model assumed more resources than just renewables available. [6]
+- A National Bureau of Economic Research study estimated the net cost of reducing total greenhouse gas emissions by 80 percent would be $1.3–4.0 trillion, with $3.3–6.0 trillion of required investment. [6]
+- Restricting low-carbon electricity objectives to renewable electricity creates much higher policy costs—10 to 62 percent higher—due to the "duck curve," where more non-dispatchable resources increase demands on dispatchable fossil resources. [6]
+- A 2015 Jacobson et al. analysis claims switching to 100 percent renewable electricity is net beneficial, but it has been widely debunked for assuming far more hydroelectric usage than is technically achievable in the United States. [6]
+- A Lappeenranta University of Technology and Energy Watch Group assessment says transitioning to 100 percent renewable electricity is low-cost, but it assumes a nearly 90 percent decrease in lithium-ion battery cost by 2050, contrary to market analysts' expectation that a global cobalt shortage will make lithium-ion batteries more expensive; cobalt prices increased by 117 percent from 2016 to 2017. [6]
+- A Jesse Jenkins analysis for MIT estimated that a decarbonized 100 percent renewable electricity system would result in an average electricity cost of $150–300 per megawatt hour, compared with 2017's average electricity cost of $104.8 per megawatt hour. [6]
+- System costs include production, transport and storage, including for non-electricity related uses. [7]
+- A Royal Society study estimated the system cost of electricity in 2050 using only wind and solar power and 'green' hydrogen to reliably meet demand across a wide variety of conditions to be £56–£100/MWh. [7]
+- The OBR added BEIS' additional system costs to the levelised costs of gas and renewable energy sources to provide an illustrative view of the costs of different energy sources. [7]
+- Figure 2 shows illustrative enhanced levelised costs of energy. [7]
+- Wholesale costs include initial capital, operations and maintenance (O&M), transmission, and costs of decommissioning. [8]
+- LCOE is roughly the net present value of all costs over the lifetime of the asset divided by an appropriately discounted total of the energy output over that lifetime; average utility-scale solar and onshore wind LCOE is less than coal and gas-fired power stations, but varies greatly by location. [8]
+- LACE addresses dispatchability; fluctuating power sources might not avoid capital and maintenance costs of backup dispatchable sources. [8]
+- For storage, LCOS is analogous to LCOE; true cost accounting demands that the costs of both primary and secondary sources be included when comparing storage to generating electricity in real time to meet demand. [8]
+- To evaluate total cost of production, streams of costs are converted to net present value using the time value of money, brought together using discounted cash flow. [8]
+- Capital costs tend to be low for gas and oil power stations; moderate for onshore wind turbines and solar PV; higher for coal plants; higher still for waste-to-energy, wave and tidal, solar thermal, offshore wind and nuclear. [8]
+- For power generation capacity, capital costs are often expressed as overnight cost per kilowatt. [8]
+- Real life costs can diverge significantly from those estimates. [8]
+- Olkiluoto block 3 had an overnight cost to the construction consortium of €8.5 billion and a net electricity capacity of 1.6 GW, or €5,310 per kW of capacity; the utility paid a fixed price of only €3.2 billion. [8]
+- Darlington Nuclear Generating Station in Canada had an overnight cost of CA$5.117 billion for a net electric capacity of 3512 MW, or CA$1,457 per kW of capacity. [8]
+- The oft-cited CA$14.319 billion figure for Darlington works out to CA$4,077 per kW of capacity; it includes interest and is not an "overnight cost". [8]
+- Comparability of different power sources is affected by capacity factors: as low as 10–20% for some wind and solar applications, into the 50% range for offshore wind, and above 90% for the most reliable nuclear power plants. [8]
+- The average capacity factor of all commercial nuclear power plants in the world in 2020 was 80.3% (83.1% the prior year), including outdated Generation II nuclear power plants and countries like France running load following. [8]
+- Alpha Ventus Offshore Wind Farm had a nameplate capacity of 60 MW; if overnight cost is calculated for nameplate capacity, it works out to €4,167 per kW, whereas taking capacity factor into account roughly doubles the figure. [8]
+- Þeistareykir Geothermal Power Station: US$200 million for the 45 MW first phase and a total of US$330 million for the 90 MW combined two first phases; cost per kW of capacity is US$4,444 for the first phase only and US$3,667 if the cost estimates for both phases hold. [8]
+- Block 5 of Irsching Power Station uses natural gas in a combined cycle, converting 1,750 MW of thermal energy to 847 net MW of usable electricity; it cost €450 million to build, or some €531 per kW of capacity. [8]
+- The LCOE of floating wind power increases with the distance from shore. [8]
+- Lieberose Photovoltaic Park had a nameplate capacity at opening of 52.79 MW and cost €160 million to build, or €3,031 per kW; yearly output was about 52 GWh, a capacity factor just over 11%. [8]
+- Bhadla Solar Park had a total nameplate capacity of 2255 MW and cost 98.5 billion Indian rupees to build, roughly 43681 rupees (€480) per kW. [8]
+- Costs vary wildly even for the same source of electricity from place to place or time to time and depending on whether interest is included; capacity factors and intermittency further complicate calculations. [8]
+- Lifespan is another issue often omitted: some of the oldest hydropower plants have existed for over a century, nuclear power plants going on five or six decades of continuous operation are no rarity, and first-generation wind farms have had operating lifespans between 13 and 26 years with most targeting 20–30 years. [8]
+
+## running costs of renewable and non-renewable energy sources
+
+- The bulk of renewable energy costs come from building the technology in the first place. [9]
+- A new natural gas plant might have costs around $1,000/kW. [9]
+- The average cost to install a solar system ranges from $2,000/kW to almost $3,700 for residential systems; wind costs around $1,200 to $1,700/kW. [9]
+- Cost is also an issue when it comes to transmission of electricity—the power lines and infrastructure needed to move electricity from where it's generated to where it's consumed; wind and solar farms aren't all sited near old non-renewable power plants, so new systems need to be set up. [9]
+- In the long run, renewable energy is more cost effective than non-renewable energy; Lazard considered costs over the lifespan of energy projects and found wind and utility-scale solar can be the least expensive energy generating sources. [9]
+- As of 2017, before tax credits, wind power cost $30–60 per megawatt-hour; large-scale solar costs $43–53/MWh. [9]
+- Energy from the most efficient type of natural gas plants costs $42–78/MWh. [9]
+- Coal power costs at least $60/MWh. [9]
+- IRENA reports renewable energy costs are down: solar photovoltaic panels are more than 80% cheaper than in 2009; electricity costs from solar photovoltaic panels fell by almost three-quarters from 2010–2017; costs continue to decline. [9]
+- Depending on the market, wind turbine prices have fallen by about half over a similar period, leading to cheaper wind power globally. [9]
+- By 2020, the renewable power generation technologies now in use will be at the lower end of the fossil-fuel cost range, or even cheaper than fossil fuels. [9]
+- Although renewable energy is growing, it still needs extra investment up front in comparison to non-renewable energy. [9]
+- Renewables continue to prove themselves as the most cost-competitive source of new electricity generation; on an LCOE basis, 91% of newly commissioned utility-scale renewable capacity delivered power at a lower cost than the cheapest new fossil fuel-based alternative. [10]
+- In 2024, renewables helped avoid USD 467 billion in fossil fuel costs, reinforcing their role in enhancing energy security, economic resilience, and long-term affordability. [10]
+- Total installed costs for renewable power decreased by more than 10% for all technologies between 2023 and 2024, except for offshore wind, where they remained relatively stable, and bioenergy, where they increased by 16%. [10]
+- The combination of capacity factors, market share, and financing costs led to a slight increase in the levelised cost of electricity (LCOE) for some technologies: solar PV by 0.6%, onshore wind by 3%, offshore wind by 4%, and bioenergy by 13%. [10]
+- Costs declined for CSP (-46%), geothermal (-16%), and hydropower (-2%). [10]
+- LCOE provides a simple means of comparing different technologies for producing electricity, taking account of capital costs and costs of operation, including maintenance and the purchase of any fuel needed. [11]
+- Electrical energy from renewables is cheaper than from gas; by limiting dependency on gas, a power system dominated by renewables is expected to reduce costs overall compared with the average electricity wholesale market price over the last year. [11]
+- UK government assessments of the LCOE of generation technologies since 2012 show striking reductions in the LCOE of wind turbines and solar PV panels, which fell to between £41/MWh and £48/MWh respectively for new developments in 2023. [11]
+- The cost of new conventional gas-fired generation without carbon capture rose from £103/MWh (including a carbon price of £25/MWh) in 2012 to £124/MWh (including a carbon price of £65/MWh) in 2023. [11]
+- Inflationary pressures led to a recent increase in the maximum reserve price for offshore wind in the next Contract for Difference auction to £94/MWh; this is significantly lower than the £147–£155/MWh awarded in the first round of auctions in 2015, a cost reduction driven by innovation and economies of scale; the LCOE of renewables is now much lower than that of electricity produced from gas. [11]
+- To assess the cost of reliably meeting demand for electricity, it is not enough to look only at the LCOE of a particular technology; the overall mix needed in the system and total system cost must be considered. [11]
+- Studies of total system cost, including the cost of backups to handle the variability of renewables, found that the future decarbonised power system will have a lower cost per unit of electricity than the average price in Britain's wholesale electricity market in 2023 of £127/MWh. [11]
+- The Climate Change Committee's assessment of a fully decarbonised British electricity system in 2035 considered a system based on a large share of renewable technologies reliably meeting demand, including in a four-week wind drought; it found the average system cost in 2035 to lie between £55/MWh and £73/MWh, with the range reflecting inclusion or exclusion of costs associated with hydrogen production, transport and storage, including for non-electricity related uses. [11]
+- A Royal Society study on energy storage estimated the system cost of electricity in 2050 using only wind and solar power and green hydrogen to reliably meet demand across a wide variety of conditions to be £56–£100/MWh. [11]
+- The lower cost of a renewables-dominated system relative to one based on fossil fuels stems primarily from a reduced dependency on gas; flexible use of electricity reduces the infrastructure needed and limits reliance on more expensive sources, particularly gas, during periods of high energy demand; large-scale energy storage allows stocking up on renewable energy at times of surplus relative to demand. [11]
+- Delivering a fully decarbonised electricity system will require significant investment in the network to connect electricity users to the most cost-effective sources of low-carbon power; the network needs investment whatever the dominant sources of power, as components are reaching end-of-life and need replacement, but the opportunity will need to be taken to expand capacity; how much that would all cost in comparison with a system based on a similar generation mix to today's is uncertain. [11]
+- One estimate for the transmission network from the Royal Society's report is £4/MWh in 2050, in addition to the system cost outlined above. [11]
+- The claim that the cost of providing backup for variable renewables will result in a more expensive energy system than one based on fossil fuels is incorrect; the LCOE of wind and solar energy are lower than for gas whose emissions have not been captured and much lower than for gas that deploys CCS; the estimated system cost of a renewables-dominated system is much lower than the average price paid on the electricity wholesale market over the last year. [11]
+- £127/MWh was, according to Ofgem data, the average price paid in advance, or forward price, for electricity in Britain's wholesale market across 2023; prices paid by traders vary according to demand; prices offered by producers include costs recovered by the System Operator to operate the system and by transmission network owners; the average wholesale price provides a good basis for comparison with a future system cost. [11]
+- All costs are quoted in 2023 prices using GDP deflators in accordance with the Treasury's Green Book approach to assessing social value. [11]
+
+## environmental impact of renewable and non-renewable energy sources
+
+- Environmental Effects of Renewable and Non-Renewable Energy: Data from a Few Selected Group States. [12]
+- Keywords: CO2, Energy Consumption, Pooled Mean Group, Energy Development, Auto Regressive Distributed Lag, Income Level. [12]
+- Study empirically investigates and compares the impact of renewable and nonrenewable energy on the environment for twenty countries according to their energy usage. [12]
+- Annual panel data duration: 1990 to 2022. [12]
+- Empirical outcomes for comparative analysis based on panel non-linear ARDL approach to examine the long-run and short-run relationship. [12]
+- Findings: the impact of renewable countries is much positive and far better for the environment compared to countries using fossil fuel. [12]
+- Justification: positive impact of renewable energy on the environment because these counties use good energy sources and modern environmental techniques. [12]
+- These countries have higher income and better governance than nonrenewable countries. [12]
+- Shock of income level is positive in renewable countries; countries having nonrenewable energy sources have negative effects. [12]
+- It is mandatory to improve income and energy usage level of these countries to minimize pollution. [12]
+- All energy sources have some impact on the environment. Fossil fuels—coal, oil, and fossil gas—do substantially more harm than renewable energy sources by most measures, including air and water pollution, damage to public health, wildlife and habitat loss, water use, land use, and heat-trapping emissions. [13]
+- Renewable sources such as wind, solar, geothermal, biomass, and hydropower also have environmental impacts, some of which are significant. [13]
+- The exact type and intensity of environmental impacts varies depending on the specific technology used, geographic location, and other factors; understanding current and potential issues can help avoid or minimize these impacts. [13]
+- Wind power produces no toxic pollution or global warming emissions and is clean, sustainable, abundant, inexhaustible, affordable, and a viable large-scale alternative to fossil fuels. [13]
+- Wind power generation has environmental impacts including land use issues and challenges to wildlife and habitats. [13]
+- Solar power provides a tremendous resource for clean and sustainable electricity; its environmental impacts can include land use and habitat loss, and use of hazardous materials in manufacturing, though impacts vary by scale, location, and technology (photovoltaic solar panels or concentrating solar thermal plants). [13]
+- Hydrothermal geothermal plants are located near geologic "hot spots" where hot molten rock is close to the earth's crust and produces hot water. [13]
+- Enhanced geothermal systems (hot dry rock geothermal) involve drilling into the earth's surface to reach deeper geothermal resources, allowing broader access to geothermal energy. [13]
+- Geothermal environmental impacts differ depending on the technology used to convert the resource to electricity (direct steam, flash, or binary) and the cooling technology used (water-cooled and air-cooled). [13]
+- Biomass power plants involve combustion of organic material to generate electricity, similar to fossil fuel plants, and raise similar but not identical concerns about air emissions and water use. [13]
+- Biomass feedstock is considered renewable and can be sustainably produced and regrown over a relatively short period, while fossil fuels are non-renewable. [13]
+- Biomass sources are diverse, including energy crops (like switchgrass), agricultural residues, manure, residues from paper mills, logging, and other forest industry activity, and urban waste; both the type of feedstock and the manner in which it is developed and harvested significantly affect land use and life-cycle global warming emissions. [13]
+- Hydropower includes massive hydroelectric dams, small run-of-the-river plants, and everything in between; additional large-scale hydroelectric dams are unlikely to be built in the United States because of environmental concerns. [13]
+- The future of hydropower in the United States likely involves increased capacity at current dams and new run-of-the-river projects; environmental impacts exist at both types of plants, but impacts can be reduced or avoided by modifications to comply with low-impact certification programs. [13]
+- Hydrokinetic energy includes wave and tidal power, with many technologies still experimental or in early deployment; actual impacts of large-scale operations have not been observed, but a range of potential impacts can be projected. [13]
+- Renewable energy produces far less greenhouse gases (GHGs) than fossil fuel resources like coal, oil, and natural gas; in some cases, renewable sources produce no GHGs at all once they are up and running. [14]
+- Any form of energy generation will come with environmental impacts; to achieve a low-carbon future, it's important to understand the effects of these energy resources and assess which solution best fits a given location, community, and stakeholder goals. [14]
+- Initial impacts of renewable energy sites: producing parts and constructing renewable energy systems often involve energy-intensive processes, such as manufacture of iron, steel, glass, and composite materials for turbines; solutions to reduce these impacts include longer lifetimes, larger power capacities, and higher recycling rates. [14]
+- Clearing land for energy projects can have both initial and long-term effects on native habitats; the wider environmental impact of any potential site should be assessed prior to installation, and using land already in use—such as solar energy systems on farms—may help mitigate impacts and provide economic value to local communities. [14]
+- Long-term environmental impacts vary based on location and technology. [14]
+- Wind energy sites produce no GHG emissions once established, but can impact bird and bat populations: direct collisions with turbine rotors, disruption of migration routes, and impact on habitat quality; mitigation includes screening sites for animal activity, monitoring activity/mortality, slowing or stopping operation during high activity, and deterrent technologies. [14]
+- Offshore wind sites can impact marine environments: noise and vibration during operation can be disruptive or damaging to fish, mammals, and other marine species; the presence of offshore energy projects may alter local hydrodynamics, disrupt species distribution and life cycle stages, and increase vessel traffic. [14]
+- Poorly planned hydropower projects can create problems for local ecosystems: dams can disrupt fish migrations, and reservoirs can emit large amounts of greenhouse gases; mitigation includes fish ladders for native species to migrate upstream and exploration of new technologies such as methane-capture. [14]
+- End-of-life impacts: solar panels can contain materials harmful at high levels, like lead and cadmium; batteries used in energy storage may contain hazardous chemicals such as lithium and lead; safe recycling, disposal, and transportation of retired equipment is a crucial part of responsibly managing energy systems, renewable or not. [14]
+- Renewable energy projects are critical to climate-related goals and resilience, but like any human action they come with their own costs; continued research and assessments are vital to understand potential ecological impacts, anticipate risks and uncertainties, and adopt mitigation measures, ensuring the energy sector operates sustainably. [14]
+- Renewable energy sources — such as sunlight, wind, water, organic waste, and heat from the Earth — are abundant, replenished by nature, and emit little to no greenhouse gases or air pollutants. [15]
+- Most of the greenhouse gases that trap heat in the Earth's atmosphere come from burning fossil fuels to produce energy, mainly for electricity and heat. [15]
+- In 2023, the power sector was the largest source of global greenhouse gas emissions. [15]
+- The science is clear: to avoid the worst impacts of climate change, emissions must be reduced by almost half by 2030, and reach net-zero by 2050. [15]
+- To achieve this, we need to end our reliance on fossil fuels and invest in alternative sources of energy that are clean, accessible, affordable, sustainable, and reliable. [15]
+- Fossil fuels still account for nearly 60 per cent of electricity generation, but cleaner sources of energy are gaining ground. [15]
+- Between 2015 and 2024, annual electricity capacity of renewables increased by around 2,600 GW — a 140 per cent increase; fossil fuels electricity capacity only increased by around 640 GW (16 per cent). [15]
+- IRENA estimates that 90 percent of the world's electricity can and should come from renewable energy by 2050. [15]
+- Cheap electricity from renewable sources could provide 65 per cent of the world's total electricity supply by 2030. It could decarbonize 90 per cent of the power sector by 2050, massively cutting carbon emissions and helping to mitigate climate change. [15]
+- According to WHO, about 99 percent of people in the world breathe air that exceeds air quality limits and threatens their health. Air pollution is associated with 7 million premature deaths every year. [15]
+- The unhealthy levels of fine particulate matter and nitrogen dioxide originate mainly from the burning of fossil fuels. [15]
+- The economic health damage caused by air pollution amounts to $8.1 trillion a year, equivalent to 6.1 per cent of global GDP. [15]
+- Switching to clean sources of energy, such as wind and solar, helps address not only climate change but also air pollution and health. [15]
+- Energy-related carbon dioxide emissions are growing more slowly than the global economy. Emissions growth slowed to 0.8 per cent in 2024, while the global economy expanded by more than 3 per cent. [15]
+- The fossil fuel industry continues to be heavily subsidized. About $7 trillion was spent on fossil fuels in 2022, including through explicit subsidies, tax breaks, and health and environmental damages that were not priced into the cost of fossil fuels. [15]
+- About $4.5 trillion a year needs to be invested in renewable energy until 2030 — including investments in technology and infrastructure — to allow us to reach net-zero emissions by 2050. [15]
+- The reduction of pollution and climate impacts could save the world up to $4.2 trillion per year by 2030. [15]
+
+## reliability of renewable and non-renewable energy sources for providing power all the time
+
+- Reliability: Conventional energy sources can provide continuous power output, while some renewable sources depend on weather conditions. [16]
+- Non-renewable resources remain widely used because they provide reliable energy. [16]
+- Non-renewable advantage: Reliable Supply — provides energy regardless of weather conditions. [16]
+- Non-renewable advantage: High Energy Output — generates large amounts of power. [16]
+- Non-renewable advantage: Easy Storage — fuels can be stored and transported efficiently. [16]
+- Non-renewable advantage: Established Infrastructure — backed by extensive global energy networks. [16]
+- Non-renewable limitation: Resource Depletion — supplies are finite and will eventually decline. [16]
+- Fossil fuels form over millions of years from organic matter, making their replenishment much slower than current consumption rates. [16]
+- Non-renewable resources like coal, oil, and natural gas are finite and take millions of years to form. [16]
+- Availability: Renewable resources replenish naturally, while non-renewable resources are limited. [16]
+- Renewable resources such as sunlight, wind, and flowing water are naturally replenished and can be used repeatedly. [16]
+- Renewable advantage: Sustainable Supply — replenishes naturally over time. [16]
+- Renewable energy supports long-term energy needs and long-term sustainability. [16]
+- Sustainability Perspective: Renewable resources naturally replenish, making them more suitable for long-term energy needs. [16]
+- Energy Security Perspective: A diverse energy mix that includes both renewable and non-renewable sources can improve energy resilience. [16]
+- Conclusion: Renewable resources support long-term energy security, while non-renewable resources continue to provide reliable power. [16]
+- Renewable energy helps improve energy security and support long-term sustainability by relying on naturally replenishing resources. [16]
+- Major renewable resources include solar, wind, hydropower, biomass, and geothermal. [16]
+- Primary non-renewable resources include coal, petroleum, natural gas, and nuclear. [16]
+- Nuclear energy produces electricity using uranium, a finite resource. [16]
+- Renewable energy sources make important contributions to the country's electricity mix and help keep the lights on in a cost-effective manner for millions of American families and businesses. [17]
+- No energy source is capable of generating electricity 100 percent of the time. [17]
+- Continuing to invest in wind and solar, as well as battery storage, will result in more market flexibility and predictability, both of which contribute to a reliable energy grid. [17]
+- Renewable systems are reliable, even at night and on windless days. [18]
+- A common fallacy is that renewable energy cannot be relied upon to satisfy electricity demand because the sun does not always shine and the wind does not always blow. [18]
+- Cost-effective energy storage technologies, such as new generation batteries, are often mistakenly portrayed as the Holy Grail: sought by many, found by none. [18]
+- This argument is incorrect and misses the point: reliability is not a function of individual generation technologies, but a function of the electricity system as a whole. [18]
+- "Renewable energy" is not a single energy source, but roughly six: solar, wind, biomass, geothermal, hydro, and ocean; only wind and solar are "variable," while the rest are "dispatchable" and can be dialed up or down when needed. [18]
+- "Baseload" is not essential. [18]
+- A second fallacy assumes that utility models favouring a steady "baseload" of electricity from nuclear and fossil fuels are the only way to ensure that when we flip the switch the lights come on. [18]
+- Nuclear and coal-fired power plants by definition provide baseload electricity because that is what they are designed to do; given heavy upfront investment costs, these types of plants are designed to supply a lot of electricity, all the time. [18]
+
+---
+
+References:
+1. Difference Between Renewable and Non-Renewable Energy - https://vishakharenewables.com/blog/difference-between-renewable-and-nonrenewable-energy
+2. Renewable vs Non-Renewable Resources Key Differences - WRS - https://www.worldwide-rs.com/blog/renewable-vs-non-renewable-resources-key-differences
+3. The Difference Between Renewable and Non-Renewable Resources | NES Fircroft - https://www.nesfircroft.com/resources/blog/the-difference-between-renewable-and-non-renewable-resources
+4. Renewable Energy vs Sustainable Energy - https://energy.sais.jhu.edu/articles/renewable-energy-vs-sustainable-energy
+5. Renewable and Non-Renewable Energy Sources and ... - https://www.uakron.edu/economics/academics/senior-projects/2021/NelsonJSeniorProjectSpring2021.pdf
+6. What it Costs to Go 100 Percent Renewable - AAF - https://www.americanactionforum.org/research/what-it-costs-go-100-percent-renewable
+7. Renewable energy: Costs - House of Lords Library - https://lordslibrary.parliament.uk/renewable-energy-costs
+8. Cost of electricity by source - Wikipedia - https://en.wikipedia.org/wiki/Cost_of_electricity_by_source
+9. The Cost of Renewable Energy Versus Fossil Fuels – Nature's Path - https://naturespath.com/blogs/posts/cost-renewable-energy-versus-fossil-fuels
+10. Renewable Power Generation Costs in 2024 - https://www.irena.org/Publications/2025/Jun/Renewable-Power-Generation-Costs-in-2024
+11. How cost-effective is a renewables-dominated electricity system in comparison to one based on fossil fuels? | Grantham Institute – Climate Change and the Environment | Imperial College London - https://www.imperial.ac.uk/grantham/publications/background-briefings/how-cost-effective-is-a-renewables-dominated-electricity-system-in-comparison-to-one-based-on-fossil-fuels
+12. Environmental Effects of Renewable and Non ... - https://econjournals.com/index.php/ijeep/article/view/18233
+13. Environmental Impacts of Renewable Energy Technologies | Union of Concerned Scientists - https://www.ucs.org/resources/environmental-impacts-renewable-energy-technologies
+14. Environmental Impacts of Renewable Energy Sources | ADEC ESG - https://www.adecesg.com/resources/blog/environmental-impacts-of-renewable-energy-sources
+15. Renewable energy – powering a safer future | United Nations - https://www.un.org/en/climatechange/raising-ambition/renewable-energy
+16. Renewable vs Non-Renewable Energy | Key Differences | HFE - https://www.herofutureenergies.com/blog/renewable-energy-vs-non-renewable-energy-key-differences-explained
+17. Renewable Energy Makes the Grid More Reliable | ACP - https://cleanpower.org/resources/gridreliability
+18. The Reliability of Renewable Energy Systems Why the Conventional Wisdom Is Wrong - https://www.irena.org/newsroom/articles/2015/Dec/The-Reliability-of-Renewable-Energy-Systems-Why-the-Conventional-Wisdom-Is-Wrong

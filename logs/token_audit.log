@@ -1,0 +1,12 @@
+=== ALL-TIME TOTAL ===
+Runs: 10
+Tokens: 447137  (in: 172846, out: 274291)
+Estimated cost: $0.1010  (see PRICING note in audit.py)
+Tool calls: web_access=31, scrape=74
+
+=== DAILY BREAKDOWN (most recent first) ===
+2026-10-03  runs:   2  tokens:   116106  cost: $0.0256  tools: web_access=7, scrape=27
+2026-10-01  runs:   4  tokens:   278160  cost: $0.0663  tools: web_access=12, scrape=41
+2026-09-20  runs:   1  tokens:    10381  cost: $0.0017  tools: web_access=2, scrape=2
+2026-09-19  runs:   2  tokens:    24097  cost: $0.0041  tools: web_access=7, scrape=1
+2026-09-15  runs:   1  tokens:    18393  cost: $0.0033  tools: web_access=3, scrape=3

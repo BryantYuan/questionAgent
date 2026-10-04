@@ -1,0 +1,512 @@
+2026-10-01 08:41:43,991 [INFO] Provider: deepseek
+2026-10-01 08:41:43,992 [INFO] Mode: research
+2026-10-01 08:41:43,993 [INFO] Question: Make a poster about the water cycle. It needs to show the main stages, explain why the water cycle matters for life on earth, and include one real example of the water cycle being disrupted (e.g. a drought).
+2026-10-01 08:41:54,673 [INFO] PLAN clauses=['Make a poster about the water cycle', 'show the main stages', 'explain why the water cycle matters for life on earth', 'include one real example of the water cycle being disrupted', 'e.g. a drought'] restatement='The student wants a poster on the water cycle that presents its main stages, explains why it matters for life on Earth, and gives one real example of the water cycle being disrupted, such as a drought.' goals=['water cycle poster', 'main stages of the water cycle', 'water cycle importance for life on Earth', 'real example of water cycle disruption', 'drought as water cycle disruption example']
+2026-10-01 08:41:54,674 [INFO] CALL web_access(query='water cycle poster')
+2026-10-01 08:41:58,008 [INFO] RESULT web_access -> 4 result(s)
+2026-10-01 08:41:58,008 [INFO] CALL scrape(url='https://www.usgs.gov/media/files/water-cycle-poster-pdf')
+2026-10-01 08:42:23,231 [INFO] SHRINK goal='water cycle poster' url='https://www.usgs.gov/media/files/water-cycle-poster-pdf' kept=4119 chars
+2026-10-01 08:42:23,231 [INFO] CALL scrape(url='https://www.amazon.com/water-cycle-poster/s?k=water+cycle+poster')
+2026-10-01 08:43:19,367 [INFO] SHRINK goal='water cycle poster' url='https://www.amazon.com/water-cycle-poster/s?k=water+cycle+poster' kept=3228 chars
+2026-10-01 08:43:19,368 [INFO] CALL scrape(url='https://store.projectwet.org/products/water-cycle-poster')
+2026-10-01 08:43:33,877 [INFO] SHRINK goal='water cycle poster' url='https://store.projectwet.org/products/water-cycle-poster' kept=566 chars
+2026-10-01 08:43:33,878 [INFO] CALL scrape(url='https://www.noaa.gov/jetstream/jetstream/jetstream-max-water-cycle-poster')
+2026-10-01 08:43:43,055 [INFO] SHRINK goal='water cycle poster' url='https://www.noaa.gov/jetstream/jetstream/jetstream-max-water-cycle-poster' kept=366 chars
+2026-10-01 08:43:43,056 [INFO] CALL web_access(query='main stages of the water cycle')
+2026-10-01 08:43:44,423 [INFO] RESULT web_access -> 4 result(s)
+2026-10-01 08:43:44,423 [INFO] CALL scrape(url='https://www.projesan.com/en/blog/do-you-know-what-the-water-cycle-is')
+2026-10-01 08:44:00,112 [INFO] SHRINK goal='main stages of the water cycle' url='https://www.projesan.com/en/blog/do-you-know-what-the-water-cycle-is' kept=1654 chars
+2026-10-01 08:44:00,113 [INFO] CALL scrape(url='https://www.apecwater.com/blogs/news/resource-water-cycle-student-guide')
+2026-10-01 08:44:16,458 [INFO] SHRINK goal='main stages of the water cycle' url='https://www.apecwater.com/blogs/news/resource-water-cycle-student-guide' kept=3044 chars
+2026-10-01 08:44:16,458 [INFO] CALL scrape(url='https://www.youtube.com/watch?v=TD3XSIE4ymo')
+2026-10-01 08:45:00,303 [INFO] SHRINK goal='main stages of the water cycle' url='https://www.youtube.com/watch?v=TD3XSIE4ymo' kept=838 chars
+2026-10-01 08:45:00,304 [INFO] CALL scrape(url='https://www.noaa.gov/education/resource-collections/freshwater/water-cycle')
+2026-10-01 08:45:08,691 [INFO] SHRINK goal='main stages of the water cycle' url='https://www.noaa.gov/education/resource-collections/freshwater/water-cycle' kept=411 chars
+2026-10-01 08:45:08,691 [INFO] CALL web_access(query='water cycle importance for life on Earth')
+2026-10-01 08:45:10,121 [INFO] RESULT web_access -> 4 result(s)
+2026-10-01 08:45:10,121 [INFO] CALL scrape(url='https://atlas-scientific.com/blog/why-is-the-water-cycle-important')
+2026-10-01 08:45:23,454 [INFO] SHRINK goal='water cycle importance for life on Earth' url='https://atlas-scientific.com/blog/why-is-the-water-cycle-important' kept=903 chars
+2026-10-01 08:45:23,454 [INFO] CALL scrape(url='https://encounteredu.com/multimedia/images/why-is-the-water-cycle-important-to-us')
+2026-10-01 08:45:30,757 [INFO] SHRINK goal='water cycle importance for life on Earth' url='https://encounteredu.com/multimedia/images/why-is-the-water-cycle-important-to-us' kept=269 chars
+2026-10-01 08:45:30,758 [INFO] CALL scrape(url='https://gpm.nasa.gov/resources/faq/why-are-water-cycle-processes-important')
+2026-10-01 08:45:58,106 [INFO] SHRINK goal='water cycle importance for life on Earth' url='https://gpm.nasa.gov/resources/faq/why-are-water-cycle-processes-important' kept=2445 chars
+2026-10-01 08:45:58,106 [INFO] CALL scrape(url='https://www.whoi.edu/ocean-learning-hub/ocean-topics/how-the-ocean-works/cycles/water-cycle')
+2026-10-01 08:46:19,638 [INFO] SHRINK goal='water cycle importance for life on Earth' url='https://www.whoi.edu/ocean-learning-hub/ocean-topics/how-the-ocean-works/cycles/water-cycle' kept=2511 chars
+2026-10-01 08:46:19,638 [INFO] CALL web_access(query='real example of water cycle disruption')
+2026-10-01 08:46:20,669 [INFO] RESULT web_access -> 4 result(s)
+2026-10-01 08:46:20,670 [INFO] CALL scrape(url='https://www.nasa.gov/earth/nasa-scientists-find-new-human-caused-shifts-in-global-water-cycle')
+2026-10-01 08:46:32,350 [INFO] SHRINK goal='real example of water cycle disruption' url='https://www.nasa.gov/earth/nasa-scientists-find-new-human-caused-shifts-in-global-water-cycle' kept=1040 chars
+2026-10-01 08:46:32,350 [INFO] CALL scrape(url='https://thewaterproject.org/resources/the_water_cycle')
+2026-10-01 08:46:51,159 [INFO] SHRINK goal='real example of water cycle disruption' url='https://thewaterproject.org/resources/the_water_cycle' kept=960 chars
+2026-10-01 08:46:51,160 [INFO] CALL scrape(url='https://www.nbcnews.com/science/science-news/climate-change-throwing-water-cycle-chaos-us-rcna137892')
+2026-10-01 08:47:24,308 [INFO] SHRINK goal='real example of water cycle disruption' url='https://www.nbcnews.com/science/science-news/climate-change-throwing-water-cycle-chaos-us-rcna137892' kept=4116 chars
+2026-10-01 08:47:24,309 [INFO] CALL scrape(url='https://www.sciencelearn.org.nz/resources/726-humans-and-the-water-cycle')
+2026-10-01 08:47:42,220 [INFO] SHRINK goal='real example of water cycle disruption' url='https://www.sciencelearn.org.nz/resources/726-humans-and-the-water-cycle' kept=3019 chars
+2026-10-01 08:47:42,221 [INFO] CALL web_access(query='drought as water cycle disruption example')
+2026-10-01 08:47:43,280 [INFO] RESULT web_access -> 4 result(s)
+2026-10-01 08:47:43,280 [INFO] CALL scrape(url='https://education.nationalgeographic.org/resource/understanding-droughts')
+2026-10-01 08:48:10,117 [INFO] SHRINK goal='drought as water cycle disruption example' url='https://education.nationalgeographic.org/resource/understanding-droughts' kept=2643 chars
+2026-10-01 08:48:10,117 [INFO] CALL scrape(url='https://wmo.int/news/media-centre/from-drought-deluge-wmo-report-highlights-increasingly-erratic-water-cycle')
+2026-10-01 08:48:29,009 [INFO] SHRINK goal='drought as water cycle disruption example' url='https://wmo.int/news/media-centre/from-drought-deluge-wmo-report-highlights-increasingly-erratic-water-cycle' kept=2328 chars
+2026-10-01 08:48:29,009 [INFO] CALL scrape(url='https://ec.europa.eu/environment/stories/water-cycle')
+2026-10-01 08:49:01,467 [INFO] SHRINK goal='drought as water cycle disruption example' url='https://ec.europa.eu/environment/stories/water-cycle' kept=2274 chars
+2026-10-01 08:49:01,468 [INFO] WRITER INPUT:
+The student's question:
+
+Make a poster about the water cycle. It needs to show the main stages, explain why the water cycle matters for life on earth, and include one real example of the water cycle being disrupted (e.g. a drought).
+
+My understanding of the question:
+
+The student wants a poster on the water cycle that presents its main stages, explains why it matters for life on Earth, and gives one real example of the water cycle being disrupted, such as a drought.
+
+RESEARCH NOTES, grouped by what needed to be found out. Each note shows where it came from:
+
+Goal: water cycle poster
+- [1] - El Ciclo del Agua - The Water Cycle, Spanish (PNG)
+- English is the official language and authoritative version of all federal information.
+- This 26x38-inch poster, released in 2022, depicts the global water cycle; it shows how human water use affects where water is stored, how it moves, and how clean it is.
+- This diagram is available in English and Spanish.
+- For each language, the diagram is available as an image (PNG), as a 26x38-inch poster (PDF), as a 8.5x11-inch handout (PDF), and as a 8.5x11-inch fill-in-the-blank worksheet (PDF).
+- A comprehensive text description of the diagram is also available.
+- Visit the USGS Water Science School for definitions and more information about the water cycle.
+- The diagram was created by the USGS VizLab, in collaboration with the USGS Water Resources Mission Area Web Communications Branch, for the USGS Water Science School.
+- Diagram text: The water cycle describes where water is found on Earth and how it moves; water can be stored in the atmosphere, on Earth’s surface, or below the ground; it can be liquid, solid, or gaseous; water moves between the places it is stored at large scales and very small scales, naturally and because of human interaction, both of which affect where water is stored, how it moves, and how clean it is.
+- Liquid water can be fresh, saline (salty), or a mix (brackish); ninety-six percent of all water is saline and stored in oceans; places like the ocean, where water is stored, are called pools.
+- On land, saline water is stored in saline lakes, whereas fresh water is stored in liquid form in freshwater lakes, artificial reservoirs, rivers, wetlands, and in soil as soil moisture.
+- Deeper underground, liquid water is stored as groundwater in aquifers, within the cracks and pores of rock.
+- The solid, frozen form of water is stored in ice sheets, glaciers, and snowpack at high elevations or near the Earth’s poles; frozen water is also found in the soil as permafrost.
+- Water vapor, the gaseous form of water, is stored as atmospheric moisture over the ocean and land.
+- As it moves, water can transform into a liquid, a solid, or a gas; the different ways in which water moves between pools are known as fluxes.
+- Circulation mixes water in the oceans and transports water vapor in the atmosphere.
+- Water moves between the atmosphere and the Earth’s surface through evaporation, evapotranspiration, and precipitation.
+- Water moves across the land surface through snowmelt, runoff, and streamflow.
+- Through infiltration and groundwater recharge, water moves into the ground; when underground, groundwater flows within aquifers and can return to the surface through springs or from natural groundwater discharge into rivers and oceans.
+- Humans alter the water cycle: we redirect rivers, build dams to store water, and drain water from wetlands for development.
+- We use water from rivers, lakes, reservoirs, and groundwater aquifers.
+- We use that water to supply our homes and communities; for agricultural irrigation and grazing livestock; and in industrial activities like thermoelectric power generation, mining, and aquaculture.
+- The amount of available water depends on how much water is in each pool (water quantity); water availability also depends on when and how fast water moves (water timing), how much water is used (water use), and how clean the water is (water quality).
+- Human activities affect water quality: in agricultural and urban areas, irrigation and precipitation wash fertilizers and pesticides into rivers and groundwater; power plants and factories return heated and contaminated water to rivers; runoff carries chemicals, sediment, and sewage into rivers and lakes.
+- Downstream from these types of sources, contaminated water can cause harmful algal blooms, spread diseases, and harm habitats.
+- Climate change is also affecting the water cycle; it affects water quality, quantity, timing, and use; climate change is also causing ocean acidification, sea level rise, and extreme weather.
+- Understanding these impacts can allow progress toward sustainable water use.
+- Public Domain.
+- [2] - Amazon search results page for “water cycle poster.”
+- Check each product page for other buying options. Price and other details may vary based on product size and color.
+- Toddler Educational the Water Cycle Wall Hanging Decor Art Framed for Kid Nursery Room Classroom, School Poster Prints — NZD 17.68, typical NZD 22.99; NZD 18.46 delivery Thu, Oct 15; ships to New Zealand; only 12 left in stock - order soon. Also NZD 17.68 with NZD 20.98 delivery Thu, Oct 15; Small Business. Also NZD 15.91 with NZD 19.29 delivery Thu, Oct 15; only 10 left in stock - order soon.
+- Overall Pick / Amazon's Choice: Overall Pick; products highlighted as Overall Pick are rated 4+ stars, purchased often, returned infrequently.
+- Pajean 12 Pcs Earth Science Classroom Decor Geography Learning Chart Poster 17x11 Inch Earth Science Environmental Poster, Water Cycle Volcano Earthquake Plate Tectonics, Teaching Aid for Student Teacher — 50+ bought in past month; Save 5% on 2 select item(s); NZD 24.94 delivery Thu, Oct 15; or fastest delivery Thu, Oct 8. Also appears under Sponsored | From Amazon Influencer storefronts.
+- Decorably 16 Energy Physical Science Posters for Classroom Decor, 11x16in Educational Physics Science Classroom Decor, Matte-Laminated Finish - for School Hallways, Bulletin Boards, Home Study Room — 100+ bought in past month; NZD 24.76, NZD 1.54/count; NZD 25.35 delivery Thu, Oct 15; or fastest delivery Wed, Oct 7.
+- Pasimy 11 Pcs Science Biology Posters Classroom Ecosystems Teaching Poster Ecosystems Biological Food Chain Bulletin Board for Classroom Decoration Teacher Middle High School Educational Library Home — 50+ bought in past month; Join Prime to buy this item at NZD 11.75; NZD 20.07 delivery Thu, Oct 15; or fastest delivery Fri, Oct 9.
+- 12 Pack Science Posters for Classroom, Earth & Planet Education Science Classroom Decor for Middle School Teachers and Students, Ideal for Learning and Bulletin Boards, 11x17in — 50+ bought in past month; Save 8% on 2 select item(s); NZD 27.17 delivery Thu, Oct 15; or fastest delivery Thu, Oct 8.
+- 12 Pack 17x11 Science Classroom Educational Charts Decor - Earth Science, Scientific Method, Solar System, Matter, Etc. — 200+ bought in past month; NZD 35.23; NZD 22.39 delivery Thu, Oct 15.
+- Educational Charts & Posters, Waterproof, Science Decor for Homeschool, Hallways, Home Study Room, Educational Center — NZD 15.91, NZD 1.13/count; Save 10% 10% off coupon applied; NZD 28.73 delivery Thu, Oct 15.
+- Middle School, 11x17in Educational, Matte-Laminated for Hallways, Bulletin Boards, Home Study Corner — 300+ bought in past month; NZD 21.22, NZD 1.52/count; NZD 23.56 delivery Thu, Oct 15.
+- Available filters include Free Shipping by Amazon, Customer Reviews, Frame Type, Wall Art Form, Height, Room Type, Style, Condition, Deals & Discounts, Paint Type, Purpose, Weight, Shape, Mounting Type, Pattern, Finish, Occasion, Sustainability Features, Customizable.
+- Sustainability features: made with materials from well-managed forests, recycled materials, and/or other controlled wood sources. Forest Stewardship Council (FSC) certified products are made with materials from well-managed forests, recycled materials and/or other controlled wood sources.
+- [3] - The water cycle poster is a tool for teachers to educate children about the water cycle.
+- The 23.5-by-33-inch poster explores condensation, evaporation, evapotranspiration, infiltration, ground water, precipitation, runoff, surface flow and transpiration.
+- It includes a full-system diagram; definitions; discussion of water in the three states of matter; and student questions.
+- The poster is rolled and shipped safely in a poster tube.
+- A PDF version of this water cycle poster is available for purchase to project onto a screen during classroom instruction.
+- [4] - JetStream Max: Water Cycle Poster
+- High quality posters English: 8½ x 11", 11 x 17", 2 x 3' | Spanish: 8½ x 11", 11 x 17", 2 x 3'
+- Line Art - English: 8½ x 11", 11 x 17" | Spanish: 8½ x 11", 11 x 17"
+- Line Art (no labels) - English: 8½ x 11", 11 x 17" | Spanish: 8½ x 11", 11 x 17"
+- Quiz version - English: 8½ x 11" | Spanish: 8½ x 11"
+- Select Citation Format
+
+Goal: main stages of the water cycle
+- [5] - Water can be found in different states; the passage from one to the other is what characterizes the hydrological cycle, and this constant movement occurs with the aid of the Sun and gravity.
+- The main stages of the water cycle are: evaporation, condensation, precipitation, infiltration, transpiration, and sublimation.
+- Evaporation is the first stage: water goes from a liquid state into a gaseous state; in nature this occurs slowly and gradually and is especially influenced by temperature and solar irradiation, with higher temperature making evaporation faster.
+- Condensation is the second stage: after evaporating and reaching a gaseous state, water vapor reaches the atmosphere and returns to its liquid form; clouds form as suspended water droplets come together, getting bigger and heavier.
+- Precipitation: the water droplets that came together return to Earth’s surface as rain; this is the time for the release of rain.
+- Infiltration: rain falls somewhere, whether on the Earth’s surface, in rivers, or seas, but infiltration concerns its absorption by the soil; this forms groundwater, aquifers, and other groundwater sources. The water absorbed by the soil also helps form natural “reserves” and irrigates plants through their roots; the excess is released during the perspiration phase.
+- Transpiration, like evaporation, is the transformation of liquid water into vapor.
+- Sublimation: water leaves the solid state into the gaseous state — it passes directly from ice to vapor; this may not be as noticeable in everyday life but is common in glaciers at the North Pole, and the water vapor produced is transferred to the atmosphere.
+- [6] - The water cycle, also known as the hydrologic cycle, is the continuous movement of water on, above, and below the surface of the Earth.
+- It involves the exchange of heat energy, which leads to changes in temperature and moisture levels in the atmosphere, oceans, and land.
+- The water cycle is driven by solar energy and involves several stages including evaporation, transpiration, condensation, precipitation, infiltration, and runoff.
+- These stages are connected, and water can move from one stage to the next, eventually returning to oceans and other bodies of water where the cycle starts again.
+- The 7 stages of the water cycle are: evaporation, condensation, sublimation, precipitation, transpiration, runoff, and infiltration.
+- Evaporation: water at the surface turns into water vapor; water absorbs heat energy from the sun; oceans, seas, lakes, and rivers are the main source; water moves from hydrosphere to atmosphere; as water evaporates it reduces the temperature of those water bodies.
+- Condensation: water vapor rises into the atmosphere; at high altitudes it changes into very tiny particles of ice/water droplets because of low temperature; these particles come close together and form clouds and fogs in the sky.
+- Sublimation: ice directly converts into water vapor without converting into liquid water; this phenomenon accelerates when the temperature is low or pressure is high; main sources are the ice sheets of the North Pole and South Pole and ice caps on mountains; sublimation is slower than evaporation.
+- Precipitation: clouds pour down as precipitation due to wind or temperature change; water droplets combine to make bigger droplets, so when the air cannot hold any more water it precipitates; at high altitudes the droplets lose their heat energy; droplets fall as rain, or as snow if below 0 degrees; water could also precipitate as drizzle, sleet, and hail; water enters lithosphere by landing upon the earth.
+- Transpiration: some precipitated water is absorbed by the soil and enters transpiration; transpiration is similar to evaporation where liquid water is turned into water vapor by plants; roots absorb water and push it toward leaves where it is used for photosynthesis; extra water is moved out of leaves through stomata as water vapor; water enters the biosphere and exits into a gaseous phase.
+- Runoff: water runs over the surface of the earth; when snow melts into water it also leads to runoff; as water runs over the ground it displaces the top soil and moves minerals along with the stream; runoff combines to form channels, rivers, and ends up into lakes, seas, and oceans; water enters the hydrosphere.
+- Infiltration: any water that doesn't run directly to bodies of water or get quickly evaporated will be absorbed by plants and soil, where it may be driven deeper to the earth; water seeps down and increases the level of the ground water table; underground water tables typically provide pure clean water; infiltration is measured as inches of water-soaked by the soil per hour.
+- [7] - The earth has a certain amount of water that moves around the earth in different states and phases.
+- The first stage is evaporation: the sun heats water in oceans, lakes, and other bodies of water to the point that it turns into gas, and that gas evaporates into the air.
+- Transpiration is similar to evaporation and occurs when plant leaves release water as water vapor into the air.
+- Condensation is the third step: vapor in the air gets cold and changes back into a liquid; this is how a cloud forms and why you see foggy mirrors after a hot shower.
+- When clouds have too much water and get too heavy, it rains; this is called precipitation, the final stage of the cycle.
+- Then the whole cycle starts all over again.
+- Review answer names evaporation, transpiration, condensation, and precipitation as stages of the water cycle.
+- [8] - The water cycle is often taught as a simple, circular cycle of evaporation, condensation, and precipitation.
+- Although this can be a useful model, the reality of the cycle is much more complicated.
+- Water has three phases (solid, liquid, and gas).
+- In these three phases, water ties together the major parts of the Earth’s climate system — air, clouds, the ocean, lakes, vegetation, snowpack, and glaciers.
+
+Goal: water cycle importance for life on Earth
+- [9] - The water cycle is a continuous and vital movement across our planet and is essential to all life on Earth.
+- It is a circular process involving evaporation, condensation, and precipitation.
+- Understanding why the water cycle is important tells us how Earth functions and helps with increasing challenges on our blue planet.
+- The water cycle is one of Earth’s most valuable systems.
+- Its importance spans far beyond providing municipal water supplies to communities: it regulates climate, supports ecosystems and all life on Earth, enables human civilization, and shapes landscapes.
+- Water covers more than half of our planet and is among Earth’s most useful and unique resources.
+- Water can be solid, liquid, or gas under different conditions; this property allows the water cycle to work as the fundamental engine that can power all life.
+- Without the water cycle, life would simply not exist.
+- [10] - All life on Earth needs water.
+- Water is so important that when searching for life on other planets, the first thing we look for is liquid water.
+- Water changes to a gas and solid as part of the water cycle; without this happening, we wouldn’t have any fresh water.
+- [11] - The water cycle is an extremely important process because it enables the availability of water for all living organisms and regulates weather patterns on our planet; if water didn’t naturally recycle itself, we would run out of clean water, which is essential to life.
+- Climate changes include differences in temperature and precipitation patterns around the globe, bringing anticipated and unanticipated consequences that have a profound impact on people around the world.
+- Changing extremes in precipitation and temperature are leading to a decline in species diversity, modification to ecosystems and animal habitats, as well as changing how some species interact with each other.
+- Decision makers are using NASA Earth observations to reduce risks from natural disasters and build climate resilience, including index-based insurance products to protect low-income customers in Central America, especially the Dry Corridor.
+- India is among the world’s most water-scarce countries, meaning it does not have enough freshwater resources to meet the needs of all the people who live there; mismanagement of water resources has largely contributed to the country’s limited water supplies.
+- Growing competition over finite water resources will have serious implications for Indian farmers and India’s food security; more than 70% of India’s population rely on agriculture as a source of livelihood.
+- Droughts and dry, arid conditions in Australia are conducive to wildfires; the 2019-2020 wildfire season was especially bad, with upwards of 46 million acres burned.
+- Rainfall was scarce across much of the country in September, pushing the eastern and southern thirds of the country into drought conditions.
+- Accurate and reliable precipitation records are crucial to understanding trends and variability and for water management resources, food security, ecological management, and weather, climate and hydrological forecasting.
+- Monsoon rains provide important reservoirs of water that sustain human activities like agriculture and support the natural environment through replenishment of aquifers; however, too much rainfall routinely causes disasters in the region.
+- The United States has seen drenching rains in the eastern half and persistent drought in the west; a visualization of rainfall data shows the contrast for the first half of 2015, including heavy rainfall in Northern Texas/Oklahoma and drought in Southern California.
+- [12] - Water covers 70% of Earth’s surface and plays a vital role in everything from cellular function to climate.
+- Water is vital for life on Earth, and it plays an essential role in regulating climate.
+- When water evaporates, it absorbs heat and cools Earth’s surface; the vapor releases heat as it condenses into clouds, and water vapor traps the sun’s heat, creating a greenhouse effect that helps warm the planet—without it, Earth would be a ball of ice.
+- On regional and local scales, the availability of water supports ecosystems and human activities such as agriculture and manufacturing.
+- Changes to the water cycle can have profound consequences for society; major shifts in precipitation patterns likely led to the downfall of ancient civilizations around the world, from Angkor to Mesoamerica to the Indus Valley.
+- Groundwater flows from land to sea, mixing with saltwater underground; though just 5% of ocean inflow, it can carry high chemical loads that impact coasts.
+- The ocean water cycle is the marine branch of Earth’s water cycle; as the primary source of atmospheric moisture, it plays a crucial role in shaping global precipitation patterns and regulating climate.
+- A warming climate increases evaporation and adds more water vapor to the atmosphere, and a warmer atmosphere can hold more water vapor, increasing downpours and leading to heavy rainfall events, catastrophic flooding, and more intense tropical cyclones.
+- While some regions are inundated with rain, others experience drought as a warming climate alters atmospheric circulation patterns; prolonged drought can profoundly impact agriculture and contributes to extensive wildfires and loss of vegetation.
+- Dams and reservoirs hinder the return flow of water to the ocean.
+- Clear-cutting forests can decrease local precipitation and even change the location of developing storms.
+- Rain over urban areas cannot soak into the ground when it encounters impermeable surfaces; instead it runs over surfaces and can overwhelm storm sewers, creating dangerous flash floods or more widespread flooding that can damage urban infrastructure.
+- Air pollution affects the water cycle: water molecules attach to particles, condensing into tiny droplets; in polluted areas, clouds can contain many smaller droplets too small to fall as rain, which can limit precipitation.
+- Pumping groundwater from aquifers for agriculture is removing water faster than it can replenish in many areas, leading to significant regional water shortages.
+
+Goal: real example of water cycle disruption
+- [13] - One example of the human impacts on the water cycle is in North China, which is experiencing an ongoing drought; vegetation in many areas continues to thrive, partially because producers continue to irrigate their land by pumping more water from groundwater storage.
+- Such interrelated human interventions often lead to complex effects on other water cycle variables, such as evapotranspiration and runoff.
+- The global water cycle is shifting in unprecedented ways, and the majority of those shifts are driven by activities such as agriculture and could have impacts on ecosystems and water management, especially in certain regions.
+- Human intervention in the global water cycle is more significant than previously thought.
+- The study focused on three kinds of shifts or changes in the cycle: a trend, such as a decrease in water in a groundwater reservoir; a shift in seasonality, like the typical growing season starting earlier or earlier snowmelt; and a change in extreme events, like “100-year floods” happening more frequently.
+- [14] - The Water Project works in Kenya, Sierra Leone, and Uganda, where water cycle disruptions have real daily consequences.
+- “When precipitation becomes unreliable”
+- The water cycle works continuously across the planet, but it doesn’t deliver water equally; when something disrupts the cycle — drought, pollution, conflict, infrastructure collapse — entire communities lose access to clean water.
+- A side-by-side illustration compares a healthy water cycle over a thriving community with a full well and green landscape to a broken water cycle over the same community during water scarcity with a dry well and cracked earth.
+- Understanding the water cycle matters because every community on Earth depends on it for fresh water: when the cycle works, rain falls, rivers flow, wells fill, and people have water to drink; when any part of the cycle is disrupted — by drought, pollution, or climate change — communities lose access to water they need to survive.
+- [15] - Climate change has disrupted the water cycle’s delicate balance, upsetting how water circulates between the ground, oceans and atmosphere; the events of 2023 showed consequences from extreme precipitation and flooding to drought and contaminated water supplies in almost every part of the U.S.
+- As the planet warms, the water cycle is expected to be increasingly stretched, warped and broken.
+- In 2023, extreme precipitation, likely supercharged by climate change, hammered nearly every corner of the United States; for every degree of warming in Fahrenheit, the atmosphere can hold about 3%-4% more moisture, and global temperatures in 2023 were 2.43 degrees higher than in preindustrial times, meaning today’s storms can deliver a stronger punch.
+- Vermont: intense rainfall in July caused flash flooding that nearly breached a dam in Montpelier and left streets flooded.
+- New York City: in September, 7 inches of rain fell in 24 hours in some locations, submerging cars and city buses and shuttering rail travel; consequences intensified where storm drains and subway tunnels are in disrepair or were built for a more gentle climate.
+- Climate change is changing hurricane behavior to produce more extreme rainfall: hurricanes are more likely to intensify rapidly because they feed on warming waters near shore, and when they make landfall, climate change increases the probability they will stall and dump incredible amounts of rain.
+- Hurricane Idalia: when it approached the Florida shoreline in late August, its wind speeds rose by 55 mph in just 24 hours and it strengthened from a Category 1 to a Category 4 storm; it dropped more than 13 inches of rain on Holly Hill, South Carolina.
+- Hotter temperatures are increasing evaporation and transpiration in some areas, making drought more likely and stressing plants, evident during a summer of extreme heat in 2023; climate change makes droughts more frequent, more severe and longer-lasting.
+- Persistent drought dropped water levels in the Mississippi River to historic lows in 2023, allowing saltwater from the Gulf of Mexico to push upstream and contaminate urban drinking water supplies.
+- Drought in Hawaii exacerbated wildfire risk by drying out vegetation and making nonnative grasses on Maui a “ticking time bomb”; a catastrophic wildfire whipped up by hurricane-strength winds tore through Lahaina in August 2023, killing 101 people.
+- In the Midwest and South, drought hung over the region from spring to fall, making it the most costly natural disaster in 2023 — at $14.5 billion.
+- Climate change is shifting the pattern and timing of runoff, particularly in mountainous parts of the U.S., which can cause rivers to run at extreme highs — and lows.
+- Alaska: temperatures warmed about twice the global average, a dam of glacial ice burst, allowing a massive pulse of floodwater to flow downstream, where it ripped out trees and flooded neighborhoods near Juneau; the event would not have happened if not for climate change and glacial retreat, according to NOAA.
+- Pacific Northwest: warm spring and summer temperatures hastened the region’s melt-out, leaving the water supply short in fall and straining the region’s capacity to generate hydropower.
+- Water supply is dwindling in Western states, on the Great Plains and in some parts of the Midwest; years of overuse — in part because of rising temperatures and drought — are leading farmers to consume unsustainable amounts of stored groundwater and pushing some aquifers to the brink.
+- California: extreme rainfall in 2023, as more than a dozen atmospheric-river storms battered the state, likely intensified by climate change, relieved a drought and blanketed the state in 2 to 3 times as much snow as usual, but made only a dent in the state’s overall groundwater deficit after seasons of drought, and groundwater levels remained lower than after a previous four-year drought ended in 2016.
+- Several states reached an agreement over cuts to their use of the Colorado River, where reservoirs were holding just 43% of what they could store at year’s end, even after a heavy snow year.
+- [16] - There is considerable evidence that humans are responsible for disruptions and changes to local and global water cycles.
+- Human activities that can impact the water cycle include damming rivers for hydroelectricity, using water for farming, deforestation and the burning of fossil fuels.
+- Different countries use different amounts of water, but we all tend to use them in the same ways, and some of these actions can impact the water cycle – generating hydroelectricity, irrigation, deforestation and the greenhouse effect, as well as motor vehicle use and animal farming.
+- Hydroelectricity: Most of New Zealand’s electricity is generated using hydro dams; this is a non-polluting renewable way to generate electricity, but it does have environmental impacts – especially when mismanaged.
+- Clyde dam in the South Island uses water to generate electricity. It is New Zealand’s third largest hydro dam.
+- Rivers must be dammed, which can affect the function of the river both upstream and downstream – lakes are usually formed from water accumulating above the dam and a build-up of silt can occur, while the amount of water is reduced further downstream.
+- This can be problematic for plants and animals that may find themselves with too much or too little water, and migrating fish cannot get through the dams.
+- Seriously mismanaged dams can result in droughts downstream, with smaller streams completely drying up, leaving areas of unwatered land; people then have to look at ways of getting more water into these dry areas.
+- Irrigation removes water from its natural source and often causes leaching and run-off where it is used.
+- This removal of nutrients results in farmers using more fertilisers to keep their pastures productive while the waterways become polluted.
+- Another problem is that salt is brought up from lower levels (salination).
+- The removal of trees (deforestation) is having a major impact on the water cycle, as local and global climates change.
+- Normally, trees release water vapour when they transpire, producing a localised humidity; this water vapour then evaporates into the atmosphere where it accumulates before precipitating back to the Earth as rain, sleet or snow.
+- Deforestation in one area can therefore affect the weather in another area because if trees are cut down, there is less water to be evaporated into the atmosphere and subsequently less rain.
+- At a local level, the land becomes drier and less stable. When it rains, instead of the water being soaked up, there is increased run-off and leaching.
+- Areas can become more prone to both droughts and flooding, impacting on plants and animals, and also humans living near deforested areas.
+- Human activity such as the burning of fossil fuels has an effect on the overall increase of the Earth’s temperature.
+- Raising the Earth’s temperature means that there is an increase of evaporation, melting of land and sea ice, and impacts on other processes of the water cycle that adversely affect the climate on Earth.
+
+Goal: drought as water cycle disruption example
+- [17] - Drought is an extended period of unusually dry weather when there is not enough rain.
+- The lack of precipitation can cause a variety of problems for local communities, including damage to crops and a shortage of drinking water.
+- Drought is defined depending on the average amount of precipitation that an area is accustomed to receiving; significantly less rain may lead to water shortages and a drought may be declared.
+- Most droughts occur when regular weather patterns are interrupted, causing disruption to the water cycle: changes in atmospheric circulation patterns can cause storm tracks to be stalled for months or years, dramatically impacting amounts of precipitation, and changes in wind patterns can disrupt how moisture is absorbed in various regions.
+- El Niño is a weather event where the surface water in the Pacific Ocean along the central South American coast rises in temperature; these warmer waters alter storm patterns and are associated with droughts in Indonesia, Australia, and northeastern South America.
+- La Niña is the counterpart to El Niño, when the surface water in the Pacific Ocean along the coast of South America decreases in temperature; the cooler waters affect storm patterns by contributing to drier-than-normal conditions in parts of North and South America.
+- Two of the most devastating droughts in U.S. history—the 1930s Dust Bowl and the 1988 drought in the Midwest—are associated with the effects of La Niña.
+- There is debate about the connection between drought and global warming; a 2013 NASA study predicts warmer worldwide temperatures will mean increased rainfall in some parts of the world and decreased rainfall in others, leading to both more flooding and more droughts worldwide, while other scientists believe global warming will create a wetter climate around the world.
+- Drought is a naturally occurring part of the weather cycle and cannot be prevented, but human activity can influence the effects that drought has on a region.
+- Modern agricultural practices may make land more vulnerable to drought; over-farming and overgrazing can lead to soil being compacted and unable to hold water, and as the soil becomes drier, it is vulnerable to erosion, leading to desertification.
+- Increased drought conditions in Kenya have been attributed to deforestation and other human activities; trees help bring precipitation into the ground and prevent soil erosion, but forest clearing for farming and logging led to drought conditions affecting 10 million people.
+- Analyzing paleoclimatic data shows that severe and extended droughts are an inevitable part of natural climate cycles.
+- [18] - The water cycle has become increasingly erratic and extreme, swinging between deluge and drought, according to a new WMO report; it highlights the cascading impacts of too much or too little water on economies and society.
+- Only about one-third of the global river basins had “normal” conditions in 2024; the rest were either above or below normal – the sixth consecutive year of clear imbalance.
+- The Amazon Basin and other parts of South America, as well as southern Africa, were gripped by severe drought in 2024, whilst there were wetter-than-normal conditions in central, western and eastern Africa, parts of Asia and Central Europe.
+- 2024 was the hottest year on record and began with an El Niño event which impacted major river basins; it contributed to droughts in northern South America and the Amazon Basin and southern Africa.
+- In the past six years, only about one-third of the global river catchment area had normal discharge compared to the 1991-2020 average; two thirds had too much or too little water – reflecting the increasingly erratic hydrological cycle.
+- There was much below-normal discharge across key river basins including the Amazon, São Francisco, Paraná, and Orinoco in South America, and the Zambezi, Limpopo, Okavango, Orange basins in southern Africa.
+- Reservoir inflows, groundwater, soil moisture and evapotranspiration trends showed regional contrasts, with recharge in wetter areas such as parts of Europe and India, but persistent deficits in parts of Africa, the Americas, and Australia; over-extraction of groundwater continued to reduce future water availability. Only 38% of wells had normal levels – the rest were too much or too little.
+- Brazil experienced simultaneous extremes, with catastrophic flooding in the south and continuation of the 2023 drought in the Amazon basin, affecting 59% of the country’s territory.
+- An estimated 3.6 billion people face inadequate access to water at least a month per year, expected to increase to more than 5 billion by 2050, and the world is falling far short of Sustainable Development Goal 6 on water and sanitation.
+- Many small-glacier regions have already reached or are about to pass the so-called peak water point – when a glacier’s melting reaches its maximum annual runoff, after which this decreases due to glacier shrinkage.
+- [19] - Human activity damages ecosystems, disrupting the water cycle; climate change worsens these pressures, and extreme weather events such as floods and droughts are becoming more frequent.
+- In the spring, melting snow feeds streams and rivers to provide a source of water during hot summer months; rising temperatures mean more rain rather than snow, the little snow there is evaporates instead of flowing downstream, and less snow means less water during hot periods.
+- With more water in the air than on the ground, the land begins to dry out; wet ground absorbs water much better than dry ground does.
+- When it finally rains after long periods of drought, the water washes away rather than being absorbed into the ground, causing flash floods; the longer the drought, the more water is needed to revive the land.
+- Climate change and human activity speed up the water cycle: more evaporation, more rain, more drought, and less water for us and all other life that depends on it.
+- Pollution and unsustainable land practices impact water systems; wetlands are drained, rivers and floodplains are artificially disrupted, rerouted, and built over; this further accelerates water scarcity.
+- Large-scale pumping of groundwater has depleted aquifers that stored water for thousands of years.
+- The most visible sign of our disrupted water cycle is when rivers diverted for agriculture simply dry up.
+- To restore the water cycle, slow freshwater’s journey from rain back to the oceans and protect and restore nature to bring back the sponge-like ability of landscapes to hold water, undoing damage like draining wetlands and sealing soil.
+- Replenish groundwater by inundating farmland with winter floodwater so it seeps through the soil layer into the aquifer below.
+- Soils can hold eight times more water than all the rivers combined; reducing tillage and planting more cover crops helps soil store more water.
+- Restore wetlands and use farming techniques that conserve water and protect and rehabilitate the soil to maintain and recover the land’s ability to absorb, purify and hold water.
+- Urban designers can use permeable materials for roads and sidewalks to allow water to soak into the earth, replenish groundwater, and gradually flow back into rivers and streams.
+2026-10-01 08:49:28,698 [INFO] FINAL ANSWER:
+**My understanding of your question:** The student wants a poster on the water cycle that presents its main stages, explains why it matters for life on Earth, and gives one real example of the water cycle being disrupted, such as a drought.
+
+---
+
+## water cycle poster
+
+- El Ciclo del Agua - The Water Cycle, Spanish (PNG) [1]
+- English is the official language and authoritative version of all federal information. [1]
+- This 26x38-inch poster, released in 2022, depicts the global water cycle; it shows how human water use affects where water is stored, how it moves, and how clean it is. [1]
+- This diagram is available in English and Spanish. [1]
+- For each language, the diagram is available as an image (PNG), as a 26x38-inch poster (PDF), as a 8.5x11-inch handout (PDF), and as a 8.5x11-inch fill-in-the-blank worksheet (PDF). [1]
+- A comprehensive text description of the diagram is also available. [1]
+- Visit the USGS Water Science School for definitions and more information about the water cycle. [1]
+- The diagram was created by the USGS VizLab, in collaboration with the USGS Water Resources Mission Area Web Communications Branch, for the USGS Water Science School. [1]
+- Diagram text: The water cycle describes where water is found on Earth and how it moves; water can be stored in the atmosphere, on Earth's surface, or below the ground; it can be liquid, solid, or gaseous; water moves between the places it is stored at large scales and very small scales, naturally and because of human interaction, both of which affect where water is stored, how it moves, and how clean it is. [1]
+- Liquid water can be fresh, saline (salty), or a mix (brackish); ninety-six percent of all water is saline and stored in oceans; places like the ocean, where water is stored, are called pools. [1]
+- On land, saline water is stored in saline lakes, whereas fresh water is stored in liquid form in freshwater lakes, artificial reservoirs, rivers, wetlands, and in soil as soil moisture. [1]
+- Deeper underground, liquid water is stored as groundwater in aquifers, within the cracks and pores of rock. [1]
+- The solid, frozen form of water is stored in ice sheets, glaciers, and snowpack at high elevations or near the Earth's poles; frozen water is also found in the soil as permafrost. [1]
+- Water vapor, the gaseous form of water, is stored as atmospheric moisture over the ocean and land. [1]
+- As it moves, water can transform into a liquid, a solid, or a gas; the different ways in which water moves between pools are known as fluxes. [1]
+- Circulation mixes water in the oceans and transports water vapor in the atmosphere. [1]
+- Water moves between the atmosphere and the Earth's surface through evaporation, evapotranspiration, and precipitation. [1]
+- Water moves across the land surface through snowmelt, runoff, and streamflow. [1]
+- Through infiltration and groundwater recharge, water moves into the ground; when underground, groundwater flows within aquifers and can return to the surface through springs or from natural groundwater discharge into rivers and oceans. [1]
+- Humans alter the water cycle: we redirect rivers, build dams to store water, and drain water from wetlands for development. [1]
+- We use water from rivers, lakes, reservoirs, and groundwater aquifers. [1]
+- We use that water to supply our homes and communities; for agricultural irrigation and grazing livestock; and in industrial activities like thermoelectric power generation, mining, and aquaculture. [1]
+- The amount of available water depends on how much water is in each pool (water quantity); water availability also depends on when and how fast water moves (water timing), how much water is used (water use), and how clean the water is (water quality). [1]
+- Human activities affect water quality: in agricultural and urban areas, irrigation and precipitation wash fertilizers and pesticides into rivers and groundwater; power plants and factories return heated and contaminated water to rivers; runoff carries chemicals, sediment, and sewage into rivers and lakes. [1]
+- Downstream from these types of sources, contaminated water can cause harmful algal blooms, spread diseases, and harm habitats. [1]
+- Climate change is also affecting the water cycle; it affects water quality, quantity, timing, and use; climate change is also causing ocean acidification, sea level rise, and extreme weather. [1]
+- Understanding these impacts can allow progress toward sustainable water use. [1]
+- Public Domain. [1]
+- Amazon search results page for "water cycle poster." [2]
+- Check each product page for other buying options. Price and other details may vary based on product size and color. [2]
+- Toddler Educational the Water Cycle Wall Hanging Decor Art Framed for Kid Nursery Room Classroom, School Poster Prints — NZD 17.68, typical NZD 22.99; NZD 18.46 delivery Thu, Oct 15; ships to New Zealand; only 12 left in stock - order soon. Also NZD 17.68 with NZD 20.98 delivery Thu, Oct 15; Small Business. Also NZD 15.91 with NZD 19.29 delivery Thu, Oct 15; only 10 left in stock - order soon. [2]
+- Overall Pick / Amazon's Choice: Overall Pick; products highlighted as Overall Pick are rated 4+ stars, purchased often, returned infrequently. [2]
+- Pajean 12 Pcs Earth Science Classroom Decor Geography Learning Chart Poster 17x11 Inch Earth Science Environmental Poster, Water Cycle Volcano Earthquake Plate Tectonics, Teaching Aid for Student Teacher — 50+ bought in past month; Save 5% on 2 select item(s); NZD 24.94 delivery Thu, Oct 15; or fastest delivery Thu, Oct 8. Also appears under Sponsored | From Amazon Influencer storefronts. [2]
+- Decorably 16 Energy Physical Science Posters for Classroom Decor, 11x16in Educational Physics Science Classroom Decor, Matte-Laminated Finish - for School Hallways, Bulletin Boards, Home Study Room — 100+ bought in past month; NZD 24.76, NZD 1.54/count; NZD 25.35 delivery Thu, Oct 15; or fastest delivery Wed, Oct 7. [2]
+- Pasimy 11 Pcs Science Biology Posters Classroom Ecosystems Teaching Poster Ecosystems Biological Food Chain Bulletin Board for Classroom Decoration Teacher Middle High School Educational Library Home — 50+ bought in past month; Join Prime to buy this item at NZD 11.75; NZD 20.07 delivery Thu, Oct 15; or fastest delivery Fri, Oct 9. [2]
+- 12 Pack Science Posters for Classroom, Earth & Planet Education Science Classroom Decor for Middle School Teachers and Students, Ideal for Learning and Bulletin Boards, 11x17in — 50+ bought in past month; Save 8% on 2 select item(s); NZD 27.17 delivery Thu, Oct 15; or fastest delivery Thu, Oct 8. [2]
+- 12 Pack 17x11 Science Classroom Educational Charts Decor - Earth Science, Scientific Method, Solar System, Matter, Etc. — 200+ bought in past month; NZD 35.23; NZD 22.39 delivery Thu, Oct 15. [2]
+- Educational Charts & Posters, Waterproof, Science Decor for Homeschool, Hallways, Home Study Room, Educational Center — NZD 15.91, NZD 1.13/count; Save 10% 10% off coupon applied; NZD 28.73 delivery Thu, Oct 15. [2]
+- Middle School, 11x17in Educational, Matte-Laminated for Hallways, Bulletin Boards, Home Study Corner — 300+ bought in past month; NZD 21.22, NZD 1.52/count; NZD 23.56 delivery Thu, Oct 15. [2]
+- Available filters include Free Shipping by Amazon, Customer Reviews, Frame Type, Wall Art Form, Height, Room Type, Style, Condition, Deals & Discounts, Paint Type, Purpose, Weight, Shape, Mounting Type, Pattern, Finish, Occasion, Sustainability Features, Customizable. [2]
+- Sustainability features: made with materials from well-managed forests, recycled materials, and/or other controlled wood sources. Forest Stewardship Council (FSC) certified products are made with materials from well-managed forests, recycled materials and/or other controlled wood sources. [2]
+- The water cycle poster is a tool for teachers to educate children about the water cycle. [3]
+- The 23.5-by-33-inch poster explores condensation, evaporation, evapotranspiration, infiltration, ground water, precipitation, runoff, surface flow and transpiration. [3]
+- It includes a full-system diagram; definitions; discussion of water in the three states of matter; and student questions. [3]
+- The poster is rolled and shipped safely in a poster tube. [3]
+- A PDF version of this water cycle poster is available for purchase to project onto a screen during classroom instruction. [3]
+- JetStream Max: Water Cycle Poster [4]
+- High quality posters English: 8½ x 11", 11 x 17", 2 x 3' | Spanish: 8½ x 11", 11 x 17", 2 x 3' [4]
+- Line Art - English: 8½ x 11", 11 x 17" | Spanish: 8½ x 11", 11 x 17" [4]
+- Line Art (no labels) - English: 8½ x 11", 11 x 17" | Spanish: 8½ x 11", 11 x 17" [4]
+- Quiz version - English: 8½ x 11" | Spanish: 8½ x 11" [4]
+- Select Citation Format [4]
+
+## main stages of the water cycle
+
+- Water can be found in different states; the passage from one to the other is what characterizes the hydrological cycle, and this constant movement occurs with the aid of the Sun and gravity. [5]
+- The main stages of the water cycle are: evaporation, condensation, precipitation, infiltration, transpiration, and sublimation. [5]
+- Evaporation is the first stage: water goes from a liquid state into a gaseous state; in nature this occurs slowly and gradually and is especially influenced by temperature and solar irradiation, with higher temperature making evaporation faster. [5]
+- Condensation is the second stage: after evaporating and reaching a gaseous state, water vapor reaches the atmosphere and returns to its liquid form; clouds form as suspended water droplets come together, getting bigger and heavier. [5]
+- Precipitation: the water droplets that came together return to Earth's surface as rain; this is the time for the release of rain. [5]
+- Infiltration: rain falls somewhere, whether on the Earth's surface, in rivers, or seas, but infiltration concerns its absorption by the soil; this forms groundwater, aquifers, and other groundwater sources. The water absorbed by the soil also helps form natural "reserves" and irrigates plants through their roots; the excess is released during the perspiration phase. [5]
+- Transpiration, like evaporation, is the transformation of liquid water into vapor. [5]
+- Sublimation: water leaves the solid state into the gaseous state — it passes directly from ice to vapor; this may not be as noticeable in everyday life but is common in glaciers at the North Pole, and the water vapor produced is transferred to the atmosphere. [5]
+- The water cycle, also known as the hydrologic cycle, is the continuous movement of water on, above, and below the surface of the Earth. [6]
+- It involves the exchange of heat energy, which leads to changes in temperature and moisture levels in the atmosphere, oceans, and land. [6]
+- The water cycle is driven by solar energy and involves several stages including evaporation, transpiration, condensation, precipitation, infiltration, and runoff. [6]
+- These stages are connected, and water can move from one stage to the next, eventually returning to oceans and other bodies of water where the cycle starts again. [6]
+- The 7 stages of the water cycle are: evaporation, condensation, sublimation, precipitation, transpiration, runoff, and infiltration. [6]
+- Evaporation: water at the surface turns into water vapor; water absorbs heat energy from the sun; oceans, seas, lakes, and rivers are the main source; water moves from hydrosphere to atmosphere; as water evaporates it reduces the temperature of those water bodies. [6]
+- Condensation: water vapor rises into the atmosphere; at high altitudes it changes into very tiny particles of ice/water droplets because of low temperature; these particles come close together and form clouds and fogs in the sky. [6]
+- Sublimation: ice directly converts into water vapor without converting into liquid water; this phenomenon accelerates when the temperature is low or pressure is high; main sources are the ice sheets of the North Pole and South Pole and ice caps on mountains; sublimation is slower than evaporation. [6]
+- Precipitation: clouds pour down as precipitation due to wind or temperature change; water droplets combine to make bigger droplets, so when the air cannot hold any more water it precipitates; at high altitudes the droplets lose their heat energy; droplets fall as rain, or as snow if below 0 degrees; water could also precipitate as drizzle, sleet, and hail; water enters lithosphere by landing upon the earth. [6]
+- Transpiration: some precipitated water is absorbed by the soil and enters transpiration; transpiration is similar to evaporation where liquid water is turned into water vapor by plants; roots absorb water and push it toward leaves where it is used for photosynthesis; extra water is moved out of leaves through stomata as water vapor; water enters the biosphere and exits into a gaseous phase. [6]
+- Runoff: water runs over the surface of the earth; when snow melts into water it also leads to runoff; as water runs over the ground it displaces the top soil and moves minerals along with the stream; runoff combines to form channels, rivers, and ends up into lakes, seas, and oceans; water enters the hydrosphere. [6]
+- Infiltration: any water that doesn't run directly to bodies of water or get quickly evaporated will be absorbed by plants and soil, where it may be driven deeper to the earth; water seeps down and increases the level of the ground water table; underground water tables typically provide pure clean water; infiltration is measured as inches of water-soaked by the soil per hour. [6]
+- The earth has a certain amount of water that moves around the earth in different states and phases. [7]
+- The first stage is evaporation: the sun heats water in oceans, lakes, and other bodies of water to the point that it turns into gas, and that gas evaporates into the air. [7]
+- Transpiration is similar to evaporation and occurs when plant leaves release water as water vapor into the air. [7]
+- Condensation is the third step: vapor in the air gets cold and changes back into a liquid; this is how a cloud forms and why you see foggy mirrors after a hot shower. [7]
+- When clouds have too much water and get too heavy, it rains; this is called precipitation, the final stage of the cycle. [7]
+- Then the whole cycle starts all over again. [7]
+- Review answer names evaporation, transpiration, condensation, and precipitation as stages of the water cycle. [7]
+- The water cycle is often taught as a simple, circular cycle of evaporation, condensation, and precipitation. [8]
+- Although this can be a useful model, the reality of the cycle is much more complicated. [8]
+- Water has three phases (solid, liquid, and gas). [8]
+- In these three phases, water ties together the major parts of the Earth's climate system — air, clouds, the ocean, lakes, vegetation, snowpack, and glaciers. [8]
+
+## water cycle importance for life on Earth
+
+- The water cycle is a continuous and vital movement across our planet and is essential to all life on Earth. [9]
+- It is a circular process involving evaporation, condensation, and precipitation. [9]
+- Understanding why the water cycle is important tells us how Earth functions and helps with increasing challenges on our blue planet. [9]
+- The water cycle is one of Earth's most valuable systems. [9]
+- Its importance spans far beyond providing municipal water supplies to communities: it regulates climate, supports ecosystems and all life on Earth, enables human civilization, and shapes landscapes. [9]
+- Water covers more than half of our planet and is among Earth's most useful and unique resources. [9]
+- Water can be solid, liquid, or gas under different conditions; this property allows the water cycle to work as the fundamental engine that can power all life. [9]
+- Without the water cycle, life would simply not exist. [9]
+- All life on Earth needs water. [10]
+- Water is so important that when searching for life on other planets, the first thing we look for is liquid water. [10]
+- Water changes to a gas and solid as part of the water cycle; without this happening, we wouldn't have any fresh water. [10]
+- The water cycle is an extremely important process because it enables the availability of water for all living organisms and regulates weather patterns on our planet; if water didn't naturally recycle itself, we would run out of clean water, which is essential to life. [11]
+- Climate changes include differences in temperature and precipitation patterns around the globe, bringing anticipated and unanticipated consequences that have a profound impact on people around the world. [11]
+- Changing extremes in precipitation and temperature are leading to a decline in species diversity, modification to ecosystems and animal habitats, as well as changing how some species interact with each other. [11]
+- Decision makers are using NASA Earth observations to reduce risks from natural disasters and build climate resilience, including index-based insurance products to protect low-income customers in Central America, especially the Dry Corridor. [11]
+- India is among the world's most water-scarce countries, meaning it does not have enough freshwater resources to meet the needs of all the people who live there; mismanagement of water resources has largely contributed to the country's limited water supplies. [11]
+- Growing competition over finite water resources will have serious implications for Indian farmers and India's food security; more than 70% of India's population rely on agriculture as a source of livelihood. [11]
+- Droughts and dry, arid conditions in Australia are conducive to wildfires; the 2019-2020 wildfire season was especially bad, with upwards of 46 million acres burned. [11]
+- Rainfall was scarce across much of the country in September, pushing the eastern and southern thirds of the country into drought conditions. [11]
+- Accurate and reliable precipitation records are crucial to understanding trends and variability and for water management resources, food security, ecological management, and weather, climate and hydrological forecasting. [11]
+- Monsoon rains provide important reservoirs of water that sustain human activities like agriculture and support the natural environment through replenishment of aquifers; however, too much rainfall routinely causes disasters in the region. [11]
+- The United States has seen drenching rains in the eastern half and persistent drought in the west; a visualization of rainfall data shows the contrast for the first half of 2015, including heavy rainfall in Northern Texas/Oklahoma and drought in Southern California. [11]
+- Water covers 70% of Earth's surface and plays a vital role in everything from cellular function to climate. [12]
+- Water is vital for life on Earth, and it plays an essential role in regulating climate. [12]
+- When water evaporates, it absorbs heat and cools Earth's surface; the vapor releases heat as it condenses into clouds, and water vapor traps the sun's heat, creating a greenhouse effect that helps warm the planet—without it, Earth would be a ball of ice. [12]
+- On regional and local scales, the availability of water supports ecosystems and human activities such as agriculture and manufacturing. [12]
+- Changes to the water cycle can have profound consequences for society; major shifts in precipitation patterns likely led to the downfall of ancient civilizations around the world, from Angkor to Mesoamerica to the Indus Valley. [12]
+- Groundwater flows from land to sea, mixing with saltwater underground; though just 5% of ocean inflow, it can carry high chemical loads that impact coasts. [12]
+- The ocean water cycle is the marine branch of Earth's water cycle; as the primary source of atmospheric moisture, it plays a crucial role in shaping global precipitation patterns and regulating climate. [12]
+- A warming climate increases evaporation and adds more water vapor to the atmosphere, and a warmer atmosphere can hold more water vapor, increasing downpours and leading to heavy rainfall events, catastrophic flooding, and more intense tropical cyclones. [12]
+- While some regions are inundated with rain, others experience drought as a warming climate alters atmospheric circulation patterns; prolonged drought can profoundly impact agriculture and contributes to extensive wildfires and loss of vegetation. [12]
+- Dams and reservoirs hinder the return flow of water to the ocean. [12]
+- Clear-cutting forests can decrease local precipitation and even change the location of developing storms. [12]
+- Rain over urban areas cannot soak into the ground when it encounters impermeable surfaces; instead it runs over surfaces and can overwhelm storm sewers, creating dangerous flash floods or more widespread flooding that can damage urban infrastructure. [12]
+- Air pollution affects the water cycle: water molecules attach to particles, condensing into tiny droplets; in polluted areas, clouds can contain many smaller droplets too small to fall as rain, which can limit precipitation. [12]
+- Pumping groundwater from aquifers for agriculture is removing water faster than it can replenish in many areas, leading to significant regional water shortages. [12]
+
+## real example of water cycle disruption
+
+- One example of the human impacts on the water cycle is in North China, which is experiencing an ongoing drought; vegetation in many areas continues to thrive, partially because producers continue to irrigate their land by pumping more water from groundwater storage. [13]
+- Such interrelated human interventions often lead to complex effects on other water cycle variables, such as evapotranspiration and runoff. [13]
+- The global water cycle is shifting in unprecedented ways, and the majority of those shifts are driven by activities such as agriculture and could have impacts on ecosystems and water management, especially in certain regions. [13]
+- Human intervention in the global water cycle is more significant than previously thought. [13]
+- The study focused on three kinds of shifts or changes in the cycle: a trend, such as a decrease in water in a groundwater reservoir; a shift in seasonality, like the typical growing season starting earlier or earlier snowmelt; and a change in extreme events, like "100-year floods" happening more frequently. [13]
+- The Water Project works in Kenya, Sierra Leone, and Uganda, where water cycle disruptions have real daily consequences. [14]
+- "When precipitation becomes unreliable" [14]
+- The water cycle works continuously across the planet, but it doesn't deliver water equally; when something disrupts the cycle — drought, pollution, conflict, infrastructure collapse — entire communities lose access to clean water. [14]
+- A side-by-side illustration compares a healthy water cycle over a thriving community with a full well and green landscape to a broken water cycle over the same community during water scarcity with a dry well and cracked earth. [14]
+- Understanding the water cycle matters because every community on Earth depends on it for fresh water: when the cycle works, rain falls, rivers flow, wells fill, and people have water to drink; when any part of the cycle is disrupted — by drought, pollution, or climate change — communities lose access to water they need to survive. [14]
+- Climate change has disrupted the water cycle's delicate balance, upsetting how water circulates between the ground, oceans and atmosphere; the events of 2023 showed consequences from extreme precipitation and flooding to drought and contaminated water supplies in almost every part of the U.S. [15]
+- As the planet warms, the water cycle is expected to be increasingly stretched, warped and broken. [15]
+- In 2023, extreme precipitation, likely supercharged by climate change, hammered nearly every corner of the United States; for every degree of warming in Fahrenheit, the atmosphere can hold about 3%-4% more moisture, and global temperatures in 2023 were 2.43 degrees higher than in preindustrial times, meaning today's storms can deliver a stronger punch. [15]
+- Vermont: intense rainfall in July caused flash flooding that nearly breached a dam in Montpelier and left streets flooded. [15]
+- New York City: in September, 7 inches of rain fell in 24 hours in some locations, submerging cars and city buses and shuttering rail travel; consequences intensified where storm drains and subway tunnels are in disrepair or were built for a more gentle climate. [15]
+- Climate change is changing hurricane behavior to produce more extreme rainfall: hurricanes are more likely to intensify rapidly because they feed on warming waters near shore, and when they make landfall, climate change increases the probability they will stall and dump incredible amounts of rain. [15]
+- Hurricane Idalia: when it approached the Florida shoreline in late August, its wind speeds rose by 55 mph in just 24 hours and it strengthened from a Category 1 to a Category 4 storm; it dropped more than 13 inches of rain on Holly Hill, South Carolina. [15]
+- Hotter temperatures are increasing evaporation and transpiration in some areas, making drought more likely and stressing plants, evident during a summer of extreme heat in 2023; climate change makes droughts more frequent, more severe and longer-lasting. [15]
+- Persistent drought dropped water levels in the Mississippi River to historic lows in 2023, allowing saltwater from the Gulf of Mexico to push upstream and contaminate urban drinking water supplies. [15]
+- Drought in Hawaii exacerbated wildfire risk by drying out vegetation and making nonnative grasses on Maui a "ticking time bomb"; a catastrophic wildfire whipped up by hurricane-strength winds tore through Lahaina in August 2023, killing 101 people. [15]
+- In the Midwest and South, drought hung over the region from spring to fall, making it the most costly natural disaster in 2023 — at $14.5 billion. [15]
+- Climate change is shifting the pattern and timing of runoff, particularly in mountainous parts of the U.S., which can cause rivers to run at extreme highs — and lows. [15]
+- Alaska: temperatures warmed about twice the global average, a dam of glacial ice burst, allowing a massive pulse of floodwater to flow downstream, where it ripped out trees and flooded neighborhoods near Juneau; the event would not have happened if not for climate change and glacial retreat, according to NOAA. [15]
+- Pacific Northwest: warm spring and summer temperatures hastened the region's melt-out, leaving the water supply short in fall and straining the region's capacity to generate hydropower. [15]
+- Water supply is dwindling in Western states, on the Great Plains and in some parts of the Midwest; years of overuse — in part because of rising temperatures and drought — are leading farmers to consume unsustainable amounts of stored groundwater and pushing some aquifers to the brink. [15]
+- California: extreme rainfall in 2023, as more than a dozen atmospheric-river storms battered the state, likely intensified by climate change, relieved a drought and blanketed the state in 2 to 3 times as much snow as usual, but made only a dent in the state's overall groundwater deficit after seasons of drought, and groundwater levels remained lower than after a previous four-year drought ended in 2016. [15]
+- Several states reached an agreement over cuts to their use of the Colorado River, where reservoirs were holding just 43% of what they could store at year's end, even after a heavy snow year. [15]
+- There is considerable evidence that humans are responsible for disruptions and changes to local and global water cycles. [16]
+- Human activities that can impact the water cycle include damming rivers for hydroelectricity, using water for farming, deforestation and the burning of fossil fuels. [16]
+- Different countries use different amounts of water, but we all tend to use them in the same ways, and some of these actions can impact the water cycle – generating hydroelectricity, irrigation, deforestation and the greenhouse effect, as well as motor vehicle use and animal farming. [16]
+- Hydroelectricity: Most of New Zealand's electricity is generated using hydro dams; this is a non-polluting renewable way to generate electricity, but it does have environmental impacts – especially when mismanaged. [16]
+- Clyde dam in the South Island uses water to generate electricity. It is New Zealand's third largest hydro dam. [16]
+- Rivers must be dammed, which can affect the function of the river both upstream and downstream – lakes are usually formed from water accumulating above the dam and a build-up of silt can occur, while the amount of water is reduced further downstream. [16]
+- This can be problematic for plants and animals that may find themselves with too much or too little water, and migrating fish cannot get through the dams. [16]
+- Seriously mismanaged dams can result in droughts downstream, with smaller streams completely drying up, leaving areas of unwatered land; people then have to look at ways of getting more water into these dry areas. [16]
+- Irrigation removes water from its natural source and often causes leaching and run-off where it is used. [16]
+- This removal of nutrients results in farmers using more fertilisers to keep their pastures productive while the waterways become polluted. [16]
+- Another problem is that salt is brought up from lower levels (salination). [16]
+- The removal of trees (deforestation) is having a major impact on the water cycle, as local and global climates change. [16]
+- Normally, trees release water vapour when they transpire, producing a localised humidity; this water vapour then evaporates into the atmosphere where it accumulates before precipitating back to the Earth as rain, sleet or snow. [16]
+- Deforestation in one area can therefore affect the weather in another area because if trees are cut down, there is less water to be evaporated into the atmosphere and subsequently less rain. [16]
+- At a local level, the land becomes drier and less stable. When it rains, instead of the water being soaked up, there is increased run-off and leaching. [16]
+- Areas can become more prone to both droughts and flooding, impacting on plants and animals, and also humans living near deforested areas. [16]
+- Human activity such as the burning of fossil fuels has an effect on the overall increase of the Earth's temperature. [16]
+- Raising the Earth's temperature means that there is an increase of evaporation, melting of land and sea ice, and impacts on other processes of the water cycle that adversely affect the climate on Earth. [16]
+
+## drought as water cycle disruption example
+
+- Drought is an extended period of unusually dry weather when there is not enough rain. [17]
+- The lack of precipitation can cause a variety of problems for local communities, including damage to crops and a shortage of drinking water. [17]
+- Drought is defined depending on the average amount of precipitation that an area is accustomed to receiving; significantly less rain may lead to water shortages and a drought may be declared. [17]
+- Most droughts occur when regular weather patterns are interrupted, causing disruption to the water cycle: changes in atmospheric circulation patterns can cause storm tracks to be stalled for months or years, dramatically impacting amounts of precipitation, and changes in wind patterns can disrupt how moisture is absorbed in various regions. [17]
+- El Niño is a weather event where the surface water in the Pacific Ocean along the central South American coast rises in temperature; these warmer waters alter storm patterns and are associated with droughts in Indonesia, Australia, and northeastern South America. [17]
+- La Niña is the counterpart to El Niño, when the surface water in the Pacific Ocean along the coast of South America decreases in temperature; the cooler waters affect storm patterns by contributing to drier-than-normal conditions in parts of North and South America. [17]
+- Two of the most devastating droughts in U.S. history—the 1930s Dust Bowl and the 1988 drought in the Midwest—are associated with the effects of La Niña. [17]
+- There is debate about the connection between drought and global warming; a 2013 NASA study predicts warmer worldwide temperatures will mean increased rainfall in some parts of the world and decreased rainfall in others, leading to both more flooding and more droughts worldwide, while other scientists believe global warming will create a wetter climate around the world. [17]
+- Drought is a naturally occurring part of the weather cycle and cannot be prevented, but human activity can influence the effects that drought has on a region. [17]
+- Modern agricultural practices may make land more vulnerable to drought; over-farming and overgrazing can lead to soil being compacted and unable to hold water, and as the soil becomes drier, it is vulnerable to erosion, leading to desertification. [17]
+- Increased drought conditions in Kenya have been attributed to deforestation and other human activities; trees help bring precipitation into the ground and prevent soil erosion, but forest clearing for farming and logging led to drought conditions affecting 10 million people. [17]
+- Analyzing paleoclimatic data shows that severe and extended droughts are an inevitable part of natural climate cycles. [17]
+- The water cycle has become increasingly erratic and extreme, swinging between deluge and drought, according to a new WMO report; it highlights the cascading impacts of too much or too little water on economies and society. [18]
+- Only about one-third of the global river basins had "normal" conditions in 2024; the rest were either above or below normal – the sixth consecutive year of clear imbalance. [18]
+- The Amazon Basin and other parts of South America, as well as southern Africa, were gripped by severe drought in 2024, whilst there were wetter-than-normal conditions in central, western and eastern Africa, parts of Asia and Central Europe. [18]
+- 2024 was the hottest year on record and began with an El Niño event which impacted major river basins; it contributed to droughts in northern South America and the Amazon Basin and southern Africa. [18]
+- In the past six years, only about one-third of the global river catchment area had normal discharge compared to the 1991-2020 average; two thirds had too much or too little water – reflecting the increasingly erratic hydrological cycle. [18]
+- There was much below-normal discharge across key river basins including the Amazon, São Francisco, Paraná, and Orinoco in South America, and the Zambezi, Limpopo, Okavango, Orange basins in southern Africa. [18]
+- Reservoir inflows, groundwater, soil moisture and evapotranspiration trends showed regional contrasts, with recharge in wetter areas such as parts of Europe and India, but persistent deficits in parts of Africa, the Americas, and Australia; over-extraction of groundwater continued to reduce future water availability. Only 38% of wells had normal levels – the rest were too much or too little. [18]
+- Brazil experienced simultaneous extremes, with catastrophic flooding in the south and continuation of the 2023 drought in the Amazon basin, affecting 59% of the country's territory. [18]
+- An estimated 3.6 billion people face inadequate access to water at least a month per year, expected to increase to more than 5 billion by 2050, and the world is falling far short of Sustainable Development Goal 6 on water and sanitation. [18]
+- Many small-glacier regions have already reached or are about to pass the so-called peak water point – when a glacier's melting reaches its maximum annual runoff, after which this decreases due to glacier shrinkage. [18]
+- Human activity damages ecosystems, disrupting the water cycle; climate change worsens these pressures, and extreme weather events such as floods and droughts are becoming more frequent. [19]
+- In the spring, melting snow feeds streams and rivers to provide a source of water during hot summer months; rising temperatures mean more rain rather than snow, the little snow there is evaporates instead of flowing downstream, and less snow means less water during hot periods. [19]
+- With more water in the air than on the ground, the land begins to dry out; wet ground absorbs water much better than dry ground does. [19]
+- When it finally rains after long periods of drought, the water washes away rather than being absorbed into the ground, causing flash floods; the longer the drought, the more water is needed to revive the land. [19]
+- Climate change and human activity speed up the water cycle: more evaporation, more rain, more drought, and less water for us and all other life that depends on it. [19]
+- Pollution and unsustainable land practices impact water systems; wetlands are drained, rivers and floodplains are artificially disrupted, rerouted, and built over; this further accelerates water scarcity. [19]
+- Large-scale pumping of groundwater has depleted aquifers that stored water for thousands of years. [19]
+- The most visible sign of our disrupted water cycle is when rivers diverted for agriculture simply dry up. [19]
+- To restore the water cycle, slow freshwater's journey from rain back to the oceans and protect and restore nature to bring back the sponge-like ability of landscapes to hold water, undoing damage like draining wetlands and sealing soil. [19]
+- Replenish groundwater by inundating farmland with winter floodwater so it seeps through the soil layer into the aquifer below. [19]
+- Soils can hold eight times more water than all the rivers combined; reducing tillage and planting more cover crops helps soil store more water. [19]
+- Restore wetlands and use farming techniques that conserve water and protect and rehabilitate the soil to maintain and recover the land's ability to absorb, purify and hold water. [19]
+- Urban designers can use permeable materials for roads and sidewalks to allow water to soak into the earth, replenish groundwater, and gradually flow back into rivers and streams. [19]
+
+---
+
+References:
+1. The Water Cycle (Poster, PDF) | U.S. Geological Survey - https://www.usgs.gov/media/files/water-cycle-poster-pdf
+2. Water Cycle Poster - https://www.amazon.com/water-cycle-poster/s?k=water+cycle+poster
+3. The Water Cycle Poster - https://store.projectwet.org/products/water-cycle-poster
+4. JetStream Max: Water Cycle Poster | National Oceanic and Atmospheric Administration - https://www.noaa.gov/jetstream/jetstream/jetstream-max-water-cycle-poster
+5. Do You Know What The Water Cycle Is? - https://www.projesan.com/en/blog/do-you-know-what-the-water-cycle-is
+6. The Water Cycle Explained | APEC - https://www.apecwater.com/blogs/news/resource-water-cycle-student-guide
+7. The Water Cycle for Kids | Learn all about the water cycle - https://www.youtube.com/watch?v=TD3XSIE4ymo
+8. The water cycle | National Oceanic and Atmospheric Administration - https://www.noaa.gov/education/resource-collections/freshwater/water-cycle
+9. Why Is The Water Cycle So Important? | Atlas Scientific - https://atlas-scientific.com/blog/why-is-the-water-cycle-important
+10. Why is the water cycle important? | Encounter Edu - https://encounteredu.com/multimedia/images/why-is-the-water-cycle-important-to-us
+11. Why are water cycle processes important? | NASA Global Precipitation Measurement Mission - https://gpm.nasa.gov/resources/faq/why-are-water-cycle-processes-important
+12. Water cycle | Woods Hole Oceanographic Institution - https://www.whoi.edu/ocean-learning-hub/ocean-topics/how-the-ocean-works/cycles/water-cycle
+13. NASA Scientists Find New Human-Caused Shifts in Global Water Cycle - NASA - https://www.nasa.gov/earth/nasa-scientists-find-new-human-caused-shifts-in-global-water-cycle
+14. The Water Cycle Explained | Grades 6-12 | The Water Project - https://thewaterproject.org/resources/the_water_cycle
+15. Climate change is throwing the water cycle into chaos across the U.S. - https://www.nbcnews.com/science/science-news/climate-change-throwing-water-cycle-chaos-us-rcna137892
+16. Humans and the water cycle — Science Learning Hub - https://www.sciencelearn.org.nz/resources/726-humans-and-the-water-cycle
+17. Understanding Droughts - https://education.nationalgeographic.org/resource/understanding-droughts
+18. From drought to deluge: WMO report highlights increasingly erratic water cycle - https://wmo.int/news/media-centre/from-drought-deluge-wmo-report-highlights-increasingly-erratic-water-cycle
+19. The water cycle connects us all - https://ec.europa.eu/environment/stories/water-cycle

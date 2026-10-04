@@ -1,0 +1,64 @@
+2026-09-20 15:47:45,938 [INFO] Provider: deepseek
+2026-09-20 15:47:45,939 [INFO] Mode: mark
+2026-09-20 15:47:45,940 [INFO] Question: Is developing resources in Antarctica worth it?
+2026-09-20 15:47:52,229 [INFO] CALL web_access(query='Antarctica wildlife penguins seals krill mosses lichens species that live there')
+2026-09-20 15:47:52,231 [INFO] CALL web_access(query='Antarctic Treaty Protocol on Environmental Protection Madrid Protocol ban on mining mineral resource activity')
+2026-09-20 15:47:56,023 [INFO] RESULT web_access -> 0 result(s): []
+2026-09-20 15:47:56,680 [INFO] RESULT web_access -> 0 result(s): []
+2026-09-20 15:47:57,992 [INFO] CALL scrape(url='https://en.wikipedia.org/wiki/Protocol_on_Environmental_Protection_to_the_Antarctic_Treaty', max_chars=3000)
+2026-09-20 15:47:57,994 [INFO] CALL scrape(url='https://en.wikipedia.org/wiki/Wildlife_of_Antarctica', max_chars=3000)
+2026-09-20 15:48:00,583 [INFO] RESULT scrape -> 3015 character(s): # Protocol on Environmental Protection to the Antarctic Treaty
+
+The **Protocol on Environmental Protection to the Antarctic Treaty**, also known as the **Madrid Protocol**, is a complementary legal instrument to the Antarctic Treaty signed in Madrid on 4 October 1991. It entered into force on 14 January 1998.
+
+The Madrid Protocol designates Antarctica as a "natural reserve, devoted to peace and science" (Art. 2). It complements and reinforces the Antarctic Treaty in order to increase the protection of the Antarctic environment and dependent and associated ecosystems.
+
+## Signatories
+
+[edit]
+As of 2024,<sup>[update]</sup> the original 26 nations to sign the Madrid Protocol have been joined by a further 16 nations. Of the 42 total signatories, 29 are Consultative Parties to the Antarctic Treaty, and the other 13 are Non-Consultative Parties (see Appendix 1).
+
+## Main provisions
+
+[edit]
+The Protocol consists of a preamble, a main body with 27 articles, an appendix on Arbitration (13 additional articles) and six annexes, the last of which has not yet entered into force.
+
+The Protocol's preamble describes the desire of the Antarctic Treaty Parties to develop a comprehensive regime for the protection of the Antarctic environment and dependent and associated ecosystems, in the interest of mankind as a whole.
+
+The main body of the Protocol includes the following key provisions:
+
+- Article 2: "The Parties commit themselves to the comprehensive protection of the Antarctic environment and dependent and associated ecosystems and hereby designate Antarctica as a natural reserve, devoted to peace and science."
+- Article 3 contains the environmental principles on which the Protocol is based. These principles state the need to protect the natural and scientific values of Antarctica, with particular emphasis on the obligation to carry out careful planning of Antarctic activities, in order to avoid or mitigate the harmful impacts on the environment that they could cause.
+- Article 7 
+2026-09-20 15:48:01,086 [INFO] RESULT scrape -> 3015 character(s): # Wildlife of Antarctica
+
+
+The **wildlife of Antarctica** are extremophiles, having adapted to the dryness, low temperatures, and high exposure common in Antarctica. The extreme weather of the interior contrasts to the relatively mild conditions on the Antarctic Peninsula and the subantarctic islands, which have warmer temperatures and more liquid water. Much of the ocean around the mainland is covered by sea ice. The oceans themselves are a more stable environment for life, both in the water column and on the seabed.
+
+There is relatively little diversity in Antarctica compared to much of the rest of the world. Terrestrial life is concentrated in areas near the coast. Flying birds nest on the milder shores of the Peninsula and the subantarctic islands. Eight species of penguins inhabit Antarctica and its offshore islands. They share these areas with seven pinniped species. The Southern Ocean around Antarctica is home to 10 cetaceans, many of them migratory. There are very few terrestrial invertebrates on the mainland, although the species that do live there have high population densities. High densities of invertebrates also live in the ocean, with Antarctic krill forming dense and widespread swarms during the summer. Benthic animal communities also exist around the continent.
+
+Over 1,000 fungi species have been found on and around Antarctica. Larger species are restricted to the subantarctic islands, and the majority of species discovered have been terrestrial. Plants are similarly restricted mostly to the subantarctic islands, and the western edge of the Peninsula. Some mosses and lichens however can be found even in the dry interior. Many algae are found around Antarctica, especially phytoplankton, which form the basis of many of Antarctica's food webs.
+
+Human activity has caused introduced species to gain a foothold in the area, threatening the native wildlife. A history of overfishing and hunting has left many species with greatly reduced numbers. Pollution, ha
+2026-09-20 15:48:06,940 [INFO] FINAL ANSWER:
+MARKING CRITERIA
+
+No supplied rubric was provided, so I selected the fixed OPINION markscheme. This fits because the question "Is developing resources in Antarctica worth it?" is a subjective/evaluative question with no single correct stance — it asks for a judgment ("worth it"), not a set of facts or a comparison. The OPINION criteria are: (1) Clear position, (2) Reasoning, not just assertion, (3) Addresses a counterpoint, (4) Internal consistency.
+
+CRITERION-BY-CRITERION ASSESSMENT
+
+1. Clear position — MEETS.
+The student states a position unambiguously and repeats it in the conclusion: "I think developing resources in Antarctica is worth it" and "Overall I think we should develop Antarctica." There is no fence-sitting.
+
+2. Reasoning, not just assertion — PARTIALLY MEETS.
+The student does attach reasons to the thesis ("because there's a lot of untapped stuff there like oil and minerals," "The world is running out of resources"). However, these reasons are asserted rather than supported — no evidence is offered for the claim that the world is "running out of resources," and the economic benefit is stated in the vaguest terms ("companies could make a lot of money... which would help the economy"). More seriously, the one piece of reasoning used to dismiss the environmental objection — "Antarctica is already really cold and empty so nothing really lives there anyway" — is factually false. A check of the Wildlife of Antarctica reference confirms eight penguin species, seven pinniped (seal) species, ten cetaceans, dense Antarctic krill swarms, benthic communities, plus mosses, lichens, fungi and algae — with the Southern Ocean functioning as a major food web. So the reasoning is thin and one of its load-bearing claims is wrong, not merely underdeveloped.
+
+3. Addresses a counterpoint — MEETS (narrowly), but the treatment is flawed.
+The answer does acknowledge the opposing view: "Some people say it could damage the environment." So it is not ignoring the other side, which is what the criterion literally requires. But the way it engages is a strawman dismissal rather than a genuine reckoning with the objection — it waves the concern away with the false "nothing really lives there anyway" claim rather than weighing it. It clears the bar of "acknowledges an objection," but only just, and the dismissal misrepresents the size of the actual stakes.
+
+4. Internal consistency — MEETS.
+The conclusion does follow from the stated premises: the student asserts there are resources, asserts the world needs them, asserts money matters, and concludes development is worth it. The argument does not contradict itself. The soundness problem noted above (a false premise) is an accuracy/reasoning issue, not an internal-consistency issue, so this criterion still holds.
+
+OVERALL IMPRESSION
+
+The answer commits to a clear position and keeps its argument internally consistent, so it satisfies two of the four criteria outright. Where it falls short is depth and rigor: the supporting reasons are asserted without evidence, and the single counterargument the student raises is dismissed using a factual claim that is simply untrue — that "nothing really lives there anyway." The student also does not mention the standing legal reality that Antarctica's resources are currently off-limits (Article 7 of the Madrid Protocol prohibits mineral-resource activity other than scientific research), which is directly relevant context for any claim about "getting them from Antarctica." That omission is not required by the opinion rubric, but it shows the practical reasoning is built on assumptions that don't hold up. Overall the position is clear and consistent but under-reasoned, and its central rebuttal rests on an error rather than an argument.

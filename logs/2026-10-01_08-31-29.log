@@ -1,0 +1,212 @@
+2026-10-01 08:31:29,590 [INFO] Provider: deepseek
+2026-10-01 08:31:29,590 [INFO] Mode: research
+2026-10-01 08:31:29,590 [INFO] Question: Make a poster about the water cycle. It needs to show the main stages, explain why the water cycle matters for life on earth, and include one real example of the water cycle being disrupted (e.g. a drought).
+2026-10-01 08:31:33,120 [WARNING] Plan step failed (Error code: 400 - {'error': {'message': 'Thinking mode does not support this tool_choice (request_id: e91a6d91-f674-43d4-9560-35bbd45855f2)', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_request_error'}}) - falling back to a single goal.
+2026-10-01 08:31:33,120 [INFO] CALL web_access(query='Make a poster about the water cycle. It needs to show the main stages, explain why the water cycle matters for life on earth, and include one real example of the water cycle being disrupted (e.g. a drought).')
+2026-10-01 08:31:36,187 [INFO] RESULT web_access -> 4 result(s)
+2026-10-01 08:31:36,187 [INFO] CALL scrape(url='https://www.noaa.gov/education/resource-collections/freshwater/water-cycle')
+2026-10-01 08:31:58,089 [INFO] SHRINK goal='Make a poster about the water cycle. It needs to show the main stages, explain why the water cycle matters for life on earth, and include one real example of the water cycle being disrupted (e.g. a drought).' url='https://www.noaa.gov/education/resource-collections/freshwater/water-cycle' kept=1293 chars
+2026-10-01 08:31:58,089 [INFO] CALL scrape(url='https://education.nationalgeographic.org/resource/water-cycle')
+2026-10-01 08:32:22,608 [INFO] SHRINK goal='Make a poster about the water cycle. It needs to show the main stages, explain why the water cycle matters for life on earth, and include one real example of the water cycle being disrupted (e.g. a drought).' url='https://education.nationalgeographic.org/resource/water-cycle' kept=1914 chars
+2026-10-01 08:32:22,608 [INFO] CALL scrape(url='https://www.whoi.edu/ocean-learning-hub/ocean-topics/how-the-ocean-works/cycles/water-cycle')
+2026-10-01 08:33:02,334 [INFO] SHRINK goal='Make a poster about the water cycle. It needs to show the main stages, explain why the water cycle matters for life on earth, and include one real example of the water cycle being disrupted (e.g. a drought).' url='https://www.whoi.edu/ocean-learning-hub/ocean-topics/how-the-ocean-works/cycles/water-cycle' kept=7022 chars
+2026-10-01 08:33:02,335 [INFO] CALL scrape(url='https://www.khanacademy.org/science/biology/ecology/biogeochemical-cycles/v/the-water-cycle')
+2026-10-01 08:33:10,673 [INFO] SHRINK goal='Make a poster about the water cycle. It needs to show the main stages, explain why the water cycle matters for life on earth, and include one real example of the water cycle being disrupted (e.g. a drought).' url='https://www.khanacademy.org/science/biology/ecology/biogeochemical-cycles/v/the-water-cycle' kept=0 chars
+2026-10-01 08:33:10,673 [INFO] WRITER INPUT:
+The student's question:
+
+Make a poster about the water cycle. It needs to show the main stages, explain why the water cycle matters for life on earth, and include one real example of the water cycle being disrupted (e.g. a drought).
+
+My understanding of the question:
+
+Make a poster about the water cycle. It needs to show the main stages, explain why the water cycle matters for life on earth, and include one real example of the water cycle being disrupted (e.g. a drought).
+
+RESEARCH NOTES, grouped by what needed to be found out. Each note shows where it came from:
+
+Goal: Make a poster about the water cycle. It needs to show the main stages, explain why the water cycle matters for life on earth, and include one real example of the water cycle being disrupted (e.g. a drought).
+- (source: https://www.noaa.gov/education/resource-collections/freshwater/water-cycle) - Water is essential to life on Earth.
+- It has three phases (solid, liquid, and gas).
+- In these three phases, water ties together the major parts of the Earth’s climate system — air, clouds, the ocean, lakes, vegetation, snowpack offsite link, and glaciers. offsite link
+- The water cycle is often taught as a simple, circular cycle of evaporation, condensation, and precipitation.
+- Although this can be a useful model, the reality of the cycle is much more complicated.
+- Describing the water cycle is incomplete without considering the ways that humans interact with, affect, and are affected by the water cycle.
+- Humans use water in many ways — we need water to drink and for purposes like hygiene, growing food, industry, hydropower, and recreation.
+- Through this use, people disrupt the flow and storage of water.
+- Water is also key to climate variability and change, and extreme events like drought and flood.
+- How humans impact the water cycle.
+- Understanding the water cycle helps us protect our lives and livelihoods.
+- We use our knowledge about the water cycle to predict water supply and weather, as well as monitor extreme events like drought and floods.
+- Often, these predictions require scientists to consider many sources of data, and to work together across agencies.
+- (source: https://education.nationalgeographic.org/resource/water-cycle) - Water Cycle
+- The water cycle is the endless process that connects all of the water on Earth.
+- Water is one of the key ingredients to life on Earth.
+- About 75% of our planet is covered by water or ice.
+- The water cycle is the endless process that connects all of that water.
+- It joins Earth’s oceans, land and atmosphere.
+- Earth’s water cycle began about 3.8 billion years ago when rain fell on a cooling Earth, forming the oceans.
+- The rain came from water vapor that escaped the magma in Earth’s molten core into the atmosphere.
+- Energy from the sun helped power the water cycle and Earth’s gravity kept water in the atmosphere from leaving the planet.
+- The oceans hold about 97% of the water on Earth.
+- About 1.7% of Earth’s water is stored in polar ice caps and glaciers.
+- Rivers, lakes, and soil hold approximately 1.7%.
+- A tiny fraction—just 0.001%—exists in Earth’s atmosphere as water vapor.
+- When molecules of water vapor return to liquid or solid form, they create cloud droplets that can fall back to Earth as rain or snow—a process called condensation.
+- Most precipitation lands in the oceans.
+- Precipitation that falls onto land flows into rivers, streams and lakes.
+- Some of it seeps into the soil where it is held underground as groundwater.
+- When warmed by the sun, water on the surface of oceans and freshwater bodies evaporates, forming a vapor.
+- Water vapor rises into the atmosphere, where it condenses, forming clouds.
+- It then falls back to the ground as precipitation.
+- Moisture can also enter the atmosphere directly from ice or snow.
+- In a process called sublimation, solid water, such as ice or snow, can transform directly into water vapor without first becoming a liquid.
+- A misty cloud rises over Deer Streams National Park.
+- The water cycle contains more steps than just rain and evaporation, fog and mist are other ways for water to be returned to the ground.
+- (source: https://www.whoi.edu/ocean-learning-hub/ocean-topics/how-the-ocean-works/cycles/water-cycle) - Water covers 70% of Earth’s surface and plays a vital role in everything from cellular function to climate.
+- Although we may recognize rain and snow as the most obvious parts of the cycle, precipitation is just one stage of a continuous series of movements water makes as it travels across the globe and into the atmosphere.
+- Water is constantly in motion, shifting from reservoirs such as oceans, lakes, groundwater, and ice up into the atmosphere and back again.
+- In this complex system, heat causes water molecules to evaporate from bodies of water.
+- The vapor rises into the atmosphere and eventually condenses into clouds.
+- If droplets inside a cloud become heavy enough, they fall as precipitation (rain, snow, sleet or hail).
+- Liquid water travels over the landscape as runoff or soaks into the ground to become groundwater.
+- Plants take up groundwater but use only a small fraction of it; the rest is released through pores on the underside of leaves—openings through which water molecules evaporate into the air through transpiration.
+- Along with evaporation from soil and water, this process drives evapotranspiration, which cycles moisture back to the atmosphere.
+- The water cycle includes water in all of its forms—liquid, solid (ice), and gas (vapor).
+- Although water typically shifts between gas and solid by passing through a liquid phase, under the right conditions it can turn directly from gas to solid (deposition) or solid to gas (sublimation).
+- Groundwater and the ocean
+- Groundwater flows from land to sea, mixing with saltwater underground.
+- Though just 5% of ocean inflow, it can carry high chemical loads that impact coasts.
+- Why is it important?
+- Water is vital for life on Earth, and it plays an essential role in regulating climate.
+- When water evaporates, it absorbs heat and cools Earth’s surface.
+- That vapor then travels into the atmosphere where it releases heat as it condenses into clouds.
+- Water vapor also traps the sun’s heat, creating a greenhouse effect that helps warm the planet.
+- Without it, Earth would be a ball of ice.
+- On regional and local scales, the availability of water supports ecosystems and human activities such as agriculture and manufacturing.
+- Changes to the water cycle can have profound consequences for society.
+- Major shifts in precipitation patterns likely led to the downfall of ancient civilizations around the world, from Angkor to Mesoamerica to the Indus Valley.
+- How does climate change affect the water cycle?
+- A warming climate has begun to shift some well-established patterns of precipitation.
+- Warmer temperatures increase evaporation, adding more water vapor to the atmosphere.
+- At the same time, a warmer atmosphere can hold more water vapor, increasing downpours when precipitation occurs.
+- Under the right conditions, this can lead to heavy rainfall events and catastrophic flooding.
+- This is particularly true of tropical cyclones, which have grown in intensity over recent years, but also applies to temperate regions.
+- Recurring atmospheric rivers dumping massive amounts of rain on the west coast of North America are one example.
+- Unusually large swings in precipitation tied to the South Asian monsoon have also caused significant flooding events in recent years.
+- While some regions are inundated with rain, others experience drought, as a warming climate alters atmospheric circulation patterns.
+- Prolonged drought can have profound impacts, particularly on agriculture, and it contributes to extensive wildfires and loss of vegetation.
+- How do human activities alter the water cycle?
+- As we have modified waterways to better accommodate our needs, we have had a significant impact on the water cycle at the regional level.
+- Dams and reservoirs hinder the return flow of water to the ocean.
+- Clear-cutting forests can decrease local precipitation and even change the location of developing storms.
+- Rain that falls over urban areas can’t soak into the ground when it encounters impermeable surfaces, such as roads, sidewalks, and buildings.
+- Instead, rainwater runs over surfaces and overwhelms storm sewers, creating dangerous flash floods or more widespread flooding events that can damage urban infrastructure.
+- Even air pollution affects the water cycle.
+- Water molecules attach to particles in the atmosphere, condensing into tiny droplets that make up clouds.
+- In areas with air pollution, clouds can contain many smaller droplets—too small to fall as rain—which can limit precipitation in the area.
+- Pumping groundwater from aquifers for use in agriculture is removing water faster than it can replenish in many areas, leading to significant regional water shortages.
+- How do scientists study the ocean water cycle?
+- The ocean water cycle is the marine branch of Earth’s water cycle.
+- As the primary source of atmospheric moisture, it plays a crucial role in shaping global precipitation patterns and regulating climate.
+- In addition to on-the-ground measurements of precipitation and water flow, scientists use satellite data to track precipitation, evaporation, and freshwater movement.
+- Some NASA satellites use changes in ocean salinity to detect shifts in the water cycle.
+- Others track freshwater flows into the ocean and measure changes in ocean mass caused by influxes of freshwater from ice melt or runoff.
+- Because the ocean water cycle drives evaporation, influences cloud formation, and interacts with radiation balance, scientists track its changes to understand how climate change can lead to heavier rainfall events—or disrupt rainfall patterns altogether.
+- Allan, R.P. et al. Advances in understanding large-scale responses of the water cycle to climate change. Annals of the New York Academy of Sciences. Vol. 1472. 2020. doi: 10.1111/nyas.14337.
+- Buckley, B.M., et al. Climate as a contributing factor in the demise of Angkor, Cambodia. PNAS. Vol. 107. March 29, 2010. doi: 10.1073/pnas.0910827107.
+- Douglas, P.M.J. et al. Impacts of climate change on the collapse of lowland Maya civilization. Annual Review of Earth and Planetary Sciences. Vol. 44. May 11, 2016. doi: 10.1146/annurev-earth-060115-012512.
+- Lippsett, L. Calculating evaporation from the ocean. WHOI. October 12, 2012. https://www.whoi.edu/oceanus/feature/evaporation/
+- NOAA. Water cycle. https://www.noaa.gov/education/resource-collections/freshwater/water-cycle Accessed February 10, 2025.
+- Turner, A.G. & H. Annamalai. Climate change and the South Asian summer monsoon. Nature Climate Change. Vol.2. August 2012. doi: 1031038/nclimate1495.
+- WHOI. Climate change likely caused migration, demise of ancient Indus Valley civilization. November 13, 2018. https://www.whoi.edu/press-room/news-release/climate-change-likely-caused-migration-demise-of-ancient-indus-valley-civilization/
+- Drought or Deluge
+- The Ocean and Earth’s Changing Water Cycle
+- In-depth research on Water cycle
+- Indian Ocean phenomenon spells climate trouble for Australia
+- Salty Oceans Can Forecast Rain on Land
+2026-10-01 08:33:27,708 [INFO] FINAL ANSWER:
+**My understanding of your question:** Make a poster about the water cycle. It needs to show the main stages, explain why the water cycle matters for life on earth, and include one real example of the water cycle being disrupted (e.g. a drought).
+
+---
+
+## Main stages of the water cycle
+
+- The water cycle is often taught as a simple, circular cycle of evaporation, condensation, and precipitation. (https://www.noaa.gov/education/resource-collections/freshwater/water-cycle)
+- Although this can be a useful model, the reality of the cycle is much more complicated. (https://www.noaa.gov/education/resource-collections/freshwater/water-cycle)
+- The water cycle is the endless process that connects all of the water on Earth. (https://education.nationalgeographic.org/resource/water-cycle)
+- It joins Earth’s oceans, land and atmosphere. (https://education.nationalgeographic.org/resource/water-cycle)
+- When warmed by the sun, water on the surface of oceans and freshwater bodies evaporates, forming a vapor. (https://education.nationalgeographic.org/resource/water-cycle)
+- Water vapor rises into the atmosphere, where it condenses, forming clouds. (https://education.nationalgeographic.org/resource/water-cycle)
+- It then falls back to the ground as precipitation. (https://education.nationalgeographic.org/resource/water-cycle)
+- When molecules of water vapor return to liquid or solid form, they create cloud droplets that can fall back to Earth as rain or snow—a process called condensation. (https://education.nationalgeographic.org/resource/water-cycle)
+- Most precipitation lands in the oceans. (https://education.nationalgeographic.org/resource/water-cycle)
+- Precipitation that falls onto land flows into rivers, streams and lakes. (https://education.nationalgeographic.org/resource/water-cycle)
+- Some of it seeps into the soil where it is held underground as groundwater. (https://education.nationalgeographic.org/resource/water-cycle)
+- Moisture can also enter the atmosphere directly from ice or snow. (https://education.nationalgeographic.org/resource/water-cycle)
+- In a process called sublimation, solid water, such as ice or snow, can transform directly into water vapor without first becoming a liquid. (https://education.nationalgeographic.org/resource/water-cycle)
+- The water cycle contains more steps than just rain and evaporation, fog and mist are other ways for water to be returned to the ground. (https://education.nationalgeographic.org/resource/water-cycle)
+- Although we may recognize rain and snow as the most obvious parts of the cycle, precipitation is just one stage of a continuous series of movements water makes as it travels across the globe and into the atmosphere. (https://www.whoi.edu/ocean-learning-hub/ocean-topics/how-the-ocean-works/cycles/water-cycle)
+- Water is constantly in motion, shifting from reservoirs such as oceans, lakes, groundwater, and ice up into the atmosphere and back again. (https://www.whoi.edu/ocean-learning-hub/ocean-topics/how-the-ocean-works/cycles/water-cycle)
+- In this complex system, heat causes water molecules to evaporate from bodies of water. (https://www.whoi.edu/ocean-learning-hub/ocean-topics/how-the-ocean-works/cycles/water-cycle)
+- The vapor rises into the atmosphere and eventually condenses into clouds. (https://www.whoi.edu/ocean-learning-hub/ocean-topics/how-the-ocean-works/cycles/water-cycle)
+- If droplets inside a cloud become heavy enough, they fall as precipitation (rain, snow, sleet or hail). (https://www.whoi.edu/ocean-learning-hub/ocean-topics/how-the-ocean-works/cycles/water-cycle)
+- Liquid water travels over the landscape as runoff or soaks into the ground to become groundwater. (https://www.whoi.edu/ocean-learning-hub/ocean-topics/how-the-ocean-works/cycles/water-cycle)
+- Plants take up groundwater but use only a small fraction of it; the rest is released through pores on the underside of leaves—openings through which water molecules evaporate into the air through transpiration. (https://www.whoi.edu/ocean-learning-hub/ocean-topics/how-the-ocean-works/cycles/water-cycle)
+- Along with evaporation from soil and water, this process drives evapotranspiration, which cycles moisture back to the atmosphere. (https://www.whoi.edu/ocean-learning-hub/ocean-topics/how-the-ocean-works/cycles/water-cycle)
+- The water cycle includes water in all of its forms—liquid, solid (ice), and gas (vapor). (https://www.whoi.edu/ocean-learning-hub/ocean-topics/how-the-ocean-works/cycles/water-cycle)
+- Although water typically shifts between gas and solid by passing through a liquid phase, under the right conditions it can turn directly from gas to solid (deposition) or solid to gas (sublimation). (https://www.whoi.edu/ocean-learning-hub/ocean-topics/how-the-ocean-works/cycles/water-cycle)
+- Groundwater flows from land to sea, mixing with saltwater underground. (https://www.whoi.edu/ocean-learning-hub/ocean-topics/how-the-ocean-works/cycles/water-cycle)
+- Though just 5% of ocean inflow, it can carry high chemical loads that impact coasts. (https://www.whoi.edu/ocean-learning-hub/ocean-topics/how-the-ocean-works/cycles/water-cycle)
+- It has three phases (solid, liquid, and gas). (https://www.noaa.gov/education/resource-collections/freshwater/water-cycle)
+- In these three phases, water ties together the major parts of the Earth’s climate system — air, clouds, the ocean, lakes, vegetation, snowpack, and glaciers. (https://www.noaa.gov/education/resource-collections/freshwater/water-cycle)
+- Earth’s water cycle began about 3.8 billion years ago when rain fell on a cooling Earth, forming the oceans. (https://education.nationalgeographic.org/resource/water-cycle)
+- The rain came from water vapor that escaped the magma in Earth’s molten core into the atmosphere. (https://education.nationalgeographic.org/resource/water-cycle)
+- Energy from the sun helped power the water cycle and Earth’s gravity kept water in the atmosphere from leaving the planet. (https://education.nationalgeographic.org/resource/water-cycle)
+- The oceans hold about 97% of the water on Earth. (https://education.nationalgeographic.org/resource/water-cycle)
+- About 1.7% of Earth’s water is stored in polar ice caps and glaciers. (https://education.nationalgeographic.org/resource/water-cycle)
+- Rivers, lakes, and soil hold approximately 1.7%. (https://education.nationalgeographic.org/resource/water-cycle)
+- A tiny fraction—just 0.001%—exists in Earth’s atmosphere as water vapor. (https://education.nationalgeographic.org/resource/water-cycle)
+
+## Why the water cycle matters for life on Earth
+
+- Water is essential to life on Earth. (https://www.noaa.gov/education/resource-collections/freshwater/water-cycle)
+- Water is also key to climate variability and change, and extreme events like drought and flood. (https://www.noaa.gov/education/resource-collections/freshwater/water-cycle)
+- Understanding the water cycle helps us protect our lives and livelihoods. (https://www.noaa.gov/education/resource-collections/freshwater/water-cycle)
+- We use our knowledge about the water cycle to predict water supply and weather, as well as monitor extreme events like drought and floods. (https://www.noaa.gov/education/resource-collections/freshwater/water-cycle)
+- Often, these predictions require scientists to consider many sources of data, and to work together across agencies. (https://www.noaa.gov/education/resource-collections/freshwater/water-cycle)
+- Humans use water in many ways — we need water to drink and for purposes like hygiene, growing food, industry, hydropower, and recreation. (https://www.noaa.gov/education/resource-collections/freshwater/water-cycle)
+- Through this use, people disrupt the flow and storage of water. (https://www.noaa.gov/education/resource-collections/freshwater/water-cycle)
+- Describing the water cycle is incomplete without considering the ways that humans interact with, affect, and are affected by the water cycle. (https://www.noaa.gov/education/resource-collections/freshwater/water-cycle)
+- Water is one of the key ingredients to life on Earth. (https://education.nationalgeographic.org/resource/water-cycle)
+- About 75% of our planet is covered by water or ice. (https://education.nationalgeographic.org/resource/water-cycle)
+- Water covers 70% of Earth’s surface and plays a vital role in everything from cellular function to climate. (https://www.whoi.edu/ocean-learning-hub/ocean-topics/how-the-ocean-works/cycles/water-cycle)
+- Water is vital for life on Earth, and it plays an essential role in regulating climate. (https://www.whoi.edu/ocean-learning-hub/ocean-topics/how-the-ocean-works/cycles/water-cycle)
+- When water evaporates, it absorbs heat and cools Earth’s surface. (https://www.whoi.edu/ocean-learning-hub/ocean-topics/how-the-ocean-works/cycles/water-cycle)
+- That vapor then travels into the atmosphere where it releases heat as it condenses into clouds. (https://www.whoi.edu/ocean-learning-hub/ocean-topics/how-the-ocean-works/cycles/water-cycle)
+- Water vapor also traps the sun’s heat, creating a greenhouse effect that helps warm the planet. (https://www.whoi.edu/ocean-learning-hub/ocean-topics/how-the-ocean-works/cycles/water-cycle)
+- Without it, Earth would be a ball of ice. (https://www.whoi.edu/ocean-learning-hub/ocean-topics/how-the-ocean-works/cycles/water-cycle)
+- On regional and local scales, the availability of water supports ecosystems and human activities such as agriculture and manufacturing. (https://www.whoi.edu/ocean-learning-hub/ocean-topics/how-the-ocean-works/cycles/water-cycle)
+- Changes to the water cycle can have profound consequences for society. (https://www.whoi.edu/ocean-learning-hub/ocean-topics/how-the-ocean-works/cycles/water-cycle)
+- Major shifts in precipitation patterns likely led to the downfall of ancient civilizations around the world, from Angkor to Mesoamerica to the Indus Valley. (https://www.whoi.edu/ocean-learning-hub/ocean-topics/how-the-ocean-works/cycles/water-cycle)
+- The ocean water cycle is the marine branch of Earth’s water cycle. (https://www.whoi.edu/ocean-learning-hub/ocean-topics/how-the-ocean-works/cycles/water-cycle)
+- As the primary source of atmospheric moisture, it plays a crucial role in shaping global precipitation patterns and regulating climate. (https://www.whoi.edu/ocean-learning-hub/ocean-topics/how-the-ocean-works/cycles/water-cycle)
+
+## One real example of the water cycle being disrupted (e.g. a drought)
+
+- A warming climate has begun to shift some well-established patterns of precipitation. (https://www.whoi.edu/ocean-learning-hub/ocean-topics/how-the-ocean-works/cycles/water-cycle)
+- Warmer temperatures increase evaporation, adding more water vapor to the atmosphere. (https://www.whoi.edu/ocean-learning-hub/ocean-topics/how-the-ocean-works/cycles/water-cycle)
+- At the same time, a warmer atmosphere can hold more water vapor, increasing downpours when precipitation occurs. (https://www.whoi.edu/ocean-learning-hub/ocean-topics/how-the-ocean-works/cycles/water-cycle)
+- Under the right conditions, this can lead to heavy rainfall events and catastrophic flooding. (https://www.whoi.edu/ocean-learning-hub/ocean-topics/how-the-ocean-works/cycles/water-cycle)
+- This is particularly true of tropical cyclones, which have grown in intensity over recent years, but also applies to temperate regions. (https://www.whoi.edu/ocean-learning-hub/ocean-topics/how-the-ocean-works/cycles/water-cycle)
+- Recurring atmospheric rivers dumping massive amounts of rain on the west coast of North America are one example. (https://www.whoi.edu/ocean-learning-hub/ocean-topics/how-the-ocean-works/cycles/water-cycle)
+- Unusually large swings in precipitation tied to the South Asian monsoon have also caused significant flooding events in recent years. (https://www.whoi.edu/ocean-learning-hub/ocean-topics/how-the-ocean-works/cycles/water-cycle)
+- While some regions are inundated with rain, others experience drought, as a warming climate alters atmospheric circulation patterns. (https://www.whoi.edu/ocean-learning-hub/ocean-topics/how-the-ocean-works/cycles/water-cycle)
+- Prolonged drought can have profound impacts, particularly on agriculture, and it contributes to extensive wildfires and loss of vegetation. (https://www.whoi.edu/ocean-learning-hub/ocean-topics/how-the-ocean-works/cycles/water-cycle)
+- As we have modified waterways to better accommodate our needs, we have had a significant impact on the water cycle at the regional level. (https://www.whoi.edu/ocean-learning-hub/ocean-topics/how-the-ocean-works/cycles/water-cycle)
+- Dams and reservoirs hinder the return flow of water to the ocean. (https://www.whoi.edu/ocean-learning-hub/ocean-topics/how-the-ocean-works/cycles/water-cycle)
+- Clear-cutting forests can decrease local precipitation and even change the location of developing storms. (https://www.whoi.edu/ocean-learning-hub/ocean-topics/how-the-ocean-works/cycles/water-cycle)
+- Rain that falls over urban areas can’t soak into the ground when it encounters impermeable surfaces, such as roads, sidewalks, and buildings. (https://www.whoi.edu/ocean-learning-hub/ocean-topics/how-the-ocean-works/cycles/water-cycle)
+- Instead, rainwater runs over surfaces and overwhelms storm sewers, creating dangerous flash floods or more widespread flooding events that can damage urban infrastructure. (https://www.whoi.edu/ocean-learning-hub/ocean-topics/how-the-ocean-works/cycles/water-cycle)
+- Even air pollution affects the water cycle. (https://www.whoi.edu/ocean-learning-hub/ocean-topics/how-the-ocean-works/cycles/water-cycle)
+- Water molecules attach to particles in the atmosphere, condensing into tiny droplets that make up clouds. (https://www.whoi.edu/ocean-learning-hub/ocean-topics/how-the-ocean-works/cycles/water-cycle)
+- In areas with air pollution, clouds can contain many smaller droplets—too small to fall as rain—which can limit precipitation in the area. (https://www.whoi.edu/ocean-learning-hub/ocean-topics/how-the-ocean-works/cycles/water-cycle)
+- Pumping groundwater from aquifers for use in agriculture is removing water faster than it can replenish in many areas, leading to significant regional water shortages. (https://www.whoi.edu/ocean-learning-hub/ocean-topics/how-the-ocean-works/cycles/water-cycle)

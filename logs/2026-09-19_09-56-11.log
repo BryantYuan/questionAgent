@@ -1,0 +1,84 @@
+Timestamp: 2026-09-19_09-56-11
+Provider: deepseek
+Question: Is devolping resources in Antarcita worth it?
+
+--- Tool calls ---
+CALL web_access({'query': 'Antarctic Treaty Madrid Protocol ban mining mineral resources environmental protection'})
+CALL web_access({'query': 'Antarctica mineral resources oil coal gas reserves economic value estimates'})
+CALL web_access({'query': 'arguments for and against resource extraction Antarctica krill fishing tourism economy'})
+RESULT from web_access: [{"title": "The Madrid Protocol: Protecting Antarctica’s environment — Wild Law Institute", "url": "https://www.wildlaw.net/library/united-nations-harmony-with-nature-programme-23saa-bxr37-7ljb2-b74k6-bw9ct-bmk42-32c5k-2gybl-2kctf-mbgtr-n3f9k-3yfsd-cz9ap", "content": "The Madrid Protocol is an international agreement that designates Antarctica and its dependent and associated ecosystems as a natural reserve, dedicated to peace and science. It establishes stringent environmental protections, including a comprehensive ban on mineral resource activities, and provides the framework for managing human activity within the Antarctic Treaty System. Notably, the Protocol affirms the \"intrinsic value of Antarctica\", recognising that its significance extends beyond"}, {"title": "Protocol on Environmental Protection to the Antarctic Treaty - Wikipedia", "url": "https://en.wikipedia.org/wiki/Protocol_on_Environmental_Protection_to_the_Antarctic_Treaty", "content": "Article 7 of the Madrid Protocol expressly prohibits any activity related to the exploitation of Antarctic mineral resources, except for scientific research. In principle, this prohibition of exploration and exploitation of mineral resources is valid indefinitely, although Article 25 of the Protocol establishes the possibility that any Consultative Party may request a review of the application of its content, once 50 years have elapsed since the entry into force of the Protocol (in the year [...] The Protocol on Environmental Protection to the Antarctic Treaty, also known as the Madrid Protocol, is a complementary legal instrument to the Antarctic Treaty signed in Madrid on 4 October 1991. It entered into force on 14 January 1998. [...] The Madrid Protocol was negotiated by the Parties to the Antarctic Treaty between 1989 and 1991, following the failure to agree on an international regulatory instrument governing mining in Antarctica (the Convention on the Regulation of Antarctic Mineral Resource Activities, or CRAM
+
+RESULT from web_access: [{"title": "Economic Valuation of Nature&rsquo;s Contributions in the Antarctic: Extension of the Nature&rsquo;s Contributions to People Conceptual Framework", "url": "https://www.mdpi.com/2073-445X/13/9/1367", "content": "where $V_{M i}$ is the mineral resource value of unit $i$; $v_{i}$ is the quantity of mineral resources of unit $i$ , mainly includes petroleum (5~10 × 10 10 Barrel), natural gas (3~5 × 10 12 m 3) and coal (5 × 10 11 t); $p_{i}$ is the shadow price of mineral resources of unit $i$; the 10-year average price of mineral resources was adopted ( accessed on 23 January 2023). The price of petroleum, natural gas, and coal is 419.80 CNY per barrel, 172.96 CNY per thousand cubic meter, and 192.73 CNY [...] indicate that the economic value of the realized NCP is approximately 2.46 trillion CNY, with regulating NCP accounting for roughly 70% of the total value. If the potential NCP in the Antarctic were realized at foreseeable scientific and technological levels, the total economic value would reach approximately 105.62 trillion CNY. Regulating NCP accounted for most of the total value, but material NCP accounted for more than 20%. Overall, the development of natural resources and environmental [...] According to the evaluation of the realized NCP in Antarctica, the total value was 2.46 trillion CNY (Table 2). Regulating NCP accounted for the largest proportion, followed by material NCP and non-material NCP, which accounted for 99.59%, 0.40%, and 0.01%, respectively. Notably, the economic value of material NCP was the lowest at 0.00020 trillion CNY. Additionally, there is no value for mineral or freshwater resources, owing to restrictions under the Antarctic Treaty System. Although"}, {"title": "Potential Mineral Resources in Antarctica", "url": "https://www.uni-trier.de/fileadmin/fb6/prof/GEO/Kilian/Potential_mineral_resources_in_Antarctica.PDF", "content": "Development of any resources found in Antarc-tica will be expensive. At current prices, a metallic 
+
+RESULT from web_access: [{"title": "Krilling for Oil - OCEANS INC.", "url": "https://www.oceansinc.earth/krilling-for-oil", "content": "The loudest advocate against krill harvesting was Greenpeace, who in 2018 protested the expansion of the fishing operations. The organization stressed that the fishery was putting the entire Antarctic food web at risk, since vessels travelled close to penguin colonies and whale-feeding grounds.\n\n“If krill goes, they are keystone species, then everything that eats them dies. Their contribution is critical to the survival of other species,” said Phelps Bondaroff. [...] “Sustainability has more to do with how the fishery is being managed, and depends on the amount of krill that has been extracted, and the location,” said Rodolfo Werner, senior advisor for the Antarctic and Southern Ocean Coalition. \n\n“In the end, it’s not how much krill you extract, but when and where. Those are elements that are important to keep in mind.”\n\n### Product Controversy [...] On the other hand, the vessels that harvest krill are known to have responsible fishing practices. They actively report their locations and diligently count the amount of krill that is harvested. More importantly, the Commission for the Conservation of Antarctic Marine Living Resources (CCAMLR), the international organisation managing the Antarctic krill fishery, insists that these practices cause no disruption to the surrounding marine ecosystem."}, {"title": "The fishery for Antarctic krill – Conflicts between industrial production, protection of biodiversity, and legal governance", "url": "https://www.sciencedirect.com/science/article/pii/S0308597X25002027", "content": "The Commission for the Conservation of Antarctic Marine Living Resources (CCAMLR) is responsible for conserving the Antarctic marine ecosystem, where conservation also includes the management of commercial fisheries. The largest fishery (by weight) in Antarctic waters is that for Antarctic krill, a species vital to biogeochemical cycl
+
+--- Final answer ---
+## What I found
+
+**Sources that passed the trust check**
+
+| Source | Why it passes |
+|---|---|
+| [Protocol on Environmental Protection to the Antarctic Treaty — Wikipedia](https://en.wikipedia.org/wiki/Protocol_on_Environmental_Protection_to_the_Antarctic_Treaty) | Well-referenced overview of the actual legal text; coherent, on-topic |
+| [Antarctic mineral resources: Looking to the future of the Environmental Protocol](https://www.sciencedirect.com/science/article/abs/pii/S0012825222002264) — *ScienceDirect* | Peer-reviewed journal article specifically on this question |
+| [Potential Mineral Resources in Antarctica](https://www.uni-trier.de/fileadmin/fb6/prof/GEO/Kilian/Potential_mineral_resources_in_Antarctica.PDF) — hosted by Uni Trier | This is the US Office of Technology Assessment report; institutional host, factual tone |
+| [Exploiting Antarctic Mineral Resources — Technology, Economics and Politics](https://repository.law.miami.edu/cgi/viewcontent.cgi?referer=&httpsredir=1&article=2465&context=umlr) — *University of Miami Law Review* | Academic law review; direct treatment of the economics/politics question |
+| [Economic Valuation of Nature's Contributions in the Antarctic](https://www.mdpi.com/2073-445X/13/9/1367) — *MDPI Land* | Peer-reviewed, gives actual valuation figures |
+| [The fishery for Antarctic krill](https://www.sciencedirect.com/science/article/pii/S0308597X25002027) — *ScienceDirect* | Peer-reviewed; covers the one resource actually being commercially harvested |
+| [Is Antarctic Krill Sustainable? — Marine Stewardship Council](https://www.msc.org/species/antarctic-krill) | Established international certification body, explains the management framework |
+
+*(I set aside an "oceansinc.earth" result — the writing was coherent but the site's provenance was unclear, so I didn't rely on it.)*
+
+---
+
+## Key facts from those sources
+
+**Economics / feasibility**
+- No country has ever commercially mined Antarctica — not even before the ban.
+- A metallic deposit would likely need to be "world class" in size or grade, with an in-place value of **$200–$400 per ton**, to be viable — and that depends on location.
+- Any oil field would need **at least several billion barrels** of recoverable oil, and even then world oil prices would have to roughly **double** for it to be economically developable (OTA report, older figures but the scale of the point stands).
+- On coal: an export market for Antarctic coal is judged "highly unlikely … in the foreseeable future," partly because recoverable reserves elsewhere are vast (China, US, Russia are the big producers).
+- The MDPI valuation paper estimates Antarctica's *realised* economic value at ~2.46 trillion CNY, of which **regulating services (climate, carbon, etc.) make up ~70%**, and notes there is currently **no value counted for mineral or freshwater resources** because the Treaty restricts them.
+- It also models a hypothetical *potential* total value (~105.62 trillion CNY) if resources were developed "at foreseeable scientific and technological levels" — i.e. a large theoretical number, contingent on technology and access.
+- One science review notes that **no economic deposits have been discovered** in Antarctica, and that rising drilling/mining technology (plus the Arctic as a proof of concept) is *increasing* the risk that this could change.
+
+**Law / politics**
+- The **Madrid Protocol** (signed 1991, in force 1998) designates Antarctica as a "natural reserve, dedicated to peace and science."
+- **Article 7** expressly bans all activity related to mineral resource exploitation, except for scientific research.
+- The ban is formally **indefinite**, but **Article 25** allows a Consultative Party to request a **review once 50 years have elapsed** (i.e. around **2048**); the Protocol also has withdrawal provisions.
+- It replaced an earlier attempt (CRAMRA) that collapsed because parties couldn't agree on a mining regime — historical evidence that agreement on extraction is politically hard.
+- The krill case shows that *some* resource use is already permitted and managed: CCAMLR governs it, and ~500,000 tonnes were taken in 2023/24 — but management consensus is fracturing, and a precautionary framework expired.
+
+**Environment**
+- Article 7's logic is to protect "dependent and associated ecosystems"; the Protocol explicitly affirms the "intrinsic value of Antarctica" — value independent of human use.
+- Krill is described as a **keystone species**: "if krill goes … everything that eats them dies." Harvesting is contested — Greenpeace vs. CCAMLR's "no disruption" position vs. NGOs arguing what matters is *when and where*, not just how much.
+- Environmental risks cited for mining generally: spills, habitat destruction, infrastructure (roads, runways, power) already required even for science.
+
+**Science / non-extractive value**
+- The MDPI paper's headline finding: the *currently realised* value of Antarctica is dominated by **regulating and ecosystem services**, not by material extraction.
+- The Madrid Protocol frames science as the primary sanctioned activity.
+
+---
+
+## Thinking scaffold — the boxes to think inside of
+
+**Box 1: "Worth it" — to whom, and measured how?**
+Facts to weigh: the protocol's own framing (peace + science + intrinsic value) vs. the valuation paper's split between regulating services (~70% of realised value) and material extraction (~0.4%). Ask yourself: are you pricing this by market profit, by global-commons value, or by scientific value? The answer changes depending on which.
+
+**Box 2: Economic feasibility**
+Facts: $200–400/ton in-place threshold; several-billion-barrel oil minimum; prices would need to roughly double; no deposits yet found; coal market "highly unlikely." Counter-facts: improving technology, Arctic precedent, and the hypothetical ~105 trillion CNY potential figure.
+
+**Box 3: Legal and political barriers**
+Facts: Article 7 ban; "indefinite" but Article 25 review around 2048; withdrawal provisions; CRAMRA's historical failure. What does "worth it" mean if it requires renegotiating a 50+ nation treaty?
+
+**Box 4: Environmental cost**
+Facts: keystone-species risk (the krill precedent); ecosystem protection as the Protocol's stated purpose; spill/habitat/infrastructure risks; the "intrinsic value" principle vs. a utilitarian cost-benefit lens.
+
+**Box 5: Geopolitics and precedent**
+Facts: 50+ consultative parties; the Arctic as a feasibility model; the argument that a ban becomes politically brittle once technology makes extraction profitable. Whose interests would a "yes" serve, and whose a "no"?
+
+**Box 6: The timing angle**
+Facts: 2048 review clause; 2024 expiry of part of krill management; rising catches. Is the honest question "worth it *now*" or "worth it *eventually*"?
+
+**Box 7: The evidence-quality check**
+Ask yourself: does the evidence I have actually *agree*? The old OTA figures are dated; the MDPI valuation is a modelling exercise; the science review says deposits are undiscovered. A defensible answer will note where the numbers are solid vs. speculative — including whether "worth it" can even be answered without knowing what's actually down there.
